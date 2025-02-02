@@ -1,0 +1,40 @@
+{
+    "home": {
+        "title": "Dubai Used Furniture",
+        "description": "Dubai Used Furniture"
+    },
+    "utils": {
+        "address" : "Building No.4 Moatab Bin Auf St, Bu Shaghara Sharjah"
+    },
+    "NavList": {
+        "services": {
+            "buySell" : "Buy & Sell",
+            "title" : "SERVICES",
+            "ser1" : "Home Furniture",
+            "ser2" : "Office Furniture",
+            "ser3" : "Home Appilance",
+            "ser4" : "Outdoor Furniture",
+            "ser5" : "Seating Furniture",
+            "ser6": "Table Furniture",
+            "ser7" : "Sleeping / Laying furniture",
+            "ser8" : "Storage Furniture",
+            "ser9": "Hotel Furniture"
+
+        },
+        "locations": {
+            "usedFurniture": "Used Furniture in",
+            "title" : "LOCATIONS",
+            "loc1" : "Abu Dhabi",
+            "loc2": "Sharjah",
+            "loc3" : "Ajman",
+            "loc4" : "Ras Al Khaimah",
+            "loc5" : "Umm Al Quwain",
+            "loc6" : "Fujairah",
+            "loc7" : "Al Ain"
+
+        },
+        "aboutUs": "ABOUT US",
+        "contactUs": "CONTACT US",
+        "blogs": "BLOGS"
+    }
+}
