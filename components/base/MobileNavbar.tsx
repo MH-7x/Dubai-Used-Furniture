@@ -2,7 +2,6 @@
 import { Link } from "@/i18n/routing";
 import {
   RiAddLine,
-  RiCustomerService2Fill,
   RiMenu3Fill,
   RiPhoneFill,
   RiSearchLine,
@@ -11,6 +10,7 @@ import { useLocale, useTranslations } from "next-intl";
 import React, { useEffect, useState } from "react";
 import logo from "../../public/image001.png";
 import Image from "next/image";
+import AddressBox from "../AddressBox";
 const MobileNavbar = () => {
   const locale = useLocale();
 
@@ -85,9 +85,7 @@ const MobileNavbar = () => {
           <button className="w-8 h-8 flex items-center justify-center  text-secondary">
             <RiSearchLine className="w-5 h-5" />
           </button>
-          <button className="w-8 h-8 flex items-center justify-center  text-secondary">
-            <RiCustomerService2Fill className="w-5 h-5" />
-          </button>
+          <AddressBox />
 
           <input type="checkbox" id="menu-toggle" className="peer hidden" />
           <label

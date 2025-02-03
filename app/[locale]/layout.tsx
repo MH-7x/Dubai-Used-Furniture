@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Almarai } from "next/font/google";
 import "../globals.css";
-
+import { LazyMotion, domAnimation } from "motion/react";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -41,14 +41,16 @@ export default async function RootLayout({
   const message = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <body
         dir={locale === "ar" ? "rtl" : "ltr"}
         className={`${almarai.className} antialiased`}
       >
         <NextIntlClientProvider messages={message}>
-          <Navbar />
-          {children}
+          <LazyMotion features={domAnimation}>
+            <Navbar />
+            {children}
+          </LazyMotion>
         </NextIntlClientProvider>
       </body>
     </html>
