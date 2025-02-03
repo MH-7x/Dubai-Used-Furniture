@@ -56,7 +56,7 @@ const MobileNavbar = () => {
           </Link>
         </div>
         {locale === "ar" ? (
-          <Link href={"/"} locale="en" className="mr-6 text-secondary mb-0.5">
+          <Link href={"/"} locale="en" className=" text-secondary mb-0.5">
             English
           </Link>
         ) : (
@@ -66,7 +66,7 @@ const MobileNavbar = () => {
         )}
       </div>
       <nav
-        className={`fixed z-50 top-0 h-[50px] left-0 w-full px-3 flex items-center justify-between  ${
+        className={`fixed z-50 top-0 h-[55px] left-0 w-full px-3 flex items-center justify-between  ${
           !showNavbar
             ? "translate-y-0 bg-white shadow-lg shadow-black/5"
             : "translate-y-7 bg-accent"
