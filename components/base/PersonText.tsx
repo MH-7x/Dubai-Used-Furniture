@@ -1,39 +1,37 @@
-import React from "react";
+import { useLocale, useTranslations } from "next-intl";
 
 const PersonText = () => {
+  const locale = useLocale();
+  const b = useTranslations("buttons");
+  const t = useTranslations("personText");
   return (
-    <section className="bg-secondary w-full h-96 grid md:grid-cols-3 mt-32 md:px-[65px]">
-      <div className="col-span-2 flex flex-col items-start justify-center text-text font-light">
-        <h1 className="md:text-4xl text-primary font-normal">
-          Best Used Furniture Market In Dubai
+    <section className="bg-secondary w-full grid md:grid-cols-3 grid-cols-1 mt-32 md:px-[65px] px-3 md:py-0 pt-10">
+      <div
+        className={`col-span-2 flex flex-col items-start justify-center text-text font-light ${
+          locale === "ar" ? "md:pr-16" : "md:pl-16"
+        }`}
+      >
+        <h1 className="md:text-4xl text-3xl text-primary font-normal">
+          {t("title")}
         </h1>
-        <p className="text-lg/6 mt-3">
-          Are you looking for high-quality used furniture in Dubai that combines
-          style, affordability, and sustainability? Look no further! Our
-          extensive collection of pre-owned furniture offers a wide variety of
-          options to suit every taste and budget.
-        </p>
-        <p className="text-lg/6 mt-1">
-          {" "}
-          Whether you&apos;re furnishing a new home, redecorating, or seeking
-          unique pieces to enhance your living space, we have something for
-          everyone.
-        </p>
+        <p className="md:text-xl/6 text-lg/5 mt-5">{t("description1")}</p>
+        <p className="md:text-xl/6 text-lg/5 mt-3">{t("description2")}</p>
         <div className="mt-5 flex gap-x-4 font-normal">
           <button className="px-5 py-2.5 bg-primary text-secondary">
-            CONTACT US
+            {b("contact")}
           </button>
-          <button className="px-5 py-2.5 bg-accent text-text">ABOUT US</button>
+          <button className="px-5 py-2.5 bg-accent text-text">
+            {b("about")}
+          </button>
         </div>
       </div>
-      <div className="col-span-1 ">
+      <div className="col-span-1 flex justify-center">
         <img
           src={"/images/person.png"}
-          alt="Dubai Used Furniture Lady"
-          title="Dubai Used Furniture Lady"
+          alt={t("alt")}
+          title={t("alt")}
           width={320}
           height={320}
-          className="md:translate-y-16 mx-auto"
         />
       </div>
     </section>

@@ -1,40 +1,215 @@
 {
-    "home": {
-        "title": "Dubai Used Furniture",
-        "description": "Dubai Used Furniture"
-    },
     "utils": {
-        "address" : "Building No.4 Moatab Bin Auf St, Bu Shaghara Sharjah"
+        "address": "Building No.4 Moatab Bin Auf St, Bu Shaghara Sharjah"
+    },
+    "buttons": {
+        "whatsapp": "WHATSAPP",
+        "callOrWhatsapp": "CALL / WHATSAPP",
+        "explore": "EXPLORE NOW",
+        "contact": "CONTACT US",
+        "about": "ABOUT US",
+        "call": "CALL NOW",
+        "details": "VIEW DETAILS"
     },
     "NavList": {
         "services": {
-            "buySell" : "Buy & Sell",
-            "title" : "SERVICES",
-            "ser1" : "Home Furniture",
-            "ser2" : "Office Furniture",
-            "ser3" : "Home Appilance",
-            "ser4" : "Outdoor Furniture",
-            "ser5" : "Seating Furniture",
+            "buySell": "Buy & Sell",
+            "title": "SERVICES",
+            "ser1": "Home Furniture",
+            "ser2": "Office Furniture",
+            "ser3": "Home Appilance",
+            "ser4": "Outdoor Furniture",
+            "ser5": "Seating Furniture",
             "ser6": "Table Furniture",
-            "ser7" : "Sleeping / Laying furniture",
-            "ser8" : "Storage Furniture",
+            "ser7": "Sleeping / Laying furniture",
+            "ser8": "Storage Furniture",
             "ser9": "Hotel Furniture"
-
         },
         "locations": {
             "usedFurniture": "Used Furniture in",
-            "title" : "LOCATIONS",
-            "loc1" : "Abu Dhabi",
+            "title": "LOCATIONS",
+            "loc1": "Abu Dhabi",
             "loc2": "Sharjah",
-            "loc3" : "Ajman",
-            "loc4" : "Ras Al Khaimah",
-            "loc5" : "Umm Al Quwain",
-            "loc6" : "Fujairah",
-            "loc7" : "Al Ain"
-
+            "loc3": "Ajman",
+            "loc4": "Ras Al Khaimah",
+            "loc5": "Umm Al Quwain",
+            "loc6": "Fujairah",
+            "loc7": "Al Ain"
         },
         "aboutUs": "ABOUT US",
         "contactUs": "CONTACT US",
         "blogs": "BLOGS"
+    },
+    "heroSection": {
+        "title": {
+            "name": "Dubai Used Furniture",
+            "cap": " Buy & Sell Second Hand Furniture in Dubai"
+        },
+        "description": "If you're interested in buying or selling used furniture in Dubai, Dubai Used Furniture offers a simple efficient, and direct process.",
+        "leftTitle": "Contact Now And Get Best Price For Your Staff."
+    },
+    "intro": {
+        "text": "We are buyers and sellers of second-hand furniture in Dubai, offering competitive rates for your used items. Whether you have sofas, beds, dining sets, office furniture, or antique pieces, we provide fair valuations and quick pickups for your furnishings."
+    },
+    "getStarted": {
+        "sub": "How To Sell",
+        "title": "Where To Sell Used Furniture In Dubai",
+        "desciption": "If you are selling your used furniture in Dubai, you are in luck. Dubai Used Furniture offers a simple solution for selling second-hand furniture in Dubai.",
+        "step1": {
+            "title": "Call Us Now",
+            "description": "Sell your furniture with ease—give us a call, and we’ll come to you.",
+            "alt": "Call To Us icon"
+        },
+        "step2": {
+            "title": "Free Furniture Evaluation",
+            "description": " Our experts will visit your location to inspect the condition of your furniture.",
+            "alt": "Free Furniture Evaluation icon"
+        },
+        "step3": {
+            "title": "Instant Cash & Quick Pickup",
+            "description": " Get paid on the spot, and we’ll handle the pickup hassle-free.",
+            "alt": "Instant Cash & Quick Pickup icon"
+        }
+    },
+    "personText": {
+        "title": "Best Used Furniture Market In Dubai",
+        "description1": "Are you looking for high-quality used furniture market in Dubai that combines style, affordability, and sustainability? Look no further! Our extensive collection of pre-owned furniture offers a wide variety of options to suit every taste and budget.",
+        "description2": "Whether you're furnishing a new home, redecorating, or seeking unique pieces to enhance your living space, we have something for everyone.",
+        "alt": "Dubai Used Furniture Lady"
+    },
+    "types": {
+        "title": "Types Of Used Furniture We Buy In Dubai",
+        "description": "Discover popular furniture types in Dubai, from luxurious sofas and modern office pieces to stylish outdoor sets. Perfect for elevating your home or workspace in Dubai’s vibrant market.",
+        "categories": [
+            {
+                "title": "Buy Full Bedroom Set",
+                "description": "We buy and sell complete bedroom furniture sets of all kinds like:",
+                "items": [
+                    "Queen size Bed and Side Table",
+                    "Wardrobe or Cupboard with Cabinet",
+                    "Dressing Table with Mirror",
+                    "Sofa Set with Coffee Table",
+                    "Bedroom Dining Table Set",
+                    "Safety Locker with Key",
+                    "Drawer with Storage Space",
+                    "Computer Table with Chair",
+                    "Bookshelf with Display Units",
+                    "TV Stand with Shelves"
+                ]
+            },
+            {
+                "title": "Buy Living Room Set",
+                "description": "We serve LVR buyers by purchasing all types of living room furniture and sets like:",
+                "items": [
+                    "Full sofa set with sofa bed",
+                    "Dining Tables",
+                    "Office Tables",
+                    "TV Table & Stand",
+                    "Billiard Table",
+                    "Piano",
+                    "Tea & Coffee Table",
+                    "Study Desk",
+                    "Bar Cabinet with Table and Swing Chair",
+                    "Recliner Chair with Footrest"
+                ]
+            },
+            {
+                "title": "Buy Baby Room Set",
+                "description": "We buy Baby Room Furniture also if you want to sell or buy furniture for your babies then we provide:",
+                "items": [
+                    "Baby bunk beds",
+                    "Baby sofas",
+                    "Baby chairs",
+                    "Baby swing chair",
+                    "Baby cribs",
+                    "Baby changing tables",
+                    "Baby high chairs",
+                    "Baby rocking chairs",
+                    "Baby storage units",
+                    "Baby playpens"
+                ]
+            }
+        ]
+    },
+    "service": {
+        "section_title": "Used Furniture Services",
+        "description": "We buy different brands of furniture, different types, and at various prices. Our service is located in Dubai, and we provide furniture buyers service to all UAE.",
+        "services": [
+            {
+                "title": "Seating Furniture Buyers & Sellers",
+                "description": "We provide furniture buy and sell services in Dubai for the following types of seating furniture used for seating purposes.",
+                "items": [
+                    "Rocking chair",
+                    "Chair",
+                    "Lift chair",
+                    "Bar Stool",
+                    "Chaise longue",
+                    "Bench",
+                    "Divan",
+                    "Sofa or settee"
+                ],
+                "src": "/images/seating-furniture.jpg"
+            },
+            {
+                "title": "Table Furniture Buyers & Sellers",
+                "description": "We buy and sell any kind of table furniture in good condition in UAE. Located in Dubai.",
+                "items": [
+                    "Coffee Table",
+                    "Billiard Table",
+                    "Dining Table",
+                    "Office Work Station",
+                    "Computer Table",
+                    "Study Table",
+                    "TV Stand",
+                    "Dressing Table (Child Bed)"
+                ],
+                "src": "/images/table-furniture.jpg"
+            },
+            {
+                "title": "Sleeping or Lying Furniture Buyers & Sellers",
+                "description": "We buy and sell different types of furniture mostly used for sleeping and lying purposes.",
+                "items": [
+                    "Bunk Bed",
+                    "Bed",
+                    "Platform Bed",
+                    "Four-Poster Bed",
+                    "Murphy Bed",
+                    "Infant Bed (Child Bed)",
+                    "Sleigh Bed",
+                    "Mattress"
+                ],
+                "src": "/images/laying-furniture.jpg"
+            },
+            {
+                "title": "Storage Furniture Buyers & Sellers",
+                "description": "We buy and sell all kinds of storage furniture like cupboards, cabinets, etc., in Dubai.",
+                "items": [
+                    "Baker's Rack",
+                    "Cupboard",
+                    "Chifforobe",
+                    "Bookcase",
+                    "Cabinetry",
+                    "Filing Cabinet",
+                    "Kitchen Cabinet",
+                    "Chest of Drawers or Dresser"
+                ],
+                "src": "/images/storage-furniture.jpg"
+            },
+            {
+                "title": "Home Appliance Buyers & Sellers",
+                "description": "We buy all kinds of used home appliances at the best price in good condition. Contact us if you have any appliance to sell.",
+                "items": [
+                    "Refrigerator",
+                    "Washing Machine",
+                    "Air Condition",
+                    "Gas Cooker",
+                    "Dish Washer",
+                    "Freezer",
+                    "LED TV",
+                    "Microwave Oven"
+                ],
+                "src": "/images/home-appliance.webp"
+            }
+        ]
     }
 }

@@ -1,8 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import { RiArrowRightLongFill, RiWhatsappLine } from "@remixicon/react";
+import { useTranslations } from "next-intl";
 
 const HeroSection = () => {
+  const t = useTranslations("heroSection");
+  const b = useTranslations("buttons");
   return (
     <section className="w-full min-h-[450px] md:min-h-[540px] relative grid grid-cols-4">
       <div className="md:col-span-1 md:flex flex-col items-center justify-center gap-y-3 p-5 hidden bg-secondary">
@@ -15,10 +18,10 @@ const HeroSection = () => {
           />
         </div>
         <span className="text-primary text-xl text-center">
-          Contact Now And Get Best Price For Your Staff.
+          {t("leftTitle")}
         </span>
         <button className="px-3 py-2 text-primary md:text-[15px] text-sm flex items-center gap-x-2 border-b border-accent">
-          CALL / WHATSAPP <RiArrowRightLongFill />
+          {b("callOrWhatsapp")} <RiArrowRightLongFill />
         </button>
       </div>
       <div className="md:col-span-3 col-span-4 relative h-full min-h-[400px]">
@@ -29,24 +32,19 @@ const HeroSection = () => {
         <div className="absolute z-20 top-1/2 transform -translate-y-1/2 text-accent md:px-5 px-3">
           <h1 className="font-bold max-w-3xl  md:text-5xl text-3xl">
             <span className="text-secondary md:leading-[50px]">
-              {" "}
-              Dubai Used Furniture{" "}
+              {t("title.name")}
             </span>
-            <span className="md:block md:leading-[50px]">
-              Buy & Sell Second Hand Furniture in Dubai
-            </span>
+            <span className="md:block md:leading-[50px]">{t("title.cap")}</span>
           </h1>
           <p className="max-w-4xl md:text-2xl text-lg font-light mt-5">
-            If you&apos;re interested in buying or selling used furniture in
-            Dubai, Dubai Used Furniture offers a simple, efficient, and direct
-            process.
+            {t("description")}
           </p>
           <div className="flex items-center md:justify-start justify-center md:gap-x-7 gap-x-5 mt-5">
             <button className="px-3 py-2 text-accent md:text-[15px] text-sm flex items-center gap-x-2 bg-primary">
-              <RiWhatsappLine /> WHATSAPP
+              <RiWhatsappLine /> {b("whatsapp")}
             </button>
             <button className="px-3 py-2 text-secondary md:text-[15px] text-sm flex items-center gap-x-2 border-b border-secondary">
-              EXPLORE NOW <RiArrowRightLongFill />
+              {b("explore")} <RiArrowRightLongFill />
             </button>
           </div>
         </div>
