@@ -102,7 +102,7 @@ const DesktopNavbar = () => {
                 `${l("services.ser1")} ${l("services.buySell")}`,
                 `${l("services.ser2")} ${l("services.buySell")}`,
                 `${l("services.ser3")} ${l("services.buySell")}`,
-                `${l("services.ser4")} ${l("services.buySell")}`,
+
                 `${l("services.ser5")} ${l("services.buySell")}`,
                 `${l("services.ser6")} ${l("services.buySell")}`,
                 `${l("services.ser7")} ${l("services.buySell")}`,
@@ -117,7 +117,7 @@ const DesktopNavbar = () => {
                 `${l("locations.usedFurniture")} ${l("locations.loc1")}`,
                 `${l("locations.usedFurniture")} ${l("locations.loc2")}`,
                 `${l("locations.usedFurniture")} ${l("locations.loc3")}`,
-                `${l("locations.usedFurniture")} ${l("locations.loc4")}`,
+
                 `${l("locations.usedFurniture")} ${l("locations.loc5")}`,
                 `${l("locations.usedFurniture")} ${l("locations.loc6")}`,
                 `${l("locations.usedFurniture")} ${l("locations.loc7")}`,

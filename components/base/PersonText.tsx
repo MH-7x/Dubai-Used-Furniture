@@ -11,9 +11,7 @@ const PersonText = () => {
           locale === "ar" ? "md:pr-16" : "md:pl-16"
         }`}
       >
-        <h1 className="md:text-4xl text-3xl text-primary font-normal">
-          {t("title")}
-        </h1>
+        <h2 className="md:text-4xl text-3xl text-primary">{t("title")}</h2>
         <p className="md:text-xl/6 text-lg/5 mt-5">{t("description1")}</p>
         <p className="md:text-xl/6 text-lg/5 mt-3">{t("description2")}</p>
         <div className="mt-5 flex gap-x-4 font-normal">

@@ -3,6 +3,7 @@ import IntroText from "@/components/base/IntroText";
 import PersonText from "@/components/base/PersonText";
 import Services from "@/components/base/Services";
 import Types from "@/components/base/Types";
+import WhyChooseUs from "@/components/base/WhyChooseUs";
 import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <PersonText />
         <Types />
         <Services />
+        <WhyChooseUs />
       </main>
       <div className="h-screen"></div>
     </>
