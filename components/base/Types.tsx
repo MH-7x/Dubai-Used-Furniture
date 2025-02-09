@@ -13,7 +13,11 @@ const Types = () => {
       </p>
       <div className="grid md:grid-cols-3 grid-cols-1 gap-5 mt-10">
         {t.raw("categories").map((items: any, index: number) => (
-          <div key={index} className=" bg-primary text-accent p-5 text-center">
+          <div
+            key={index}
+            className=" bg-primary text-accent p-5 text-center relative"
+          >
+            <span className="bg-pattren opacity-30" />
             <h3 className=" text-2xl text-secondary">{items.title}</h3>
             <p className="font-light mt-2">{items.description}</p>
             <ul className="text-start mt-5 list-disc ml-4">

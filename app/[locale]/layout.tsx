@@ -41,11 +41,12 @@ export default async function RootLayout({
   const message = await getMessages();
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body
-        dir={locale === "ar" ? "rtl" : "ltr"}
-        className={`${almarai.className} antialiased`}
-      >
+    <html
+      dir={locale === "ar" ? "rtl" : "ltr"}
+      lang={locale}
+      suppressHydrationWarning
+    >
+      <body className={`${almarai.className} antialiased`}>
         <NextIntlClientProvider messages={message}>
           <LazyMotion features={domAnimation}>
             <Navbar />

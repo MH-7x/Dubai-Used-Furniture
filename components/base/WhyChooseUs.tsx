@@ -3,7 +3,7 @@ import React from "react";
 
 const WhyChooseUs = () => {
   return (
-    <section className="mt-32 bg-secondary/70 py-10 md:px-0 px-3">
+    <section className="mt-32 bg-accent py-10 md:px-0 px-3">
       <p className=" text-accent text-center">Why Choose Us ?</p>
       <h2 className="text-center md:text-4xl text-3xl text-primary">
         Professional Used Furniture{" "}
@@ -19,10 +19,10 @@ const WhyChooseUs = () => {
       </p>
       <div className="mt-10 grid md:grid-cols-2 grid-cols-1 con items-center md:px-10 md:gap-0 gap-y-5">
         <div className="order-2 md:order-1">
-          <h3 className="text-2xl text-primary">
+          <h3 className="text-2xl text-primary font-bold">
             Wide Selection of Used Furniture
           </h3>
-          <p className="text-text mt-3 font-light md:text-lg text-base/5">
+          <p className="text-text mt-3 md:text-lg text-base/5">
             Our extensive inventory includes everything from stylish sofas to
             elegant dining sets. Explore our collection of used furniture for
             sale in Dubai and Abu Dhabi, and find the perfect pieces to enhance
@@ -34,17 +34,17 @@ const WhyChooseUs = () => {
             className="object-contain"
             alt="Wide Selection of Used Furniture"
             src={"/images/wild-selection.png"}
-            width={350}
-            height={350}
+            width={300}
+            height={300}
           />
         </div>
       </div>
       <div className="mt-10 grid md:grid-cols-2 grid-cols-1 con items-center md:px-10 md:gap-0 gap-y-5">
         <div className="order-1 md:order-2">
-          <h3 className="text-2xl text-primary">
+          <h3 className="text-2xl text-primary font-bold">
             Trusted Used Furniture Buyers
           </h3>
-          <p className="text-text mt-3 font-light md:text-lg text-base/5">
+          <p className="text-text mt-3 md:text-lg text-base/5">
             We pride ourselves on being one of the best used furniture buyers in
             Dubai. Our team is dedicated to providing you with a seamless
             experience, whether you&apos;re looking to sell used furniture or
@@ -56,15 +56,17 @@ const WhyChooseUs = () => {
             className="object-contain"
             alt="Trusted Used Furniture Buyers"
             src={"/images/trusted-buyers.svg"}
-            width={350}
-            height={350}
+            width={300}
+            height={300}
           />
         </div>
       </div>
       <div className="mt-10 grid md:grid-cols-2 grid-cols-1 con items-center md:px-10 md:gap-0 gap-y-5">
         <div className="order-2 md:order-1">
-          <h3 className="text-2xl text-primary">Convenient Selling Options</h3>
-          <p className="text-text mt-3 font-light md:text-lg text-base/5">
+          <h3 className="text-2xl text-primary font-bold">
+            Convenient Selling Options
+          </h3>
+          <p className="text-text mt-3 md:text-lg text-base/5">
             If you have old furniture to sell, we make the process easy. Our
             platform allows you to sell furniture in Dubai and Abu Dhabi quickly
             and efficiently. Connect with old furniture buyers who are eager to
@@ -83,8 +85,8 @@ const WhyChooseUs = () => {
       </div>
       <div className="mt-10 grid md:grid-cols-2 grid-cols-1 con items-center md:px-10 md:gap-0 gap-y-5">
         <div className="order-1 md:order-2">
-          <h3 className="text-2xl text-primary">Local Expertise</h3>
-          <p className="text-text mt-3 font-light md:text-lg text-base/5">
+          <h3 className="text-2xl text-primary font-bold">Local Expertise</h3>
+          <p className="text-text mt-3 md:text-lg text-base/5">
             As a leading used furniture dealer in Dubai, we understand the local
             market. Our knowledge of used furniture shops in Dubai and Abu Dhabi
             ensures that you receive the best value for your items.
@@ -102,8 +104,10 @@ const WhyChooseUs = () => {
       </div>
       <div className="mt-10 grid md:grid-cols-2 grid-cols-1 con items-center md:px-10 md:gap-0 gap-y-5">
         <div className="order-2 md:order-1">
-          <h3 className="text-2xl text-primary">Eco-Friendly Choices</h3>
-          <p className="text-text mt-3 font-light md:text-lg text-base/5">
+          <h3 className="text-2xl text-primary font-bold">
+            Eco-Friendly Choices
+          </h3>
+          <p className="text-text mt-3 md:text-lg text-base/5">
             By choosing to buy and sell second-hand furniture, you are making a
             sustainable choice that benefits the environment. Join us in
             promoting a greener lifestyle by opting for used furniture.

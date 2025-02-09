@@ -63,3 +63,7 @@ button {
 h2 {
   @apply font-bold;
 }
+
+.bg-pattren {
+  @apply absolute  inset-0 bg-[radial-gradient(#ffffff22_1px,transparent_2px)] bg-[size:16px_16px];
+}
