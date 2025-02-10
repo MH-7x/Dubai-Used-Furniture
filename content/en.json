@@ -268,5 +268,45 @@
                 "src": "/images/Ras-Al-Khaimah.svg"
             }
         ]
+    },
+    "whyChooseUs": {
+        "heading": "Why Choose Us?",
+        "mainTitle": {
+            "main": "Professional Used Furniture  ",
+            "ath": "Company In Dubai"
+        },
+        "description": "If you are searching to sell your used furniture in Dubai, UAE, Dubai Used Furniture provides a straightforward and efficient solution. With extensive experience in the industry, we offer competitive pricing, secure cash payments, and convenient doorstep pickup services. Whether you are relocating, upgrading, or decluttering, we guarantee a seamless selling experience across Dubai and the wider UAE.",
+        "sections": [
+            {
+                "title": "Wide Selection of Used Furniture",
+                "text": "Our extensive inventory includes everything from stylish sofas to elegant dining sets. Explore our collection of used furniture for sale in Dubai and Abu Dhabi, and find the perfect pieces to enhance your home.",
+                "imageAlt": "Wide Selection of Used Furniture",
+                "src": "/images/wild-selection.png"
+            },
+            {
+                "title": "Trusted Used Furniture Buyers",
+                "text": "We pride ourselves on being one of the best used furniture buyers in Dubai. Our team is dedicated to providing you with a seamless experience, whether you're looking to sell used furniture or buy second-hand items.",
+                "imageAlt": "Trusted Used Furniture Buyers",
+                "src": "/images/trusted-buyers.svg"
+            },
+            {
+                "title": "Convenient Selling Options",
+                "text": "If you have old furniture to sell, we make the process easy. Our platform allows you to sell furniture in Dubai and Abu Dhabi quickly and efficiently. Connect with old furniture buyers who are eager to find quality pieces at great prices.",
+                "imageAlt": "Convenient Selling Options",
+                "src": "/images/selling-options.svg"
+            },
+            {
+                "title": "Local Expertise",
+                "text": "As a leading used furniture dealer in Dubai, we understand the local market. Our knowledge of used furniture shops in Dubai and Abu Dhabi ensures that you receive the best value for your items.",
+                "imageAlt": "Local Expertise",
+                "src": "/images/local-experts.svg"
+            },
+            {
+                "title": "Eco-Friendly Choices",
+                "text": "By choosing to buy and sell second-hand furniture, you are making a sustainable choice that benefits the environment. Join us in promoting a greener lifestyle by opting for used furniture.",
+                "imageAlt": "Eco-Friendly Choices",
+                "src": "/images/friendly-options.svg"
+            }
+        ]
     }
 }

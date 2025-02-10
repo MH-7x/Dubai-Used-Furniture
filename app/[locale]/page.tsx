@@ -6,6 +6,7 @@ import PersonText from "@/components/base/PersonText";
 import Services from "@/components/base/Services";
 import Types from "@/components/base/Types";
 import WhyChooseUs from "@/components/base/WhyChooseUs";
+import Contact from "@/components/Contact";
 import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
         <WhyChooseUs />
         <AboutUs />
         <Cities />
+        <Contact />
       </main>
       <div className="h-screen"></div>
     </>

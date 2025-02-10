@@ -32,7 +32,7 @@ const HeroSection = () => {
         <div className="absolute z-20 top-1/2 transform -translate-y-1/2 text-accent md:px-5 px-3">
           <h1 className="font-bold max-w-3xl  md:text-5xl text-3xl">
             <span className="text-secondary md:leading-[50px]">
-              {t("title.name")}
+              {t("title.name")}{" "}
             </span>
             <span className="md:block md:leading-[50px]">{t("title.cap")}</span>
           </h1>
