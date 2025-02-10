@@ -6,7 +6,9 @@ import PersonText from "@/components/base/PersonText";
 import Services from "@/components/base/Services";
 import Types from "@/components/base/Types";
 import WhyChooseUs from "@/components/base/WhyChooseUs";
+import BlogsList from "@/components/BlogsList";
 import Contact from "@/components/Contact";
+import CallToAction from "@/components/CTA";
 import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
@@ -23,6 +25,8 @@ export default function Home() {
         <AboutUs />
         <Cities />
         <Contact />
+        <CallToAction />
+        <BlogsList />
       </main>
       <div className="h-screen"></div>
     </>

@@ -86,7 +86,7 @@ function ContactForm() {
               name="name"
               required
               placeholder="John Doe"
-              className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-accent border border-gray-200 rounded-md  focus:border-secondary focus:ring-secondary/40 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="input"
             />
           </div>
 
@@ -99,7 +99,7 @@ function ContactForm() {
               required
               name="email"
               placeholder="johndoe@example.com"
-              className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-accent border border-gray-200 rounded-md  focus:border-secondary focus:ring-secondary/40 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="input"
             />
           </div>
         </div>
@@ -113,7 +113,7 @@ function ContactForm() {
               name="phone"
               required
               placeholder="+971 50 000 0000"
-              className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-accent border border-gray-200 rounded-md  focus:border-secondary focus:ring-secondary/40 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="input"
             />
           </div>
 
@@ -125,7 +125,7 @@ function ContactForm() {
               name="services"
               required
               defaultValue={""}
-              className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-accent border border-gray-200 rounded-md  focus:border-secondary focus:ring-secondary/40 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="input"
               id=""
             >
               <option value="" disabled>
@@ -148,7 +148,7 @@ function ContactForm() {
             type="text"
             name="address"
             placeholder="123 Street, City"
-            className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-accent border border-gray-200 rounded-md  focus:border-secondary focus:ring-secondary/40 focus:outline-none focus:ring focus:ring-opacity-40"
+            className="input"
           />
         </div>
         <div className="w-full mt-4">
@@ -158,7 +158,7 @@ function ContactForm() {
           <textarea
             required
             name="message"
-            className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-accent border border-gray-200 rounded-md  focus:border-secondary focus:ring-secondary/40 focus:outline-none focus:ring focus:ring-opacity-40 h-32"
+            className="input h-32"
             placeholder="Message"
           ></textarea>
         </div>

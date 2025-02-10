@@ -9,7 +9,8 @@
         "contact": "CONTACT US",
         "about": "ABOUT US",
         "call": "CALL NOW",
-        "details": "VIEW DETAILS"
+        "details": "VIEW DETAILS",
+        "callback": "CALL BACK"
     },
     "NavList": {
         "services": {
@@ -308,5 +309,15 @@
                 "src": "/images/friendly-options.svg"
             }
         ]
+    },
+    "cta": {
+        "heading": {
+            "main": "Contact With Dubai's Best ",
+            "auth": "Used Furniture Buyers & Sellers"
+        },
+        "desc": "We are here to help you find the best furniture for your home, office, or business. Contact us today to get started!",
+        "placeholder": "you phone number",
+        "alt1": "Dubai Used Funriture Home Appilance Items",
+        "alt2": "Dubai Used Furniture Store view image"
     }
 }
