@@ -319,5 +319,54 @@
         "placeholder": "you phone number",
         "alt1": "Dubai Used Funriture Home Appilance Items",
         "alt2": "Dubai Used Furniture Store view image"
+    },
+    "footer": {
+        "companyName": "Dubai Used Furniture",
+        "description": "Dubai Used Furniture is a trusted buyer and seller of quality pre-owned furniture in Dubai, UAE. We offer competitive pricing on a wide range of home, office, and hotel furniture.",
+        "contact": {
+            "addressLabel": "Address",
+            "phoneLabel": "Phone No",
+            "hoursLabel": "Hours",
+            "address": "Building No.4 Moatab Bin Auf St, Bu Shaghara Sharjah",
+            "phone": "+971 55 123 4567, +971 55 123 4567",
+            "hours": "Open 24/7"
+        },
+        "services": {
+            "title": "Services",
+            "list": [
+                "Home Furniture",
+                "Office Furniture",
+                "Home Appliance",
+                "Seating Furniture",
+                "Table Furniture",
+                "Sleeping Furniture",
+                "Storage Furniture",
+                "Hotel Furniture"
+            ]
+        },
+        "locations": {
+            "title": "Locations",
+            "list": [
+                "Dubai",
+                "Sharjah",
+                "Ajman",
+                "Abu Dhabi",
+                "Umm Al Quwain",
+                "Fujairah",
+                "Al Ain"
+            ]
+        },
+        "company": {
+            "title": "Company",
+            "list": [
+                "About Us",
+                "Contact Us",
+                "FAQS",
+                "Gallery",
+                "Blogs",
+                "Sitemap",
+                "Movers in Dubai"
+            ]
+        }
     }
 }

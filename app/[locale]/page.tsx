@@ -1,5 +1,6 @@
 import AboutUs from "@/components/base/AboutUs";
 import Cities from "@/components/base/Cities";
+import FooterCTA from "@/components/base/FooterCTA";
 import GetStarted from "@/components/base/GetStarted";
 import IntroText from "@/components/base/IntroText";
 import PersonText from "@/components/base/PersonText";
@@ -27,8 +28,8 @@ export default function Home() {
         <Contact />
         <CallToAction />
         <BlogsList />
+        <FooterCTA />
       </main>
-      <div className="h-screen"></div>
     </>
   );
 }

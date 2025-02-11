@@ -1,4 +1,4 @@
-import React from "react";
+import { RiArrowRightLine, RiCalendar2Fill } from "@remixicon/react";
 
 const BlogsList = () => {
   return (
@@ -30,31 +30,27 @@ const BlogsList = () => {
                   to integrate beautifully with Tailwind CSS.
                 </p>
               </div>
-              <a
-                className="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-slate-100 text-slate-700 hover:bg-slate-200 hover:text-slate-900 focus:ring-slate-500 mt-6"
-                href=""
-              >
-                Learn more
-                <span className="sr-only">
-                  , Completely unstyled, fully accessible UI components
-                </span>
-                <svg
-                  className="overflow-visible ml-3 text-slate-300 group-hover:text-slate-400"
-                  width="3"
-                  height="6"
-                  viewBox="0 0 3 6"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+              <div className="mt-6 flex items-center justify-between">
+                <a
+                  className="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-secondary/50 text-primary hover:bg-secondary  focus:ring-slate-500 "
+                  href=""
                 >
-                  <path d="M0 0L3 3L0 6"></path>
-                </svg>
-              </a>
+                  Learn more
+                  <span className="sr-only">
+                    , Completely unstyled, fully accessible UI components
+                  </span>
+                  <RiArrowRightLine size={15} className="ml-2" />
+                </a>
+                <div className="text-sm flex items-center gap-x-2 text-gray-400">
+                  <RiCalendar2Fill size={18} />
+                  <time dateTime={"2022-10-11"} className="">
+                    2022-10-11
+                  </time>
+                </div>
+              </div>
             </div>
             <img
-              src="https://img.freepik.com/free-photo/interior-decor-furniture-inspired-by-fruits-vegetables_23-2151361933.jpg?t=st=1739188780~exp=1739192380~hmac=d528cc2e0f338cf9f6f5db39e0d7f4506a08547b0d372e918174f112959de31c&w=740"
+              src="https://images.unsplash.com/photo-1536437075651-01d675529a6b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt=""
               className="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full"
               width="1216"

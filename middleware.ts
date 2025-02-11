@@ -1,9 +1,25 @@
 import createMiddleware from "next-intl/middleware";
-import { routing } from "./i18n/routing";
+import { NextRequest, NextResponse } from "next/server";
 
-export default createMiddleware(routing);
+const locales = ["en", "ar"]; // Add your supported locales here
+const defaultLocale = "en"; // Set your default locale
+
+const intlMiddleware = createMiddleware({
+  locales,
+  defaultLocale,
+  localeDetection: false,
+});
+
+export function middleware(request: NextRequest) {
+  const pathname = request.nextUrl.pathname;
+
+  if (pathname.startsWith("/blogs")) {
+    return NextResponse.next();
+  }
+
+  return intlMiddleware(request);
+}
 
 export const config = {
-  // Match only internationalized pathnames
-  matcher: ["/", "/(de|ar)/:path*"],
+  matcher: ["/", "/(en|ar)/:path*"],
 };

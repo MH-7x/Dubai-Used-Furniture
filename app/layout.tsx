@@ -1,11 +1,7 @@
 import React from "react";
 
-const layout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
-  return (
-    <html>
-      <body>{children}</body>
-    </html>
-  );
+const layout = ({ children }: { children: React.ReactNode }) => {
+  return children;
 };
 
 export default layout;

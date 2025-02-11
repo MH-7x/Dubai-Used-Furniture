@@ -29,3 +29,6 @@ Are you searching for high-quality used furniture buyers in Dubai? Look no furth
 Whether you're in Dubai or Abu Dhabi, our platform is your go-to resource for all things related to used furniture. Explore our listings, connect with buyers and sellers, and transform your living space with beautiful, affordable pieces.
 
 For more information on how to
+
+## Company Description
+Dubai Used Furniture is a trusted buyer and seller of high-quality pre-owned furniture in Dubai, UAE. We specialize in a diverse range of furniture for residential, office, and hotel settings, offering competitive pricing and exceptional customer service. Whether you're looking to upgrade your space or sell your current pieces, you can rely on us for sustainable, affordable, and stylish solutions.

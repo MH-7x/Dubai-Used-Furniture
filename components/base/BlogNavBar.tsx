@@ -1,9 +1,9 @@
 import { headers } from "next/headers";
 import React from "react";
-import MobileNavbar from "./MobileNavbar";
-import DesktopNavbar from "./DesktopNavbar";
+import BlogMobileNav from "./BlogMobileNav";
+import BlogDesktopNav from "./BlogDesktopNav";
 
-const Navbar = async () => {
+const BlogNavbar = async () => {
   const reqHeaders = await headers();
 
   const isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|Opera Mini/i.test(
@@ -11,9 +11,9 @@ const Navbar = async () => {
   );
 
   if (isMobile) {
-    return <MobileNavbar />;
+    return <BlogMobileNav />;
   }
-  return <DesktopNavbar />;
+  return <BlogDesktopNav />;
 };
 
-export default Navbar;
+export default BlogNavbar;
