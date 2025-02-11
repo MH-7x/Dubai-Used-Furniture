@@ -9,27 +9,6 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
-const slides = [
-  {
-    id: 1,
-    title: "Home Furniture Buyers & Sellers",
-    content:
-      "We provide a smooth and convenient service for selling your used furniture in Dubai. Contact us, and we will manage everything from pick-up to payment.",
-  },
-  {
-    id: 2,
-    title: "Office Furniture Buyers & Sellers",
-    content:
-      "Whether you are downsizing, relocating, or upgrading, Dubai Used Furniture is your reliable partner for a seamless office furniture sale.",
-  },
-  {
-    id: 3,
-    title: "Hotel Furniture Buyers & Sellers",
-    content:
-      "Dubai Used Furniture provides easy hotel furniture disposal with fair prices, convenient pickup, and prompt payment in Dubai.",
-  },
-];
-
 const Services = () => {
   const t = useTranslations("service");
   const b = useTranslations("buttons");
@@ -108,30 +87,39 @@ const Services = () => {
             pagination={{ clickable: true }}
             className=" "
           >
-            {slides.map((slide) => (
-              <SwiperSlide className="bg-accent mt-10 pb-5" key={slide.id}>
-                <div className="w-full h-60 bg-white overflow-hidden relative">
-                  <Image
-                    src={"/images/home-furniture.jpg"}
-                    alt="home furniture buyers and sellers"
-                    fill
-                    className="object-cover object-center absolute"
-                  />
-                </div>
-                <h2 className="text-xl text-text px-3 mt-5">{slide.title}</h2>
-                <p className="text-gray-600 text-base/5 px-3 mt-2">
-                  {slide.content}
-                </p>
-                <div className="con mt-5 grid grid-cols-2 gap-3">
-                  <button className="py-1.5 text-center bg-secondary text-primary">
-                    {b("details")}
-                  </button>
-                  <button className="py-1.5 text-center text-secondary">
-                    {b("call")}
-                  </button>
-                </div>
-              </SwiperSlide>
-            ))}
+            {t
+              .raw("otherServices")
+              .map(
+                (
+                  slide: { title: string; desc: string; src: string },
+                  i: number
+                ) => (
+                  <SwiperSlide className="bg-accent mt-10 pb-5" key={i}>
+                    <div className="w-full h-60 bg-white overflow-hidden relative">
+                      <Image
+                        src={slide.src}
+                        alt={slide.title}
+                        fill
+                        className="object-cover object-center absolute"
+                      />
+                    </div>
+                    <h2 className="text-xl text-text px-3 mt-5">
+                      {slide.title}
+                    </h2>
+                    <p className="text-gray-600 text-base/5 px-3 mt-2">
+                      {slide.desc}
+                    </p>
+                    <div className="con mt-5 grid grid-cols-2 gap-3">
+                      <button className="py-1.5 text-center bg-secondary text-primary">
+                        {b("details")}
+                      </button>
+                      <button className="py-1.5 text-center text-secondary">
+                        {b("call")}
+                      </button>
+                    </div>
+                  </SwiperSlide>
+                )
+              )}
           </Swiper>
         </div>
       </section>

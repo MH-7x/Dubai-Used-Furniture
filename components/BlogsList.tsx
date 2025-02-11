@@ -2,7 +2,7 @@ import { RiArrowRightLine, RiCalendar2Fill } from "@remixicon/react";
 
 const BlogsList = () => {
   return (
-    <section className="mt-32 con md:px-0 px-3">
+    <section dir="ltr" className="mt-32 con md:px-0 px-3">
       <h2 className="md:text-4xl text-3xl text-primary">
         Latest Posts and Articles
       </h2>

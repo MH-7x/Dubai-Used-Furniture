@@ -7,20 +7,21 @@ import {
   RiLinkedinBoxFill,
   RiTwitterFill,
 } from "@remixicon/react";
+import { useTranslations } from "next-intl";
 
 const Contact = () => {
+  const t = useTranslations("contact");
+  const u = useTranslations("utils");
   return (
     <section className="min-h-screen bg-primary mt-32 ">
       <div className="container px-6 md:py-16 py-10 mx-auto ">
         <div className="lg:flex lg:items-center lg:-mx-10">
           <div className="lg:w-1/2 lg:mx-10">
             <h2 className="text-2xl font-semibold text-secondary capitalize  lg:text-3xl">
-              Let’s talk About Your Used Furnitures
+              {t("title")}
             </h2>
 
-            <p className="mt-4 text-accent">
-              contact us for buy or selling used furniture.
-            </p>
+            <p className="mt-4 text-accent">{t("desc")}</p>
 
             <ContactForm />
           </div>
@@ -29,7 +30,7 @@ const Contact = () => {
             <div className="hidden object-cover mx-auto rounded-full lg:block shrink-0 w-96 h-96 relative overflow-hidden">
               <Image
                 src={"/images/contact-us.jpg"}
-                alt="Contact With RWahab Movers UAE"
+                alt="Contact With Dubai Used Furniture"
                 fill
                 className="object-cover object-right"
               />
@@ -58,7 +59,7 @@ const Contact = () => {
                 </svg>
 
                 <span className="mx-2 truncate w-72 text-accent font-light">
-                  Building No.4 Moatab Bin Auf St, Bu Shaghara Sharjah
+                  {u("address")}
                 </span>
               </p>
 
@@ -78,7 +79,10 @@ const Contact = () => {
                   />
                 </svg>
 
-                <span className="mx-2 truncate w-72 text-accent font-light">
+                <span
+                  dir="ltr"
+                  className="mx-2 truncate w-72 text-accent font-light"
+                >
                   +971 50 999 9999 , +971 50 888 8888
                 </span>
               </p>
@@ -106,7 +110,9 @@ const Contact = () => {
             </div>
 
             <div className="mt-6 w-80 md:mt-8">
-              <h3 className="text-gray-600 dark:text-gray-300 ">Follow us</h3>
+              <h3 className="text-gray-600 dark:text-gray-300 ">
+                {t("follow")}
+              </h3>
 
               <div className="flex mt-4 -mx-1.5 ">
                 <RiFacebookCircleFill

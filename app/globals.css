@@ -16,6 +16,10 @@ body {
   @apply md:w-11/12 w-full mx-auto;
 }
 
+input {
+  direction: ltr;
+}
+
 address {
   font-style: normal;
 }

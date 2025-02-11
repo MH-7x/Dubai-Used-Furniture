@@ -3,14 +3,16 @@
         "address": "Building No.4 Moatab Bin Auf St, Bu Shaghara Sharjah"
     },
     "buttons": {
-        "whatsapp": "WHATSAPP",
+        "whatsapp": "WHATSAPP US",
         "callOrWhatsapp": "CALL / WHATSAPP",
         "explore": "EXPLORE NOW",
         "contact": "CONTACT US",
         "about": "ABOUT US",
         "call": "CALL NOW",
         "details": "VIEW DETAILS",
-        "callback": "CALL BACK"
+        "callback": "CALL BACK",
+        "send": "Send Message",
+        "sending": "Sending..."
     },
     "NavList": {
         "services": {
@@ -211,6 +213,23 @@
                 ],
                 "src": "/images/home-appliance.webp"
             }
+        ],
+        "otherServices": [
+            {
+                "title": "Home Furniture Buyers & Sellers",
+                "desc": "We provide a smooth and convenient service for selling your used furniture in Dubai. Contact us, and we will manage everything from pick-up to payment.",
+                "src": "/images/home-furniture.jpg"
+            },
+            {
+                "title": "Office Furniture Buyers & Sellers",
+                "desc": "Whether you are downsizing, relocating, or upgrading, Dubai Used Furniture is your reliable partner for a seamless office furniture sale.",
+                "src": "/images/home-furniture.jpg"
+            },
+            {
+                "title": "Hotel Furniture Buyers & Sellers",
+                "desc": "Dubai Used Furniture provides easy hotel furniture disposal with fair prices, convenient pickup, and prompt payment in Dubai.",
+                "src": "/images/home-furniture.jpg"
+            }
         ]
     },
     "about": {
@@ -270,6 +289,17 @@
             }
         ]
     },
+    "contact": {
+        "title": "Let’s talk About Your Used Furniture",
+        "desc": "contact us for buy or selling used furniture.",
+        "name": "Full Name",
+        "email": "Email address",
+        "phone": "Phone No",
+        "type": "Furniture Type",
+        "address": "Your Address",
+        "message": "Message",
+        "follow": "Follow us"
+    },
     "whyChooseUs": {
         "heading": "Why Choose Us?",
         "mainTitle": {
@@ -319,6 +349,13 @@
         "placeholder": "you phone number",
         "alt1": "Dubai Used Funriture Home Appilance Items",
         "alt2": "Dubai Used Furniture Store view image"
+    },
+    "cta2": {
+        "title": {
+            "main": "Don't Look Further,",
+            "ath": "Let Contact With Dubai Used Furniture"
+        },
+        "desc": "We are here to help you to find quality used furniture. Let us know what you need and we will get back to you."
     },
     "footer": {
         "companyName": "Dubai Used Furniture",

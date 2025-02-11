@@ -40,10 +40,10 @@ const HeroSection = () => {
             {t("description")}
           </p>
           <div className="flex items-center md:justify-start justify-center md:gap-x-7 gap-x-5 mt-5">
-            <button className="px-3 py-2 text-accent md:text-[15px] text-sm flex items-center gap-x-2 bg-primary">
+            <button className="md:px-5 px-3 py-3 text-primary md:text-[15px] text-sm flex items-center gap-x-2 bg-secondary">
               <RiWhatsappLine /> {b("whatsapp")}
             </button>
-            <button className="px-3 py-2 text-secondary md:text-[15px] text-sm flex items-center gap-x-2 border-b border-secondary">
+            <button className="md:px-5 px-3 py-3 text-secondary md:text-[15px] text-sm flex items-center gap-x-2 border-b border-secondary">
               {b("explore")} <RiArrowRightLongFill />
             </button>
           </div>

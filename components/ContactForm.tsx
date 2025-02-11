@@ -11,7 +11,8 @@ function ContactForm() {
   const [Open, setOpen] = useState(false);
   const [Loading, setLoading] = useState(false);
   const t = useTranslations("NavList");
-
+  const l = useTranslations("contact");
+  const b = useTranslations("buttons");
   const services = [
     "ser1",
     "ser2",
@@ -58,6 +59,7 @@ function ContactForm() {
       setLoading(false);
     }
   };
+
   return (
     <>
       {Open && Success && !Errors ? (
@@ -79,7 +81,7 @@ function ContactForm() {
         <div className="-mx-2 md:items-center md:flex">
           <div className="flex-1 px-2">
             <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
-              Full Name
+              {l("name")}
             </label>
             <input
               type="text"
@@ -92,7 +94,7 @@ function ContactForm() {
 
           <div className="flex-1 px-2 mt-4 md:mt-0">
             <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
-              Email address
+              {l("email")}
             </label>
             <input
               type="email"
@@ -106,7 +108,7 @@ function ContactForm() {
         <div className="-mx-2 mt-5 md:items-center md:flex">
           <div className="flex-1 px-2">
             <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
-              Phone No
+              {l("phone")}
             </label>
             <input
               type="number"
@@ -119,7 +121,7 @@ function ContactForm() {
 
           <div className="flex-1 px-2 mt-4 md:mt-0">
             <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
-              Type of Move
+              {l("type")}
             </label>
             <select
               name="services"
@@ -140,9 +142,7 @@ function ContactForm() {
           </div>
         </div>
         <div className="mt-5">
-          <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
-            Your Address
-          </label>
+          <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200"></label>
           <input
             required
             type="text"
@@ -153,7 +153,7 @@ function ContactForm() {
         </div>
         <div className="w-full mt-4">
           <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
-            Message
+            {l("message")}
           </label>
           <textarea
             required
@@ -170,10 +170,10 @@ function ContactForm() {
         >
           {!Loading ? (
             <>
-              Send Message <RiMailSendFill />
+              {b("send")} <RiMailSendFill />
             </>
           ) : (
-            <>Sending..</>
+            <> {b("sending")}</>
           )}
         </button>
       </form>

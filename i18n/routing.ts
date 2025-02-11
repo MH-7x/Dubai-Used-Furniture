@@ -7,7 +7,6 @@ export const routing = defineRouting({
   localeDetection: true,
 });
 
-// Lightweight wrappers around Next.js' navigation APIs
-// that will consider the routing configuration
+//warpper for next-intl
 export const { Link, redirect, usePathname, useRouter, getPathname } =
   createNavigation(routing);
