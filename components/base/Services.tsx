@@ -3,7 +3,7 @@
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
-
+import { Link } from "@/i18n/routing";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
@@ -46,9 +46,11 @@ const Services = () => {
                   className="absolute object-contain object-center"
                 />
               </div>
-              <h3 className="mt-5 md:text-2xl text-xl font-bold text-center">
-                {service.title}
-              </h3>
+              <Link href={"/used-seating-furniture"}>
+                <h3 className="mt-5 md:text-2xl text-xl font-bold text-center">
+                  {service.title}
+                </h3>
+              </Link>
               <p className="mt-2">{service.description}</p>
               <ul
                 className={`grid md:grid-cols-2 grid-cols-1 gap-x-2 text-primary list-disc pl-5 mt-2 ${
