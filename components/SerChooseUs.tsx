@@ -1,6 +1,6 @@
 import {
+  RiBankCardFill,
   RiBriefcase2Fill,
-  RiSecurePaymentFill,
   RiShieldCheckFill,
   RiStore2Fill,
 } from "@remixicon/react";
@@ -14,8 +14,8 @@ const SerChooseUs = () => {
           Why Choose Dubai Used Furniture?
         </h2>
         <p className="max-w-xl text-lg/6 mt-3 font-light text-accent">
-          There are many buyers andd sellers for you used furniture, see how we
-          are best choose for your used furniture in dubai!
+          There are many buyers and sellers for your used furniture, see how we
+          are the best choose for your used furniture in Dubai!
         </p>
         <div className="con  mt-10 grid md:grid-cols-2 grid-cols-1 gap-5">
           <div className="min-h-52 bg-secondary p-8 flex items-start justify-start flex-col gap-y-4">
@@ -43,7 +43,7 @@ const SerChooseUs = () => {
           </div>
           <div className="min-h-52 bg-secondary p-8 flex items-start justify-start flex-col gap-y-4">
             <div className="w-20 h-20 border flex items-center justify-center text-primary border-primary rounded-full">
-              <RiSecurePaymentFill size={50} />
+              <RiBankCardFill size={50} />
             </div>
             <h3 className="text-xl text-primary">Flexible Solutions</h3>
             <p className="text-text ">

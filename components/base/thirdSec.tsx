@@ -17,9 +17,9 @@ const ThirdSec = () => {
         <div className="bg-accent md:p-5 p-3 text-text">
           <div className="w-full md:h-80 h-60 bg-white overflow-hidden relative">
             <Image
-              alt={"fvfvdf"}
-              title={"cdscdscdsc"}
-              src={"/images/contact-us.jpg"}
+              alt={"Collection Of Seating Furnitures"}
+              title={"Collection Of Seating Furnitures "}
+              src={"/seating/used-seating-furniture.jpg"}
               fill
               className="absolute object-cover object-center"
             />
@@ -48,8 +48,8 @@ const ThirdSec = () => {
         <div className="bg-accent md:p-5 p-3 text-text">
           <div className="w-full md:h-80 h-60 bg-white overflow-hidden relative">
             <Image
-              alt={"fvfvdf"}
-              title={"cdscdscdsc"}
+              alt={"Used Office Chairs"}
+              title={"Used Office Chairs"}
               src={"/seating/used-office-chairs.jpg"}
               fill
               className="absolute object-cover object-top"
@@ -79,9 +79,9 @@ const ThirdSec = () => {
         <div className="bg-accent md:p-5 p-3 text-text">
           <div className="w-full md:h-80 h-60 bg-white overflow-hidden relative">
             <Image
-              alt={"fvfvdf"}
-              title={"cdscdscdsc"}
-              src={"/images/contact-us.jpg"}
+              alt={"Used Outdoor Furniture"}
+              title={"Used Outdoor Furniture"}
+              src={"/seating/used-outdoor-furniture.jpg"}
               fill
               className="absolute object-cover object-center"
             />

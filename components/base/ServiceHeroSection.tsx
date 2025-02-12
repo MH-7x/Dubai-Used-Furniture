@@ -1,4 +1,5 @@
 import { RiImage2Fill, RiWhatsappFill } from "@remixicon/react";
+import Link from "next/link";
 const ServiceHeroSection = () => {
   return (
     <section className="bg-secondary md:px-0 px-3 md:py-16 py-5">
@@ -19,10 +20,15 @@ const ServiceHeroSection = () => {
             <RiWhatsappFill />
             WHATSAPP US
           </button>
-          <button className="md:py-3 py-2.5 bg-accent text-primary flex items-center justify-center gap-x-2">
-            <RiImage2Fill />
-            VIEW IMAGES
-          </button>
+          <Link
+            className="md:py-3 py-2.5 bg-accent text-primary"
+            href={"#gallery"}
+          >
+            <button className=" mx-auto flex items-center justify-center gap-x-2">
+              <RiImage2Fill />
+              VIEW IMAGES
+            </button>
+          </Link>
         </div>
       </div>
     </section>

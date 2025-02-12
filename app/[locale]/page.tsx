@@ -11,8 +11,10 @@ import BlogsList from "@/components/BlogsList";
 import Contact from "@/components/Contact";
 import CallToAction from "@/components/CTA";
 import HeroSection from "@/components/HeroSection";
+import { useTranslations } from "next-intl";
 
 export default function Home() {
+  const t = useTranslations("cta2");
   return (
     <>
       <main className="md:mt-24 mt-[70px]">
@@ -28,7 +30,12 @@ export default function Home() {
         <Contact />
         <CallToAction />
         <BlogsList />
-        <FooterCTA />
+        <FooterCTA
+          title={{ ath: t("title.ath"), main: t("title.main") }}
+          desc={t("desc")}
+          src="/images/footerCTA.png"
+          alt="Let Contact With Dubai Used Furniture"
+        />
       </main>
     </>
   );
