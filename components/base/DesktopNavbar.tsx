@@ -99,28 +99,80 @@ const DesktopNavbar = () => {
               locale={locale}
               title={l("services.title")}
               dropdownItems={[
-                `${l("services.ser1")} ${l("services.buySell")}`,
-                `${l("services.ser2")} ${l("services.buySell")}`,
-                `${l("services.ser3")} ${l("services.buySell")}`,
-
-                `${l("services.ser5")} ${l("services.buySell")}`,
-                `${l("services.ser6")} ${l("services.buySell")}`,
-                `${l("services.ser7")} ${l("services.buySell")}`,
-                `${l("services.ser8")} ${l("services.buySell")}`,
-                `${l("services.ser9")} ${l("services.buySell")}`,
+                {
+                  title: `${l("services.ser1")} ${l("services.buySell")}`,
+                  link: "#",
+                },
+                {
+                  title: `${l("services.ser2")} ${l("services.buySell")}`,
+                  link: "#",
+                },
+                {
+                  title: `${l("services.ser3")} ${l("services.buySell")}`,
+                  link: "#",
+                },
+                {
+                  title: `${l("services.ser5")} ${l("services.buySell")}`,
+                  link: "/used-seating-furniture",
+                },
+                {
+                  title: `${l("services.ser6")} ${l("services.buySell")}`,
+                  link: "/used-table-furniture",
+                },
+                {
+                  title: `${l("services.ser7")} ${l("services.buySell")}`,
+                  link: "#",
+                },
+                {
+                  title: `${l("services.ser8")} ${l("services.buySell")}`,
+                  link: "#",
+                },
+                {
+                  title: `${l("services.ser9")} ${l("services.buySell")}`,
+                  link: "#",
+                },
               ]}
             />
             <NavItem
               locale={locale}
               title={l("locations.title")}
               dropdownItems={[
-                `${l("locations.usedFurniture")} ${l("locations.loc1")}`,
-                `${l("locations.usedFurniture")} ${l("locations.loc2")}`,
-                `${l("locations.usedFurniture")} ${l("locations.loc3")}`,
-
-                `${l("locations.usedFurniture")} ${l("locations.loc5")}`,
-                `${l("locations.usedFurniture")} ${l("locations.loc6")}`,
-                `${l("locations.usedFurniture")} ${l("locations.loc7")}`,
+                {
+                  title: `${l("locations.usedFurniture")} ${l(
+                    "locations.loc1"
+                  )}`,
+                  link: "#",
+                },
+                {
+                  title: `${l("locations.usedFurniture")} ${l(
+                    "locations.loc2"
+                  )}`,
+                  link: "#",
+                },
+                {
+                  title: `${l("locations.usedFurniture")} ${l(
+                    "locations.loc3"
+                  )}`,
+                  link: "#",
+                },
+                {
+                  title: `${l("locations.usedFurniture")} ${l(
+                    "locations.loc5"
+                  )}`,
+                  link: "#",
+                },
+                {
+                  title: `${l("locations.usedFurniture")} ${l(
+                    "locations.loc6"
+                  )}`,
+                  link: "#",
+                },
+                {
+                  title: `${l("locations.usedFurniture")} ${l(
+                    "locations.loc7"
+                  )}`,
+                  link: "#",
+                },
               ]}
             />
             <li>
@@ -154,7 +206,7 @@ function NavItem({
 }: {
   title: string;
   locale: string;
-  dropdownItems: string[];
+  dropdownItems: { link: string; title: string }[];
 }) {
   return (
     <li className="relative group">
@@ -171,7 +223,7 @@ function NavItem({
             key={index}
             className="px-4 py-2.5 hover:bg-gray-50 text-sm border-b"
           >
-            <Link href="#">{item}</Link>
+            <Link href={item.link}>{item.title}</Link>
           </li>
         ))}
       </ul>

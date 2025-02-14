@@ -20,7 +20,9 @@ const HeroSection = () => {
         <span className="text-primary text-xl text-center">
           {t("leftTitle")}
         </span>
-        <button className="px-3 py-2 text-primary md:text-[15px] text-sm flex items-center gap-x-2 border-b border-accent">
+        <button
+          className={`px-3 py-2 text-primary md:text-[15px] text-sm flex items-center gap-x-2 border-b border-accent `}
+        >
           {b("callOrWhatsapp")} <RiArrowRightLongFill />
         </button>
       </div>

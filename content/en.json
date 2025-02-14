@@ -405,5 +405,352 @@
                 "Movers in Dubai"
             ]
         }
+    },
+    "usedTablePage": {
+        "serviceHeroSection": {
+            "title": {
+                "main": "Used Table Furniture in Dubai",
+                "auth": "Buy & Sell Used Table Furniture"
+            },
+            "desc": "Welcome to Dubai Used Furniture – your trusted destination for high-quality used tables in Dubai. Whether you're looking for second-hand tables, pre-owned dining tables, office tables, or specialty pieces like used study tables and conference tables, we offer an extensive collection designed to meet your needs. Our commitment to quality and affordability makes us one of the best places to find second-hand tables in Dubai."
+        },
+        "serChooseUs": {
+            "title": "Why Choose Pre-Owned Tables?",
+            "desc": "Choosing pre-owned tables isn’t just a smart financial decision—it’s also a sustainable and stylish choice. At Dubai Used Furniture, we believe that quality doesn’t always mean brand-new. Here’s why our customers love our range of used tables in Dubai:",
+            "list": [
+                {
+                    "key": "affordability",
+                    "title": "Affordability",
+                    "desc": "Enjoy affordable used tables in Dubai that fit your budget without compromising on style."
+                },
+                {
+                    "key": "quality",
+                    "title": "Quality Assurance",
+                    "desc": "Every piece is carefully inspected to guarantee durability and functionality."
+                },
+                {
+                    "key": "balance",
+                    "title": "Long-Term Balance",
+                    "desc": "Buying pre-owned helps reduce waste and supports a greener environment."
+                },
+                {
+                    "key": "variety",
+                    "title": "Variety",
+                    "desc": "From used wooden tables Dubai to used glass tables Dubai, our inventory covers diverse styles and materials."
+                }
+            ]
+        },
+        "thirdSec": {
+            "title": "Our Used Table Collection",
+            "desc": "At Dubai Used Furniture, our expansive collection ensures you can find the ideal table for every setting.",
+            "items": [
+                {
+                    "title": "Used Dining Tables",
+                    "src": "/tables/used-dinning-tables.webp",
+                    "alt": "Used Dining Tables",
+                    "desc": "Enhance your dining experience with our selection of used dining tables in Dubai. Whether for a cozy home or a bustling restaurant, our options include:",
+                    "lis": [
+                        {
+                            "title": "Pre-Owned Dining Tables",
+                            "desc": "Traditional, modern, rustic, and contemporary designs."
+                        },
+                        {
+                            "title": "Quality Pre-Owned Dining Tables for Sale in Dubai",
+                            "desc": "Rigorously inspected for durability and style."
+                        },
+                        {
+                            "title": "Second-Hand Dining Tables Dubai",
+                            "desc": "Elegant finishes at unbeatable prices."
+                        }
+                    ],
+                    "extra": "If you're wondering where to buy used tables in Dubai for your dining area, our curated selection is your answer."
+                },
+                {
+                    "title": "Used Office Tables & Work Desks",
+                    "src": "/tables/used-office-tables-desks.jpeg",
+                    "alt": "Used Office Working Table",
+                    "desc": "Boost your workspace productivity with our range of used office tables in Dubai. Perfect for both small businesses and large corporations, our offerings include:",
+                    "lis": [
+                        {
+                            "title": "Used Office Tables & Workstations",
+                            "desc": "Available in various sizes, including second-hand office tables Dubai and second-hand work desks Dubai."
+                        },
+                        {
+                            "title": "Best Used Office Desks for Sale in Dubai",
+                            "desc": "Ergonomically designed for modern offices."
+                        },
+                        {
+                            "title": "Used Study Tables & Conference Tables",
+                            "desc": "Deal for both home and professional settings."
+                        }
+                    ],
+                    "extra": "Discover the perfect used office furniture tables in Dubai to create an inspiring work environment."
+                },
+                {
+                    "title": "Used Coffee Tables & Side Tables",
+                    "src": "/tables/used-coffee-tables.jpg",
+                    "alt": "Collection Of Seating Furnitures",
+                    "desc": "Our collection isn’t limited to dining and office spaces. We also offer stylish used coffee tables and used side tables in Dubai:",
+                    "lis": [
+                        {
+                            "title": "Second-Hand Coffee Tables Dubai",
+                            "desc": "A chic centerpiece for living rooms or cafes."
+                        },
+                        {
+                            "title": "Used Side Tables Dubai",
+                            "desc": "Perfect for accentuating your décor."
+                        },
+                        {
+                            "title": "Used Tables for Cafes & Restaurants",
+                            "desc": "Combining aesthetics with practicality."
+                        }
+                    ],
+                    "extra": "Looking for affordable used coffee tables in Dubai? Our selection blends quality and affordability."
+                }
+            ]
+        },
+        "secondSec": {
+            "title": "Buy & Sell Used Tables in Dubai",
+            "desc": "At Dubai Used Furniture, our marketplace is designed for both buyers and sellers:",
+            "images": [
+                {
+                    "src": "/tables/used-tables-furniture.webp",
+                    "alt": "Used tables furniture store image"
+                },
+                {
+                    "src": "/tables/used-tables-furniture-2.jpeg",
+                    "alt": "Tables furniture in Dubai"
+                },
+                {
+                    "src": "/tables/used-tables-furniture-landscape.webp",
+                    "alt": "Used Tables Furniture Dubai Store"
+                }
+            ],
+            "list": [
+                {
+                    "title": "For Buyers:",
+                    "desc": "Browse our extensive online collection and buy used tables online in Dubai with ease."
+                },
+                {
+                    "title": "For Sellers:",
+                    "desc": "Wondering where to sell used tables in Dubai? Contact us for a competitive quote and swift service."
+                }
+            ],
+            "extra": "Whether you need second-hand tables for restaurants in Dubai or a fresh office setup, our platform is built for you."
+        },
+        "gallery": {
+            "title": "Used Table Furniture Collection Gallery",
+            "desc": "Discover our diverse collection of used table furniture, carefully selected to meet your style and budget needs.",
+            "images": [
+                "/tables/gallery-1.jpg",
+                "/tables/gallery-2.jpg",
+                "/tables/gallery-3.jpg",
+                "/tables/gallery-4.jpg",
+                "/tables/gallery-5.jpg",
+                "/tables/gallery-6.jpg",
+                "/tables/gallery-7.jpg",
+                "/tables/gallery-8.jpg",
+                "/tables/gallery-9.jpg"
+            ]
+        },
+        "getStarted": {
+            "sub": "how to choose",
+            "title": "How to Choose the Right Used Table",
+            "desc": "Choosing the perfect used table involves a few key considerations:",
+            "extra": "With our expertise, you can easily find second-hand wooden tables for sale in Dubai that meet your needs.",
+            "steps": [
+                {
+                    "title": "Material Matters:",
+                    "desc": "Compare used wooden, glass, metal, or plastic tables in Dubai. Wooden offers a timeless look, while metal/plastic adds a modern touch.",
+                    "src": "/images/call.svg",
+                    "alt": "Icon representing material comparison"
+                },
+                {
+                    "title": "Functionality & Space:",
+                    "desc": "Ensure the table fits your space—office, dining, or outdoor. Consider size, shape, and placement for better usability.",
+                    "src": "/images/evaculation.svg",
+                    "alt": "Icon representing space and functionality"
+                },
+                {
+                    "title": "Condition Check:",
+                    "desc": "Inspect for wear, scratches, or refurbishments. Check stability, material, and past use to ensure quality.",
+                    "src": "/images/cash.svg",
+                    "alt": "Icon representing condition check"
+                }
+            ]
+        },
+        "whyBuyFromUs": {
+            "title": "Why Buy From Dubai Used Furniture?",
+            "desc": "Choosing Dubai Used Furniture means partnering with one of the best shops for used furniture tables in Dubai:",
+            "list": [
+                {
+                    "key": "selection",
+                    "title": "Unmatched Selection",
+                    "desc": "Every piece is thoroughly inspected for quality."
+                },
+                {
+                    "key": "quality",
+                    "title": "Expert Quality Control",
+                    "desc": "Every piece is thoroughly inspected for quality."
+                },
+                {
+                    "key": "service",
+                    "title": "Customer-Centric Service",
+                    "desc": "Enjoy a hassle-free buying and selling experience."
+                },
+                {
+                    "key": "local",
+                    "desc": "Trusted by customers across Dubai."
+                }
+            ],
+            "extra": "Join countless satisfied customers who recognize us as one of the best places to find second-hand tables in Dubai."
+        },
+        "footerCTA": {
+            "title": {
+                "main": "Contact Us Today"
+            },
+            "desc": "Ready to upgrade your space with premium used tables in Dubai?",
+            "extra": "Call us at +971 55 123 4567 or WhatsApp us at +971 55 123 4567. Visit our showroom or browse online to explore our extensive range.",
+            "src": "/seating/contact-seating.png",
+            "alt": "Contact For Used Seating Furniture in Dubai",
+            "em": "For anyone wondering where to find affordable used tables in Dubai, look no further than Dubai Used Furniture."
+        }
+    },
+    "usedSeatingFurniturePage": {
+        "serviceHeroSection": {
+            "title": {
+                "main": "Buy & Sell Premium Used Seating Furniture,",
+                "auth": "Dubai Used Furniture"
+            },
+            "desc": "At Dubai Used Furniture, we’re your trusted partner in buying and selling high-quality used seating furniture across the UAE. Whether you’re searching for a new addition to your home or looking to offload gently used items, we offer an exclusive range of seating solutions to suit every style and budget."
+        },
+        "secondSec": {
+            "title": "Premium Inventory for Seating Furniture Buyers and Sellers",
+            "sub": "Discover Our Diverse Collection:",
+            "desc": "We take pride in our extensive inventory, carefully curated for both seating furniture buyers and sellers. Find exactly what you need and enjoy unbeatable deals on:",
+            "images": [
+                {
+                    "src": "/seating/seating-furniture-image.jpeg",
+                    "alt": "used seating furniture store image"
+                },
+                {
+                    "src": "/seating/seating-furniture-image-2.webp",
+                    "alt": "used seating furniture store image"
+                },
+                {
+                    "src": "/seating/seating-furniture-image-3.jpg",
+                    "alt": "used seating furniture store image"
+                }
+            ],
+            "boxes": [
+                {
+                    "title": "Where to Buy Used Seating Furniture in Dubai",
+                    "desc": "Visit our showroom at 'Building No.4 Moatab Bin Auf St, BuShaghara Sharjah' for top-quality used seating furniture in Dubai. Our collection features elegant used leather sofas and stylish pre-owned chairs, offering a premium used furniture market experience."
+                },
+                {
+                    "title": "Affordable Second-Hand Sofas for Sale in Abu Dhabi",
+                    "desc": "Upgrade your living space with our budget-friendly, pre-owned sofas in Abu Dhabi. We offer affordable second-hand sofas, cheap used dining chairs, and quality used sectional sofas in UAE that blend comfort with modern design."
+                },
+                {
+                    "title": "Best Places to Find Pre-Owned Chairs in Sharjah",
+                    "desc": "Discover a wide variety of pre-owned chairs in Sharjah, including gently used lounge chairs and second-hand bar stools. Enjoy quality seating options that enhance any décor and meet your style needs."
+                },
+                {
+                    "title": "Used Office Seating Furniture Dealers in UAE",
+                    "desc": "Discover a wide variety of pre-owned chairs in Sharjah, including gently used lounge chairs and second-hand bar stools. Enjoy quality seating options that enhance any décor and meet your style needs."
+                },
+                {
+                    "title": "Used Office Seating Furniture Dealers in UAE",
+                    "desc": "Outfit your office with high-quality used seating furniture from trusted dealers in UAE. Choose from high-quality pre-owned office chairs in Abu Dhabi and ergonomic chairs in UAE, supported by expert tips for buying used seating furniture."
+                },
+                {
+                    "title": "Second-Hand Recliners Available in Dubai",
+                    "desc": "Relax with our comfortable, gently used recliners available in Dubai. Our selection also includes used leather sofas, affordable pre-owned theater seating, and used rocking chairs in Abu Dhabi, all available on the best online platforms for used seating furniture in UAE."
+                }
+            ]
+        },
+        "thirdSec": {
+            "title": "Exclusive Seating Solutions – Tailored for Buyers and Sellers",
+            "desc": "At Dubai Used Furniture, we’re committed to making every transaction seamless. As both buyers and sellers, we offer:",
+            "items": [
+                {
+                    "title": "Competitive Offers & Fast Transactions",
+                    "src": "/seating/used-seating-furniture.jpg",
+                    "alt": "Collection Of Seating Furnitures",
+                    "list": [
+                        "Looking for cheap used dining chairs in Abu Dhabi or affordable used sectional sofas in UAE? Our competitive pricing ensures you always get the best value.",
+                        "Ready to sell? We’re actively looking to buy quality pieces, so find out where to sell used seating furniture in UAE with ease."
+                    ]
+                },
+                {
+                    "title": "Specialized Options for Every Need",
+                    "src": "/seating/used-office-chairs.jpg",
+                    "alt": "Used Office Chairs",
+                    "list": [
+                        "Enhance your workspace with our high-quality pre-owned office chairs in Abu Dhabi or second-hand ergonomic chairs in UAE.",
+                        "Refresh your living area with standout items such as used leather sofas for sale in Dubai, gently used lounge chairs for sale in Sharjah, and used rocking chairs available in Abu Dhabi."
+                    ]
+                },
+                {
+                    "title": "Outdoor & Entertainment Seating",
+                    "src": "/seating/used-outdoor-furniture.jpg",
+                    "alt": "Used Outdoor Furniture",
+                    "list": [
+                        "For alfresco living, check out our used outdoor seating furniture in Abu Dhabi.",
+                        "Create the perfect entertainment setup with affordable pre-owned theater seating in Dubai or add a unique flair with second-hand bar stools in Dubai."
+                    ]
+                }
+            ]
+        },
+        "serChooseUs": {
+            "title": "Why Choose Dubai Used Furniture?",
+            "desc": "There are many buyers and sellers for your used furniture, see how we are the best choice for your used furniture in Dubai!",
+            "list": [
+                {
+                    "title": "Trusted Expertise",
+                    "desc": "With years of experience, our team understands the nuances of the used furniture market. We offer personalized advice and insights—ask for our expert tips for buying used seating furniture in UAE."
+                },
+                {
+                    "title": "Quality & Reliability",
+                    "desc": "Every piece of furniture is thoroughly inspected to ensure it meets our high standards, giving you the confidence to buy or sell with us."
+                },
+                {
+                    "title": "Flexible Solutions",
+                    "desc": "Not only do we facilitate seamless transactions, but we also support sustainability. If you’re ready to part ways with your items responsibly, discover where to donate used seating furniture in Dubai."
+                },
+                {
+                    "title": "Online & In-Store Convenience",
+                    "desc": "Use our website to browse the best online platforms for used seating furniture in UAE, or visit our showroom in Dubai for a hands-on experience."
+                }
+            ]
+        },
+        "gallery": {
+            "title": "Our Used Seating Furniture Collection",
+            "desc": "Discover our diverse collection of used seating furniture, carefully selected to meet your style and budget needs.",
+            "images": [
+                "/seating/gallay-1.jpg",
+                "/seating/gallay-2.jpg",
+                "/seating/gallay-3.jpg",
+                "/seating/gallay-4.jpg",
+                "/seating/gallay-5.jpg",
+                "/seating/gallay-6.jpg",
+                "/seating/gallay-7.jpg",
+                "/seating/gallay-8.jpg",
+                "/seating/gallay-9.jpg",
+                "/seating/gallay-10.webp"
+            ]
+        },
+        "footerCTA": {
+            "title": "Ready to Transform Your Space?",
+            "desc": "Contact us today or visit our showroom to get started! Discover why discerning buyers and sellers across the UAE choose Dubai Used Furniture for all their seating needs.",
+            "src": "/seating/contact-seating.png",
+            "alt": "Contact For Used Seating Furniture in Dubai"
+        },
+        "additionalSection": {
+            "paragraphs": [
+                "At Dubai Used Furniture, we invite you to experience a world of exceptional deals in used seating furniture. Whether you’re here to buy or sell, our dedicated team is ready to help you find the perfect match for your style and budget.",
+                "Transform your space and enjoy the benefits of sustainable, cost-effective furniture with Dubai Used Furniture – your premier destination for premium used seating furniture."
+            ]
+        }
     }
 }

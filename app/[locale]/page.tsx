@@ -15,12 +15,37 @@ import { useTranslations } from "next-intl";
 
 export default function Home() {
   const t = useTranslations("cta2");
+  const g = useTranslations("getStarted");
   return (
     <>
       <main className="md:mt-24 mt-[70px]">
         <HeroSection />
         <IntroText />
-        <GetStarted />
+        <GetStarted
+          sub={g("sub")}
+          title={g("title")}
+          desc={g("desciption")}
+          lis={[
+            {
+              title: g("step1.title"),
+              desc: g("step1.description"),
+              src: "/images/call.svg",
+              alt: g("step1.alt"),
+            },
+            {
+              title: g("step2.title"),
+              desc: g("step2.description"),
+              src: "/images/evaculation.svg",
+              alt: g("step2.alt"),
+            },
+            {
+              title: g("step3.title"),
+              desc: g("step3.description"),
+              src: "/images/cash.svg",
+              alt: g("step3.alt"),
+            },
+          ]}
+        />
         <PersonText />
         <Types />
         <Services />

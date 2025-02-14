@@ -7,11 +7,15 @@ const FooterCTA = ({
   desc,
   src,
   alt,
+  extra,
+  em,
 }: {
   title: { main: string; ath?: string };
   desc: string;
   src: string;
   alt: string;
+  extra?: string;
+  em?: string;
 }) => {
   const b = useTranslations("buttons");
   return (
@@ -21,6 +25,12 @@ const FooterCTA = ({
           {title.main} <span className="md:block">{title.ath}</span>
         </h2>
         <p className="text-text md:text-xl text-lg mt-3">{desc}</p>
+        {extra && <p className="text-text md:text-xl text-lg mt-3">{extra}</p>}
+        {em && (
+          <p className="text-text md:text-lg text-base mt-3">
+            <em>{em}</em>
+          </p>
+        )}
         <div className="mt-5 flex items-center gap-x-5">
           <button className="px-5 py-2.5 bg-primary text-secondary">
             {b("whatsapp")}
