@@ -16,11 +16,12 @@ import { useTranslations } from "next-intl";
 export default function Home() {
   const t = useTranslations("cta2");
   const g = useTranslations("getStarted");
+  const i = useTranslations("intro");
   return (
     <>
       <main className="md:mt-24 mt-[70px]">
         <HeroSection />
-        <IntroText />
+        <IntroText text={i("text")} />
         <GetStarted
           sub={g("sub")}
           title={g("title")}

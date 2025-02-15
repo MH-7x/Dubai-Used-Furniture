@@ -6,7 +6,7 @@ const SerChooseUs = ({
 }: {
   title: string;
   desc: string;
-  lis: { title: string; desc: string; icon: React.ReactNode }[];
+  lis: { title: string; desc: string; icon?: React.ReactNode }[];
   extra?: string;
 }) => {
   return (
@@ -20,13 +20,22 @@ const SerChooseUs = ({
           {lis.map((li, i) => (
             <div
               key={i}
-              className="min-h-52 bg-secondary p-8 flex items-start justify-start flex-col gap-y-4"
+              className={`${
+                li.icon && "min-h-52"
+              } bg-secondary p-8 flex items-start justify-start flex-col gap-y-4`}
             >
-              <div className="w-20 h-20 border flex items-center justify-center text-primary border-primary rounded-full">
-                {li.icon}
-              </div>
+              {li.icon && (
+                <div className="w-20 h-20 border flex items-center justify-center text-primary border-primary rounded-full">
+                  {li.icon}
+                </div>
+              )}
               <h3 className="text-xl text-primary">{li.title}</h3>
               <p className="text-text ">{li.desc}</p>
+              {!li.icon && (
+                <button className="py-2.5 text-primary border-b border-primary mt-3 con">
+                  WHATSAPP US
+                </button>
+              )}
             </div>
           ))}
         </ul>
