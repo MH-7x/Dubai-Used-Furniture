@@ -23,7 +23,7 @@ const ThirdSec = ({
 }) => {
   const locale = useLocale();
   return (
-    <section className="con mt-32">
+    <section className="con mt-40 md:px-0 px-3">
       <h2 className="max-w-2xl md:text-3xl mx-auto text-2xl text-center text-primary">
         {title}
       </h2>

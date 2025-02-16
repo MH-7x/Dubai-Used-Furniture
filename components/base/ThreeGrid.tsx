@@ -10,7 +10,7 @@ const ThreeGrid = ({
   list: { title: string; desc: string }[];
 }) => {
   return (
-    <section className="mt-40 con min-h-screen ">
+    <section className="mt-40 con md:px-0 px-3 ">
       <h2 className="md:text-3xl text-2xl text-primary text-center">{title}</h2>
       <p className="max-w-4xl mx-auto text-center text-text text-lg/5 mt-4">
         {desc}

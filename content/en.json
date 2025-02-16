@@ -768,5 +768,272 @@
                 "Transform your space and enjoy the benefits of sustainable, cost-effective furniture with Dubai Used Furniture – your premier destination for premium used seating furniture."
             ]
         }
+    },
+    "usedSleepingFurniturePage": {
+        "serviceHeroSection": {
+            "title": {
+                "main": "Used Sleeping Furniture in Dubai,",
+                "auth": "Used Beds, Mattresses & More"
+            },
+            "desc": "Welcome to Dubai Used Furniture, your trusted marketplace for buying and selling premium quality used sleeping furniture in Dubai. Whether you’re on the lookout for used bedroom furniture Dubai, second-hand beds Dubai, pre-owned mattresses Dubai, or used bed frames Dubai, our extensive collection is designed to meet every need and budget. We also proudly offer second-hand sleeping furniture in Dubai, UAE to ensure that quality and affordability are accessible across the region."
+        },
+        "introText": "Our mission is simple: to connect you with the best pre-owned sleeping furniture available, while making the buying and selling process as smooth and transparent as possible. Read on to discover our diverse range of products, learn about our strict quality standards, and find out how we serve every corner of Dubai.",
+        "thirdSec": {
+            "title": "Our Extensive Range of Used Sleeping Furniture",
+            "desc": "At Dubai Used Furniture, we offer a broad spectrum of sleeping furniture that caters to various tastes and requirements. Our carefully curated inventory includes:",
+            "items": [
+                {
+                    "title": "Specific Furniture Items",
+                    "src": "/beds/used-king-side-bed.webp",
+                    "alt": "Used King Side Beds In Dubai",
+                    "lis": [
+                        {
+                            "title": "Used king-size beds Dubai",
+                            "desc": "Ideal for those who desire spacious and comfortable sleeping arrangements."
+                        },
+                        {
+                            "title": "Second-hand bunk beds Dubai",
+                            "desc": "Perfect for families with children or shared living spaces."
+                        },
+                        {
+                            "title": "Pre-owned sofa beds Dubai",
+                            "desc": "Combining style, space efficiency, and multifunctional design."
+                        },
+                        {
+                            "title": "Used single beds Dubai",
+                            "desc": "An excellent choice for compact rooms or guest accommodations."
+                        },
+                        {
+                            "title": "Second-hand futons Dubai",
+                            "desc": "Trendy, space-saving solutions for modern urban living."
+                        }
+                    ]
+                },
+                {
+                    "title": "Related Accessories",
+                    "desc": "Complete your bedroom setup with our range of complementary accessories:",
+                    "src": "/beds/beds-related-accessories.webp",
+                    "alt": "Used Beds Related Accessories in Dubai",
+                    "lis": [
+                        {
+                            "title": "Used bedside tables Dubai",
+                            "desc": "Stylish and functional bedside tables at budget-friendly prices."
+                        },
+                        {
+                            "title": "Second-hand wardrobes Dubai",
+                            "desc": "Spacious and durable wardrobes to organize your clothes affordably."
+                        },
+                        {
+                            "title": "Pre-owned dressers Dubai",
+                            "desc": "Elegant and practical dressers to enhance your bedroom storage."
+                        },
+                        {
+                            "title": "Used nightstands Dubai",
+                            "desc": "Convenient nightstands for easy access to essentials."
+                        },
+                        {
+                            "title": "Second-hand bedding Dubai",
+                            "desc": "Comfortable and quality bedding options at great value."
+                        }
+                    ]
+                }
+            ]
+        },
+        "extra1": {
+            "desc": "Our inventory isn’t limited to just these items. We also feature a variety of products addressing specific needs such as:",
+            "list": [
+                "Where to buy used king-size beds in Dubai for those seeking a luxurious sleep experience.",
+                "Affordable second-hand bunk beds for kids in Dubai to create fun and safe sleeping spaces.",
+                "Gently used memory foam mattresses available in Dubai for ultimate comfort and support.",
+                "Pre-owned adjustable bed frames for sale in Dubai that adapt to your lifestyle.",
+                "Second-hand wooden bed frames in Dubai offering a timeless aesthetic with durability."
+            ]
+        },
+        "threeGrid": {
+            "title": "Quality You Can Trust",
+            "desc": "We understand that purchasing used furniture requires assurance of quality and condition. At Dubai Used Furniture, we maintain high standards through rigorous quality checks. Our offerings include:",
+            "list": [
+                {
+                    "title": "Gently Used Beds Dubai",
+                    "desc": "Each piece is inspected to ensure minimal wear and maximum functionality."
+                },
+                {
+                    "title": "High-quality second-hand mattresses Dubai",
+                    "desc": "Enjoy the comfort of premium mattresses without the premium price."
+                },
+                {
+                    "title": "Luxury pre-owned beds Dubai",
+                    "desc": "For those who desire a touch of elegance in their sleeping spaces."
+                },
+                {
+                    "title": "Lightly used sleeping furniture Dubai",
+                    "desc": "Combining the benefits of pre-owned value with near-new quality."
+                },
+                {
+                    "title": "Like-new used beds Dubai",
+                    "desc": "that perform as if they were fresh off the showroom floor."
+                },
+                {
+                    "title": "Gently used mattresses for sale in Dubai",
+                    "desc": "that have been maintained to ensure your comfort."
+                },
+                {
+                    "title": "Well-maintained second-hand bedroom furniture Dubai",
+                    "desc": "crafted to meet the demands of everyday use."
+                },
+                {
+                    "title": "Barely used sleeping furniture Dubai",
+                    "desc": "that offers you the best in both durability and style."
+                },
+                {
+                    "title": "Almost new pre-owned beds Dubai",
+                    "desc": "available at prices that make luxury affordable."
+                }
+            ]
+        },
+        "extra2": {
+            "desc": "For those seeking detailed assurances, our collection also features:",
+            "list": [
+                "High-quality used bedroom furniture sets in Dubai that combine aesthetics and functionality.",
+                "Certified pre-owned sleeping furniture dealers in Dubai ensuring every piece meets strict quality benchmarks.",
+                "Top-rated used bed frames in Dubai praised by customers for their reliability and design."
+            ]
+        },
+        "serChooseUs": {
+            "title": "Serving All Areas of Dubai",
+            "desc": "We proudly serve customers throughout Dubai, ensuring that no matter where you are, you can enjoy quality used sleeping furniture at unbeatable prices. Our service areas include:",
+            "lis": [
+                {
+                    "title": "Used sleeping furniture in Dubai Marina",
+                    "desc": "Perfect for the bustling urban lifestyle."
+                },
+                {
+                    "title": "Second-hand beds in Jumeirah Dubai",
+                    "desc": "Bringing comfort to one of Dubai’s most vibrant communities."
+                },
+                {
+                    "title": "Pre-owned mattresses in Downtown Dubai",
+                    "desc": "Convenient for city dwellers looking for quality sleep solutions."
+                },
+                {
+                    "title": "Used bedroom furniture in Deira Dubai",
+                    "desc": "Offering a blend of tradition and modernity."
+                },
+                {
+                    "title": "Second-hand sleeping furniture in Bur Dubai",
+                    "desc": "Serving an eclectic and diverse market."
+                }
+            ],
+            "extra": "We ensure that our offerings are easily accessible whether you search for used sleeping furniture stores in Dubai Marina or second-hand beds for sale in Jumeirah Dubai. No matter where you are in the city, our products and services are just a click away."
+        },
+        "gallery": {
+            "title": "Used Sleeping Furniture, beds Collection",
+            "desc": "Explore our premium collection of used sleeping furniture and beds in Dubai, offering comfort, durability, and affordability for a restful night's sleep.",
+            "images": [
+                "/tables/gallery-1.jpg",
+                "/tables/gallery-2.jpg",
+                "/tables/gallery-3.jpg",
+                "/tables/gallery-4.jpg",
+                "/tables/gallery-5.jpg",
+                "/tables/gallery-6.jpg",
+                "/tables/gallery-7.jpg",
+                "/tables/gallery-8.jpg",
+                "/tables/gallery-9.jpg"
+            ]
+        },
+        "twoGrid": {
+            "title": "How to Buy or Sell Your Furniture with Us",
+            "desc": "Our process is designed with simplicity and efficiency in mind, catering to both buyers and sellers.",
+            "sideOne": {
+                "title": "For Buyers",
+                "desc": [
+                    "If you’re wondering where to buy used beds in Dubai, our website provides a user-friendly browsing experience. You can filter by product type, condition, location, and price, making it easier than ever to find exactly what you need.",
+                    "Whether it’s discovering the best places to find second-hand beds in Dubai or taking advantage of affordable used mattresses for sale in Dubai, we have a solution that fits your requirements."
+                ],
+                "src": "/beds/used-beds-buyers.jpg",
+                "alt": "used beds buyers in dubai"
+            },
+            "sideTwo": {
+                "title": "For Sellers",
+                "desc": [
+                    "Looking to upgrade or simply declutter? Sell your unwanted items easily on our platform. We offer competitive rates and a hassle-free process to help you sell used bedroom furniture in Dubai.",
+                    "Our goal is to ensure that every piece finds a new home where it’s valued just as much as it was before."
+                ],
+                "src": "/beds/used-beds-sellers.jpg",
+                "alt": "used beds sellers in dubai"
+            }
+        },
+        "extra3": {
+            "desc": "In addition, our platform frequently features attractive offers and seasonal promotions, including:",
+            "list": [
+                "Used sleeping furniture deals Dubai that make buying or selling even more rewarding.",
+                "Special mentions like used beds under AED 1000 in Dubai for budget-conscious shoppers."
+            ]
+        },
+        "content": {
+            "title": "Special Deals on Used Sleeping Furniture",
+            "desc": "Take advantage of our exclusive deals and limited-time offers that make quality used furniture more affordable than ever.",
+            "sub1": "Our special deals include:",
+            "sub2": "For those looking to get the best value, we highlight:",
+            "first": [
+                {
+                    "title": "Cheap used beds Dubai",
+                    "desc": "Discover a wide range of affordable used beds in Dubai that blend style, comfort, and quality. Perfect for budget-conscious shoppers, our collection ensures you enjoy a peaceful night’s sleep without compromising on durability or design."
+                },
+                {
+                    "title": "Affordable second-hand mattresses Dubai",
+                    "desc": "Explore our carefully selected second-hand mattresses in Dubai, designed for optimal support and comfort. Each mattress is quality-checked to provide an economical and sustainable sleep solution that fits your lifestyle."
+                },
+                {
+                    "title": "Budget-friendly used bedroom furniture Dubai",
+                    "desc": "Transform your space with budget-friendly used bedroom furniture in Dubai. Our curated pieces offer a perfect mix of elegance and functionality, making it simple to furnish your home stylishly without overspending."
+                },
+                {
+                    "title": "Low-cost pre-owned beds Dubai",
+                    "desc": "Upgrade your sleep environment with our low-cost pre-owned beds in Dubai. Each bed is thoroughly inspected to ensure top-notch comfort and longevity, providing a smart, eco-friendly alternative to new furniture at unbeatable prices."
+                },
+                {
+                    "title": "Discounted used sleeping furniture Dubai",
+                    "desc": "Take advantage of exclusive offers on discounted used sleeping furniture in Dubai. Our diverse selection features stylish beds and sleep essentials that combine great value with lasting quality, perfect for revamping your bedroom on a budget."
+                }
+            ],
+            "second": [
+                {
+                    "title": "Unbeatable Deals on Quality Used Beds in Dubai",
+                    "desc": "Discover our handpicked selection of quality used beds in Dubai that offer unbeatable savings without compromising on comfort. Each bed is carefully inspected to ensure durability and style, making it the perfect solution for anyone seeking a restful night’s sleep on a budget."
+                },
+                {
+                    "title": "Budget-Friendly Second-Hand Mattresses in Dubai",
+                    "desc": "Explore our range of cheap second-hand mattresses in Dubai, designed to suit every budget without sacrificing comfort. Our mattresses undergo strict quality checks to guarantee a supportive sleep experience, ensuring you enjoy a healthy sleep cycle at an affordable price."
+                },
+                {
+                    "title": "Discounted Used Bedroom Furniture in Dubai for Smart Shoppers",
+                    "desc": "Revamp your living space with our discounted used bedroom furniture in Dubai. Ideal for customers seeking cost-effective solutions, our curated collection combines style and functionality, ensuring you create a comfortable and chic bedroom without overspending."
+                },
+                {
+                    "title": "Affordable Pre-Owned Sleeping Furniture in Dubai with Style",
+                    "desc": "Upgrade your bedroom with our affordable pre-owned sleeping furniture in Dubai that doesn’t compromise on style. Our selection features modern designs and quality craftsmanship, offering a stylish and comfortable sleep environment at a fraction of the cost of new furniture."
+                },
+                {
+                    "title": "Value-Packed Used Beds Under AED 1000 in Dubai",
+                    "desc": "Experience unbeatable value with our selection of used beds under AED 1000 in Dubai. Tailored for budget-conscious shoppers, each bed offers exceptional comfort and quality, making it a smart choice for those looking for reliable sleep solutions without breaking the bank."
+                }
+            ]
+        },
+        "footerCTA": {
+            "src": "/seating/contact-seating.png",
+            "alt": "Contact For Used Beds in Dubai",
+            "title": {
+                "main": "Get Started Today"
+            },
+            "desc": "Don’t wait to transform your sleeping space or clear out unwanted items – take the next step today. Contact us to get more information, request a quote, or start your selling process."
+        },
+        "closingSection": {
+            "paragraphs": [
+                "At Dubai Used Furniture, we’re dedicated to offering you the finest selection of pre-owned sleeping furniture while ensuring a seamless buying and selling experience.",
+                "Whether you’re ready to buy used furniture like second-hand beds Dubai and pre-owned mattresses Dubai, or you’re interested in selling used bedroom furniture Dubai to earn extra cash, our platform is your one-stop solution.",
+                "Your journey to a better, more cost-effective bedroom begins here. Shop smart, save money, and experience the best in second-hand sleeping furniture UAE today!"
+            ]
+        }
     }
 }
