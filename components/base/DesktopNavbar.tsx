@@ -125,7 +125,7 @@ const DesktopNavbar = () => {
                 },
                 {
                   title: `${l("services.ser8")} ${l("services.buySell")}`,
-                  link: "#",
+                  link: "/used-storage-furniture",
                 },
                 {
                   title: `${l("services.ser9")} ${l("services.buySell")}`,

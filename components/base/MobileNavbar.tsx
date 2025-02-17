@@ -1,16 +1,12 @@
 "use client";
 import { Link } from "@/i18n/routing";
-import {
-  RiAddLine,
-  RiMenu3Fill,
-  RiPhoneFill,
-  RiSearchLine,
-} from "@remixicon/react";
+import { RiAddLine, RiMenu3Fill, RiPhoneFill } from "@remixicon/react";
 import { useLocale, useTranslations } from "next-intl";
 import React, { useEffect, useState } from "react";
 import logo from "../../public/image001.png";
 import Image from "next/image";
 import AddressBox from "../AddressBox";
+import SearchLayout from "../SearchLayout";
 const MobileNavbar = () => {
   const locale = useLocale();
 
@@ -82,9 +78,7 @@ const MobileNavbar = () => {
           />
         </div>
         <div className="flex gap-x-2">
-          <button className="w-8 h-8 flex items-center justify-center  text-secondary">
-            <RiSearchLine className="w-5 h-5" />
-          </button>
+          <SearchLayout />
           <AddressBox />
 
           <input type="checkbox" id="menu-toggle" className="peer hidden" />
@@ -106,7 +100,10 @@ export default MobileNavbar;
 
 const Sidebar = () => {
   const l = useTranslations("NavList");
-
+  const closeSidebar = () => {
+    const checkbox = document.getElementById("menu-toggle") as HTMLInputElement;
+    if (checkbox) checkbox.checked = false;
+  };
   return (
     <div className="sidebar scrollbar-thin scrollbar-thumb-accent scrollbar-track-primary">
       {/* Close Button */}
@@ -128,17 +125,40 @@ const Sidebar = () => {
             <span>{l("services.title")}</span>
             <RiAddLine className="transition-transform peer-checked:rotate-45" />
           </label>
-          <DropDonw
+          <DropDown
             list={[
-              `${l("services.ser1")} ${l("services.buySell")}`,
-              `${l("services.ser2")} ${l("services.buySell")}`,
-              `${l("services.ser3")} ${l("services.buySell")}`,
-
-              `${l("services.ser5")} ${l("services.buySell")}`,
-              `${l("services.ser6")} ${l("services.buySell")}`,
-              `${l("services.ser7")} ${l("services.buySell")}`,
-              `${l("services.ser8")} ${l("services.buySell")}`,
-              `${l("services.ser9")} ${l("services.buySell")}`,
+              {
+                title: `${l("services.ser1")} ${l("services.buySell")}`,
+                link: "#",
+              },
+              {
+                title: `${l("services.ser2")} ${l("services.buySell")}`,
+                link: "#",
+              },
+              {
+                title: `${l("services.ser3")} ${l("services.buySell")}`,
+                link: "#",
+              },
+              {
+                title: `${l("services.ser5")} ${l("services.buySell")}`,
+                link: "/used-seating-furniture",
+              },
+              {
+                title: `${l("services.ser6")} ${l("services.buySell")}`,
+                link: "/used-table-furniture",
+              },
+              {
+                title: `${l("services.ser7")} ${l("services.buySell")}`,
+                link: "/used-sleeping-furniture",
+              },
+              {
+                title: `${l("services.ser8")} ${l("services.buySell")}`,
+                link: "/used-storage-furniture",
+              },
+              {
+                title: `${l("services.ser9")} ${l("services.buySell")}`,
+                link: "#",
+              },
             ]}
           />
         </li>
@@ -157,40 +177,75 @@ const Sidebar = () => {
             <span>{l("locations.title")}</span>
             <RiAddLine className="transition-transform peer-checked:rotate-45" />
           </label>
-          <DropDonw
+          <DropDown
             list={[
-              `${l("locations.usedFurniture")} ${l("locations.loc1")}`,
-              `${l("locations.usedFurniture")} ${l("locations.loc2")}`,
-              `${l("locations.usedFurniture")} ${l("locations.loc3")}`,
-
-              `${l("locations.usedFurniture")} ${l("locations.loc5")}`,
-              `${l("locations.usedFurniture")} ${l("locations.loc6")}`,
-              `${l("locations.usedFurniture")} ${l("locations.loc7")}`,
+              {
+                title: `${l("locations.usedFurniture")} ${l("locations.loc1")}`,
+                link: "#",
+              },
+              {
+                title: `${l("locations.usedFurniture")} ${l("locations.loc2")}`,
+                link: "#",
+              },
+              {
+                title: `${l("locations.usedFurniture")} ${l("locations.loc3")}`,
+                link: "#",
+              },
+              {
+                title: `${l("locations.usedFurniture")} ${l("locations.loc5")}`,
+                link: "#",
+              },
+              {
+                title: `${l("locations.usedFurniture")} ${l("locations.loc6")}`,
+                link: "#",
+              },
+              {
+                title: `${l("locations.usedFurniture")} ${l("locations.loc7")}`,
+                link: "#",
+              },
             ]}
           />
         </li>
 
         {/* OTHER LINKS */}
         <li className="border-b border-accent/50 mb-2 pl-4 py-2">
-          <Link href={"#"}>{l("aboutUs")}</Link>
+          <Link onClick={closeSidebar} href={"#"}>
+            {l("aboutUs")}
+          </Link>
         </li>
         <li className="border-b border-accent/50 mb-2 pl-4 py-2">
-          <Link href={"#"}>{l("contactUs")}</Link>
+          <Link onClick={closeSidebar} href={"#"}>
+            {l("contactUs")}
+          </Link>
         </li>
         <li className="border-b border-accent/50 mb-2 pl-4 py-2">
-          <Link href={"#"}> {l("blogs")}</Link>
+          <Link onClick={closeSidebar} href={"#"}>
+            {" "}
+            {l("blogs")}
+          </Link>
         </li>
       </ul>
     </div>
   );
 };
 
-const DropDonw = ({ list }: { list: string[] }) => {
+const DropDown = ({ list }: { list: { title: string; link: string }[] }) => {
+  const closeSidebar = () => {
+    const checkbox = document.getElementById("menu-toggle") as HTMLInputElement;
+    if (checkbox) checkbox.checked = false;
+  };
+
   return (
     <ul className="hidden peer-checked:block pl-6 pb-2 space-y-2 text-sm text-accent/90 font-light">
       {list.map((item) => (
-        <li key={item} title={item}>
-          {item}
+        <li key={item.title} title={item.title}>
+          <Link
+            className="border-b pb-0.5 px-1 border-secondary/30"
+            href={item.link}
+            onClick={closeSidebar} // Close sidebar on link click
+          >
+            {item.title}
+          </Link>
         </li>
       ))}
     </ul>
