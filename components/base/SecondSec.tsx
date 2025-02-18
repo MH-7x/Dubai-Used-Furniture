@@ -28,7 +28,7 @@ const SecondSec = ({
           )}
           <p className="text-lg text-text mt-3">{desc}</p>
           {lis && lis.length > 0 && (
-            <ul className="mt-3 list-disc ml-5 text-text md:text-lg/5">
+            <ul className="mt-3 list-disc ml-5 text-text">
               {lis.map((li, i) => (
                 <li className="mb-2" key={i}>
                   <strong className="block text-secondary">{li.title}</strong>

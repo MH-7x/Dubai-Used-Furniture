@@ -31,16 +31,11 @@ const SerChooseUs = ({
               )}
               <h3 className="text-xl text-primary">{li.title}</h3>
               <p className="text-text ">{li.desc}</p>
-              {!li.icon && (
-                <button className="py-2.5 text-primary border-b border-primary mt-3 con">
-                  WHATSAPP US
-                </button>
-              )}
             </div>
           ))}
         </ul>
         {extra && (
-          <p className="mt-10 font-light text-center text-lg text-accent">
+          <p className="mt-10 font-light max-w-3xl mx-auto text-center text-lg text-accent">
             <em>{extra}</em>
           </p>
         )}

@@ -50,7 +50,7 @@ const GetStarted = ({
         ))}
       </ul>
       {extra && (
-        <p className="mt-5 text-lg text-text text-center">
+        <p className="mt-5 text-lg max-w-3xl mx-auto text-text text-center">
           <em>{extra}</em>
         </p>
       )}

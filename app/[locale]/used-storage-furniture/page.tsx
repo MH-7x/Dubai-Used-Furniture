@@ -152,7 +152,7 @@ const UsedStorageFurniturePage: React.FC = () => {
         desc={t("FooterCTA.desc")}
         extra={t("FooterCTA.extra")}
         src="/seating/contact-seating.png"
-        alt="vfvfv"
+        alt="Contact For Used Storage Furniture"
       />
 
       {/* Closing Section */}

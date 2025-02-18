@@ -1219,5 +1219,255 @@
             "p2": "Connect with us today and discover why so many customers trust us for their used furniture needs.",
             "p3": "Experience a seamless, eco-friendly, and budget-conscious way to furnish your home or office. Visit our website and start shopping or selling today!"
         }
+    },
+    "UsedHomeAppliancePage": {
+        "serviceHeroSection": {
+            "title": {
+                "main": "Used Home Appliances in Dubai,",
+                "auth": "Buy & Sell Used Home Appliances Easy"
+            },
+            "desc": "When you buy used home appliances from Dubai Used Furniture, you'll be satisfied with great quality. You'll interact with professional, reliable sellers and buyers. Choose from a wide range of reputed home appliances from different brands and manufacturers. Sellers can also list their items on our trusted marketplace. With us, you get the right balance between quality and price. Our endorsement is based on integrity, reasonable pricing, and loyal customer service so you don’t have to look anywhere else for appliances."
+        },
+        "getStarted": {
+            "title": "Why Choose Used Home Appliances in Dubai?",
+            "desc": "Getting second-hand home appliances in Dubai is a smart way to have the best brands at a low price. Our appliances are carefully inspected and then refurbished.",
+            "sub": "Why Choose Us",
+            "lis": [
+                {
+                    "title": "Cost Savings:",
+                    "desc": "Enjoy significant discounts compared to new appliances.",
+                    "src": "/appliance/Cost-Savings.svg",
+                    "alt": "Cost Savings icon"
+                },
+                {
+                    "title": "Eco-Friendly Choices",
+                    "desc": "Reduce waste by giving pre-owned appliances a second life.",
+                    "src": "/appliance/Eco-Friendly-Choices.svg",
+                    "alt": "Eco-Friendly Choices icon"
+                },
+                {
+                    "title": "Quality Assurance",
+                    "desc": "Every product is thoroughly inspected and, if needed, refurbished to meet high quality standards.",
+                    "src": "/appliance/Quality-Assurance.svg",
+                    "alt": "Quality Assurance icon"
+                }
+            ],
+            "extra": "Each component is repaired to the highest standard, making it run as smoothly as new. Additionally, when you purchase from us, you will get:"
+        },
+        "footerCTA": {
+            "title": {
+                "main": "Trusted by Buyers and Sellers Alike"
+            },
+            "desc": "At Dubai Used Furniture, we ensure trust in the used appliance market with transparency and quality-checked inventory. Whether you're buying affordable used home appliances in Dubai or selling pre-owned items, we guarantee the best service and value. Our dedication to quality has made us a trusted name in second-hand home appliances across Dubai and the UAE.",
+            "src": "/appliance/chair-cta.png",
+            "alt": "Let Contact With Dubai Used Furniture"
+        },
+        "thirdSec": {
+            "title": "Our Range of Used Home Appliances",
+            "desc": "We present you an extensive range of used home appliances to fulfill your home requirements. Discover our categories below:",
+            "items": [
+                {
+                    "title": "Refrigerators",
+                    "src": "/appliance/used-refrigerators.webp",
+                    "alt": "Used Refrigerators in Dubai",
+                    "lis": [
+                        {
+                            "title": "Buy Used Refrigerator in Dubai:",
+                            "desc": "Find top-quality options including used Samsung refrigerators in Dubai. Each unit is inspected for performance and energy efficiency."
+                        },
+                        {
+                            "title": "Pre-Owned and Certified Models:",
+                            "desc": "Our refrigerators are certified pre-owned, ensuring reliability and longevity."
+                        }
+                    ]
+                },
+                {
+                    "title": "Washing Machines",
+                    "src": "/appliance/used-washing-machines.jpg",
+                    "alt": "Used Washing Machines in Dubai",
+                    "lis": [
+                        {
+                            "title": "Second-Hand Washing Machine in UAE:",
+                            "desc": "Our washing machines combine performance with affordability. From pre-owned LG washing machines in Dubai to other trusted brands, you can rest assured you’re getting a great deal."
+                        },
+                        {
+                            "title": "Energy Efficient Options:",
+                            "desc": "Save on utility bills with our energy-efficient models."
+                        }
+                    ]
+                },
+                {
+                    "title": "Air Conditioners",
+                    "src": "/appliance/used-air-conditioners.jpg",
+                    "alt": "Used Air Conditioners in Dubai",
+                    "lis": [
+                        {
+                            "title": "Used Air Conditioner for Sale in Dubai:",
+                            "desc": "Stay cool during the hot months with our range of tested and certified air conditioners. We offer models that are both powerful and budget-friendly."
+                        }
+                    ]
+                },
+                {
+                    "title": "Microwave Ovens",
+                    "src": "/appliance/used-microwave-ovens.webp",
+                    "alt": "Used Microwave Ovens In Dubai",
+                    "lis": [
+                        {
+                            "title": "Cheap Microwave Oven in UAE:",
+                            "desc": "Enjoy quick and easy meal preparations with our selection of pre-owned microwave ovens that perform like new without breaking the bank."
+                        }
+                    ]
+                },
+                {
+                    "title": "Dishwashers",
+                    "src": "/appliance/used-dishwasher.jpg",
+                    "alt": "Used Dishwashers in dubai",
+                    "lis": [
+                        {
+                            "title": "Pre-Owned Dishwasher in Dubai:",
+                            "desc": "Clean up in style with our reliable dishwashers, including popular brands like second-hand Bosch dishwashers in UAE. Each appliance is inspected to ensure it meets our high standards."
+                        }
+                    ]
+                }
+            ]
+        },
+        "serChooseUsBuy": {
+            "title": "How to Buy Used Home Appliances in Dubai",
+            "desc": "Our easy, step-by-step process makes it simple to purchase your next appliance:",
+            "lis": [
+                {
+                    "title": "Browse Our Inventory",
+                    "desc": "Start by exploring our website for used home appliances in Dubai. Use our filters to quickly find what you need, whether it's a used refrigerator, washing machine, or air conditioner."
+                },
+                {
+                    "title": "Check Appliance Details:",
+                    "desc": "Each product page provides detailed specifications, images, and information on the appliance’s refurbishment and warranty. Look out for phrases like verified second-hand appliances UAE and affordable used appliances in Dubai."
+                },
+                {
+                    "title": "Contact Our Experts:",
+                    "desc": "If you have any questions, our customer service team is ready to assist. Simply click on the 'Whatsapp Us' or 'Contact Us' button for immediate support."
+                },
+                {
+                    "title": "Schedule a Viewing or Purchase:",
+                    "desc": "For those who wish to inspect the appliance in person, arrange a visit to our showroom. We also offer door-to-door delivery services in Dubai and the wider UAE."
+                }
+            ],
+            "extra": "Pro Tip: For those searching 'where to buy cheap used washing machines in Dubai,' our user-friendly search and detailed product pages make finding the best deals effortless."
+        },
+        "gallery": {
+            "title": "Our Used Home Appliances Collection",
+            "desc": "View our used home appliance collection carefully and select the one that suits your home",
+            "images": [
+                "/appliance/gallery-1.jpg",
+                "/appliance/gallery-2.jpg",
+                "/appliance/gallery-3.jpg",
+                "/appliance/gallery-4.jpg",
+                "/appliance/gallery-5.jpg",
+                "/appliance/gallery-6.jpg",
+                "/appliance/gallery-7.jpg"
+            ]
+        },
+        "secondSec": {
+            "title": "Sell Your Used Home Appliances with Confidence",
+            "desc": "Looking to sell second-hand home appliances in Dubai? Dubai Used Furniture offers a secure, user-friendly platform to sell your used goods. Here’s how registered users can get started:",
+            "images": [
+                {
+                    "src": "/appliance/used-home-appliance-1.jpg",
+                    "alt": "Buy & Sell Used Home Appliance in Dubai"
+                },
+                {
+                    "src": "/appliance/used-home-appliance-2.webp",
+                    "alt": "Affordable Used Home Appliance in UAE"
+                },
+                {
+                    "src": "/appliance/used-home-appliance-3.webp",
+                    "alt": "All Kind Of Home Appliance for Buy and Sell"
+                }
+            ],
+            "lis": [
+                {
+                    "title": "Easy Listing Process:",
+                    "desc": "Send the appliance information you have to the available WhatsApp number."
+                },
+                {
+                    "title": "Competitive Pricing:",
+                    "desc": "Our customers receive quotes that consider current market trends, ensuring they pay the lowest price for the appliance they no longer need."
+                },
+                {
+                    "title": "Transparent Transactions",
+                    "desc": "Trust and clarity are the main qualities of our platform, making us the most reliable place in Dubai to buy used appliances."
+                },
+                {
+                    "title": "Wider Audience Reach:",
+                    "desc": "By connecting with us, your appliance gains access to a broad audience in Dubai and across the UAE, as well as potential buyers searching for affordable refurbished appliances in Dubai."
+                }
+            ],
+            "extra": "For sellers looking to sell a used LG dishwasher in Abu Dhabi or other specific appliances, our specialized service ensures you connect with the right buyers quickly."
+        },
+        "serChooseUsQuality": {
+            "title": "Our Commitment to Quality & Trust",
+            "desc": "At Dubai Used Furniture, quality and trust are at the heart of everything we do. Our rigorous inspection and refurbishment processes guarantee that every appliance meets high standards. Here’s what sets us apart:",
+            "lis": [
+                {
+                    "title": "Certified Pre-Owned Appliances",
+                    "desc": "Every product is certified, offering you peace of mind with your purchase."
+                },
+                {
+                    "title": "Warranty & After-Sales Support",
+                    "desc": "We offer warranties and support on many of our appliances, ensuring long-term satisfaction."
+                },
+                {
+                    "title": "Customer Testimonials",
+                    "desc": "Our growing list of happy customers stands as a testament to our dedication. Look out for reviews and success stories from customers who have benefited from our affordable used appliances in Dubai."
+                },
+                {
+                    "title": "Sustainability Commitment",
+                    "desc": "We contribute to sustainability by reducing waste and promoting the reuse of quality appliances. Our happy customers’ reviews speak for our dedication."
+                }
+            ],
+            "extra": "Our commitment extends beyond selling. We believe in building long-lasting relationships with our customers, whether you’re a first-time buyer or a seasoned seller."
+        },
+        "faqs": {
+            "items": [
+                {
+                    "question": "How do I know if the used appliance is in good condition?",
+                    "answer": "Every appliance undergoes a strict inspection and refurbishment process. We test functionality and performance before certifying it for sale. Additionally, detailed product descriptions and warranties provide further assurance."
+                },
+                {
+                    "question": "What warranties do you offer on used home appliances?",
+                    "answer": "Depending on the appliance and brand, we offer various warranty options. Check each product page for warranty details. We aim to provide support similar to new appliance purchases."
+                },
+                {
+                    "question": "How can I sell my used appliance quickly?",
+                    "answer": "Simply list your appliance with us through our streamlined online process. Our platform is designed to connect you with interested buyers swiftly. If you need assistance, our dedicated support team is available every step of the way."
+                },
+                {
+                    "question": "Where can I buy cheap used washing machines in Dubai?",
+                    "answer": "Our online inventory features a range of competitively priced options. Use our filters to compare prices and features, ensuring you find the best deal for your needs."
+                },
+                {
+                    "question": "Are your used electronics and appliances backed by a warranty?",
+                    "answer": "Yes, many of our appliances, including used electronics, come with warranty options for added security and peace of mind."
+                }
+            ]
+        },
+        "footerCTALast": {
+            "title": {
+                "main": "Contact Us Today"
+            },
+            "desc": "Ready to upgrade your home with quality, affordable used home appliances in Dubai? Whether you’re looking to buy or sell, Dubai Used Furniture is here to help.",
+            "extra": "Experience hassle-free buying and selling with a team dedicated to quality, transparency, and customer satisfaction.",
+            "src": "/seating/contact-seating.png",
+            "alt": "Contact For Used Storage Furniture"
+        },
+        "extra": {
+            "desc": "At Dubai Used Furniture, we’re more than just a marketplace – we’re your partners in making smart, sustainable choices for your home appliances. Explore our collection today and discover why we’re the trusted name in used home appliances in Dubai and beyond.",
+            "list": [
+                "Call Us: +971 55 123 4567, +971 55 123 4567",
+                "Visit Our Showroom: Building No.4 Moatab Bin Auf St, Bu Shaghara Sharjah",
+                "Email: dubaiusedfurniture@gmail.com",
+                "Online Inquiry: Go to Contact Us Page"
+            ]
+        }
     }
 }
