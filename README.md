@@ -31,4 +31,52 @@ Whether you're in Dubai or Abu Dhabi, our platform is your go-to resource for al
 For more information on how to
 
 ## Company Description
+
 Dubai Used Furniture is a trusted buyer and seller of high-quality pre-owned furniture in Dubai, UAE. We specialize in a diverse range of furniture for residential, office, and hotel settings, offering competitive pricing and exceptional customer service. Whether you're looking to upgrade your space or sell your current pieces, you can rely on us for sustainable, affordable, and stylish solutions.
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Almarai", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.con {
+  @apply md:w-11/12 w-full mx-auto;
+}
+
+input {
+  direction: ltr;
+}
+
+address {
+  font-style: normal;
+}
+
+.sidebar {
+  @apply fixed top-0 right-0 z-[999] w-72 h-screen bg-primary text-accent shadow-lg translate-x-full peer-checked:translate-x-0 transition-transform duration-300 ease-in-out overflow-y-auto;
+}
+
+button {
+  direction: ltr;
+}
+
+h2 {
+  @apply font-bold;
+}
+
+.input {
+  @apply block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-accent border border-gray-200  focus:border-secondary focus:ring-secondary/40 focus:outline-none focus:ring focus:ring-opacity-40;
+}
+
+.bg-pattren {
+  @apply absolute  inset-0 bg-[radial-gradient(#ffffff22_1px,transparent_2px)] bg-[size:16px_16px];
+}
