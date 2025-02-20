@@ -31,7 +31,7 @@ const SecondSec = ({
             <ul className="mt-3 list-disc ml-5 text-text">
               {lis.map((li, i) => (
                 <li className="mb-2" key={i}>
-                  <strong className="block text-secondary">{li.title}</strong>
+                  <strong className=" text-secondary">{li.title} </strong>
                   {li.desc}
                 </li>
               ))}
@@ -47,7 +47,7 @@ const SecondSec = ({
           {images.map((image, i) => (
             <div
               key={i}
-              className={`md:h-52 h-44 bg-gray-200 relative overflow-hidden ${
+              className={`md:h-52  h-44 bg-gray-200 relative overflow-hidden ${
                 i === 2 && "col-span-2"
               }`}
             >

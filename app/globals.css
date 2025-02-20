@@ -38,7 +38,7 @@ h2 {
 }
 
 .input {
-  @apply block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-accent border border-gray-200 rounded-md  focus:border-secondary focus:ring-secondary/40 focus:outline-none focus:ring focus:ring-opacity-40;
+  @apply block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-accent border border-gray-200  focus:border-secondary focus:ring-secondary/40 focus:outline-none focus:ring focus:ring-opacity-40;
 }
 
 .bg-pattren {

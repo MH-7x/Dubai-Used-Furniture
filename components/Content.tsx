@@ -8,42 +8,48 @@ const Content = ({
   sub1,
   sub2,
 }: {
-  title: string;
-  desc: string;
-  sub1: string;
-  sub2: string;
+  title?: string;
+  desc?: string;
+  sub1?: string;
+  sub2?: string;
   first: { title: string; desc: string }[];
-  second: { title: string; desc: string }[];
+  second?: { title: string; desc: string }[];
 }) => {
   return (
     <section className="mt-40 bg-accent md:py-16 md:px-0">
       <div className="max-w-5xl bg-white mx-auto md:p-16 px-3  text-text ">
-        <h2 className="md:text-3xl text-center text-2xl text-primary">
-          {title}
-        </h2>
-        <p className="text-lg/5 mt-5 text-center">{desc}</p>
-        <p className="mt-10">{sub1}</p>
-        <div className="mt-3 flex flex-col gap-y-5">
-          {first.map((box, i) => (
-            <div key={i}>
-              <h2 className="text-primary text-xl font-normal mb-1">
-                {box.title}
-              </h2>
-              <p>{box.desc}</p>
-            </div>
-          ))}
-        </div>
+        {title && (
+          <h2 className="md:text-3xl text-center text-2xl text-primary">
+            {title}
+          </h2>
+        )}
+        {desc && <p className="text-lg/5 mt-5 text-center">{desc}</p>}
+        {sub1 && <p className="mt-10">{sub1}</p>}
+        {first && (
+          <div className="mt-3 flex flex-col gap-y-5">
+            {first.map((box, i) => (
+              <div key={i}>
+                <h2 className="text-primary text-xl font-normal mb-1">
+                  {box.title}
+                </h2>
+                <p>{box.desc}</p>
+              </div>
+            ))}
+          </div>
+        )}
         <p className="mt-10">{sub2}</p>
-        <div className="mt-3 flex flex-col gap-y-5">
-          {second.map((box, i) => (
-            <div key={i}>
-              <h2 className="text-primary text-xl font-normal mb-1">
-                {box.title}
-              </h2>
-              <p>{box.desc}</p>
-            </div>
-          ))}
-        </div>
+        {second && (
+          <div className="mt-3 flex flex-col gap-y-5">
+            {second.map((box, i) => (
+              <div key={i}>
+                <h2 className="text-primary text-xl font-normal mb-1">
+                  {box.title}
+                </h2>
+                <p>{box.desc}</p>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </section>
   );

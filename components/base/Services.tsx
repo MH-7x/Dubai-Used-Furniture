@@ -73,11 +73,11 @@ const Services = () => {
           ))}
         </div>
       </section>
-      <section className="con mt-10 md:px-0 px-3">
-        <p className="text-2xl text-center font-bold">
+      <section className="con mt-16 md:px-0 px-3">
+        <p className="md:text-3xl text-2xl text-primary text-center font-bold mb-10">
           Explore Our Other Used Furniture Services
         </p>
-        <div className="w-fullpb-10">
+        <div className="w-full pb-10">
           <Swiper
             modules={[Pagination]}
             spaceBetween={20}

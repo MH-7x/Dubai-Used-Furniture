@@ -101,7 +101,7 @@ const DesktopNavbar = () => {
               dropdownItems={[
                 {
                   title: `${l("services.ser1")} ${l("services.buySell")}`,
-                  link: "#",
+                  link: "/used-home-furniture-dubai",
                 },
                 {
                   title: `${l("services.ser2")} ${l("services.buySell")}`,
