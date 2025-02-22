@@ -22,7 +22,7 @@ const SerChooseUs = ({
               key={i}
               className={`${
                 li.icon && "min-h-52"
-              } bg-secondary p-8 flex items-start justify-start flex-col gap-y-4`}
+              } bg-secondary p-8 flex items-start justify-start flex-col gap-y-4 rounded-2xl`}
             >
               {li.icon && (
                 <div className="w-20 h-20 border flex items-center justify-center text-primary border-primary rounded-full">

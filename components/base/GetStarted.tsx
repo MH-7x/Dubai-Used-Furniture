@@ -30,7 +30,7 @@ const GetStarted = ({
         {lis.map((li, i) => (
           <li
             key={i}
-            className="h-52 bg-accent p-3 relative flex flex-col items-start justify-center"
+            className="h-52 bg-accent rounded-lg p-3 relative flex flex-col items-start justify-center"
           >
             <Image
               src={li.src}

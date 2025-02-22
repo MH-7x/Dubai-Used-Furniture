@@ -24,12 +24,12 @@ const ServiceHeroSection = ({
         </h1>
         <p className="mt-5 md:text-xl text-lg/6 font-light text-text">{desc}</p>
         <div className="max-w-xl grid grid-cols-2 md:gap-x-6 gap-x-3 mt-5">
-          <button className="md:py-3 py-2.5 bg-primary text-secondary flex items-center justify-center gap-x-2">
+          <button className="md:py-3 rounded-lg py-2.5 bg-primary text-secondary flex items-center justify-center gap-x-2">
             <RiWhatsappFill />
             WHATSAPP US
           </button>
           <Link
-            className="md:py-3 py-2.5 bg-accent text-primary"
+            className="md:py-3 py-2.5 rounded-lg bg-accent text-primary"
             href={"#gallery"}
           >
             <button className=" mx-auto flex items-center justify-center gap-x-2">

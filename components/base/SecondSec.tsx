@@ -22,7 +22,9 @@ const SecondSec = ({
     <>
       <section className="con mt-32 grid md:grid-cols-2 grid-cols-1 items-center md:px-0 px-3 md:gap-y-0 gap-y-5">
         <div>
-          <h2 className="md:text-3xl text-2xl text-primary">{title}</h2>
+          <h2 className="md:text-3xl max-w-xl text-2xl text-primary">
+            {title}
+          </h2>
           {sub && (
             <h3 className="md:mt-5 mt-3 text-xl text-secondary">{sub}</h3>
           )}
@@ -47,7 +49,7 @@ const SecondSec = ({
           {images.map((image, i) => (
             <div
               key={i}
-              className={`md:h-52  h-44 bg-gray-200 relative overflow-hidden ${
+              className={`md:h-52 rounded-lg h-44 bg-gray-200 relative overflow-hidden ${
                 i === 2 && "col-span-2"
               }`}
             >
