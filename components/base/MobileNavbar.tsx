@@ -133,7 +133,7 @@ const Sidebar = () => {
               },
               {
                 title: `${l("services.ser2")} ${l("services.buySell")}`,
-                link: "#",
+                link: "/used-office-furniture-dubai",
               },
               {
                 title: `${l("services.ser3")} ${l("services.buySell")}`,
@@ -157,7 +157,7 @@ const Sidebar = () => {
               },
               {
                 title: `${l("services.ser9")} ${l("services.buySell")}`,
-                link: "#",
+                link: "/used-hotel-furniture-dubai",
               },
             ]}
           />

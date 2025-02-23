@@ -2067,5 +2067,188 @@
                 "Email Address: dubaiusedfurniture@gmail.com"
             ]
         }
+    },
+    "UsedHotelFurniturePage": {
+        "serviceHeroSection": {
+            "title": {
+                "main": "Buy & Sell Pre-Owned Hotel Furniture in Dubai",
+                "auth": " – Best Prices & Service"
+            },
+            "desc": "Looking for reliable used hotel furniture buyers in Dubai or aiming to sell used hotel furniture quickly? At Dubai Used Furniture, we specialize in connecting hotels, resorts, and businesses with affordable, high-quality second-hand furniture. Whether you’re searching for wholesale used hotel furniture Dubai or need to liquidate bulk inventory sustainably, our team ensures seamless transactions with instant quotes and Dubai-wide pickup."
+        },
+        "serChooseUs": {
+            "title": "Why Choose Dubai Used Furniture?",
+            "desc": "Trusted Buyers & Sellers Across Dubai, As leading pre-owned hotel furniture buyers UAE, we serve clients in Dubai Marina, Jebel Ali, Deira, and beyond. Our expertise includes:",
+            "list": [
+                {
+                    "title": "Buying",
+                    "desc": "From single items like used hotel banquet chairs Dubai to bulk hotel furniture liquidation Dubai."
+                },
+                {
+                    "title": "Selling",
+                    "desc": "Affordable, refurbished furniture for hotels, including second-hand hotel kitchen equipment Dubai and used hotel conference chairs."
+                },
+                {
+                    "title": "Sustainability",
+                    "desc": "Eco-friendly recycling and up cycling solutions to reduce waste."
+                }
+            ]
+        },
+        "boxs": {
+            "heading": "Fast, Transparent, and Local Service",
+            "boxes": [
+                {
+                    "desc": "Free, same-day pickup for used hotel furniture Dubai-wide."
+                },
+                {
+                    "desc": "Competitive pricing for cheap second-hand hotel furniture Dubai."
+                },
+                {
+                    "desc": "Certified buyers and sellers with 10+ years of experience."
+                }
+            ]
+        },
+        "twoGridLi1": {
+            "title": "Buy Affordable Used Hotel Furniture in Dubai",
+            "desc": "Upgrade your hotel’s style without breaking the bank—discover quality used furniture in Dubai at unbeatable prices.",
+            "list": [
+                {
+                    "title": "Explore Our Inventory",
+                    "lis": [
+                        {
+                            "title": "Dining & Banquet Furniture:",
+                            "desc": "Used hotel dining tables, chairs, and buffet units."
+                        },
+                        {
+                            "title": "Guest Room Essentials:",
+                            "desc": "Pre-owned beds, wardrobes, and desks."
+                        },
+                        {
+                            "title": "Lobby & Lounge Pieces:",
+                            "desc": "Refurbished sofas, coffee tables, and reception desks."
+                        }
+                    ]
+                },
+                {
+                    "title": "Wholesale & Bulk Discounts",
+                    "lis": [
+                        {
+                            "title": "Bulk Orders:",
+                            "desc": "Ideal for large hotel projects and renovations."
+                        },
+                        {
+                            "title": "Customized Pricing:",
+                            "desc": "Get the best rates tailored to your needs."
+                        },
+                        {
+                            "title": "Reliable Delivery:",
+                            "desc": "Fast and secure delivery across the UAE."
+                        }
+                    ]
+                }
+            ]
+        },
+        "twoGridLi2": {
+            "title": "Sell Your Hotel Furniture Quickly in Dubai",
+            "desc": "Sell your hotel furniture fast in Dubai with hassle-free pickup and the best market prices.",
+            "extra": "Get an instant quote to sell used hotel furniture Dubai – no obligations, no delays!",
+            "list": [
+                {
+                    "title": "How It Works",
+                    "listType": "ol",
+                    "lis": [
+                        {
+                            "title": "Submit Details:",
+                            "desc": "Send photos and descriptions of your items to our WhatsApp number."
+                        },
+                        {
+                            "title": "Get a Quote:",
+                            "desc": "Receive a fair, instant valuation."
+                        },
+                        {
+                            "title": "Free Pickup:",
+                            "desc": "We handle removal and payment on the spot."
+                        }
+                    ]
+                },
+                {
+                    "title": "We Buy All Types of Hotel Furniture",
+                    "lis": [
+                        {
+                            "title": "Old & Damaged Furniture:",
+                            "desc": "Sell worn-out or outdated hotel furniture."
+                        },
+                        {
+                            "title": "Bulk Hotel Liquidation:",
+                            "desc": "Clear out large inventories effortlessly."
+                        },
+                        {
+                            "title": "Hotel Equipment Buyers:",
+                            "desc": "We purchase used kitchen and specialty items."
+                        }
+                    ]
+                }
+            ]
+        },
+        "footerCTA1": {
+            "title": {
+                "main": "Sustainable Hotel Furniture Solutions"
+            },
+            "desc": "We partner with hotel furniture recycling companies Dubai to ensure unwanted items are repurposed or disposed of responsibly. Over 80% of materials we handle are recycled or resold.",
+            "src": "/hotel/used-hotel-chair.png",
+            "alt": "buy & sell second-hand hotel furniture in Dubai"
+        },
+        "gallery": {
+            "title": "Explore Our Used Hotel Furniture Collection",
+            "desc": "Discover affordable, high-quality hotel furniture in Dubai – from banquet chairs to guest room essentials.",
+            "images": [
+                "/hotel/gallery-1.jpg",
+                "/hotel/gallery-2.jpg",
+                "/hotel/gallery-3.webp",
+                "/hotel/gallery-4.jpg",
+                "/hotel/gallery-5.webp",
+                "/hotel/gallery-6.jpg",
+                "/hotel/gallery-7.jpg",
+                "/hotel/gallery-8.jpg"
+            ]
+        },
+        "extra": {
+            "title": "Location-Specific Used Hotel Furniture Services",
+            "desc": "Get used hotel furniture services tailored to your location in Dubai, with hassle-free pickup and delivery.",
+            "list": [
+                "Dubai Marina & Al Quoz: Fast pickup for used hotel furniture buyers near Dubai Marina.",
+                "Jebel Ali & Deira: Local deals on pre-owned hotel furniture sellers in Jebel Ali.",
+                "Business Bay & Downtown Dubai: Quick and easy hotel furniture resale options.",
+                "Al Barsha & JLT: Hassle-free pickup for used hotel furniture buyers.",
+                "Palm Jumeirah & Bur Dubai: Exclusive deals on pre-owned hotel furniture.",
+                "Sharjah & Ajman: Sell and buy quality used hotel furniture with doorstep service.",
+                "Abu Dhabi & Ras Al Khaimah: Bulk hotel furniture liquidation and pickup available."
+            ]
+        },
+        "faqs": {
+            "title": "Frequently Asked Questions",
+            "items": [
+                {
+                    "question": "Where can I buy affordable second-hand hotel furniture in Dubai?",
+                    "answer": "Dubai Used Furniture offers cheap pre-owned hotel beds, dining sets, and more. Visit our showroom or browse our online inventory."
+                },
+                {
+                    "question": "How do I sell used hotel furniture in Dubai quickly?",
+                    "answer": "Contact us for a free valuation. We buy directly, ensuring same-day pickup and payment."
+                },
+                {
+                    "question": "Do you offer hotel furniture removal services in Dubai?",
+                    "answer": "Yes! Our team provides quick hotel furniture removal and disposal in Dubai, including large-scale liquidation."
+                }
+            ]
+        },
+        "footerCTA2": {
+            "title": {
+                "main": "Ready to Buy or Sell Used Hotel Furniture in Dubai?"
+            },
+            "desc": "Whether you’re a buyer searching for discounted hotel furniture liquidation Dubai or a seller needing top buyers for old hotel furniture Dubai, Dubai Used Furniture is your trusted partner.",
+            "src": "/seating/contact-seating.png",
+            "alt": "Contact For Used Hotel Furniture"
+        }
     }
 }

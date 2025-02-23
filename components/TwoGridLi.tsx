@@ -9,10 +9,11 @@ const TwoGridLi = ({
   title: string;
   desc: string;
   list: {
+    listType?: "ul" | "ol";
     title: string;
     lis: { title: string; desc: string }[];
   }[];
-  extra: string;
+  extra?: string;
 }) => {
   return (
     <section className="con mt-40 md:px-0 px-3">
@@ -24,20 +25,33 @@ const TwoGridLi = ({
             <h3 className="md:text-2xl text-xl text-primary text-center">
               {item.title}
             </h3>
-            <ul className="mt-5 flex flex-col gap-y-2">
-              {item.lis.map((li, i) => (
-                <li key={i}>
-                  <h4 className="text-lg text-text">{li.title}</h4>
-                  <p className="text-gray-500 mt-1">{li.desc}</p>
-                </li>
-              ))}
-            </ul>
+            {item.listType === "ul" ? (
+              <ul className="mt-5 flex flex-col gap-y-2">
+                {item.lis.map((li, i) => (
+                  <li key={i}>
+                    <h4 className="text-lg text-text">{li.title}</h4>
+                    <p className="text-gray-500 mt-1">{li.desc}</p>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <ol className="mt-5 flex flex-col gap-y-2">
+                {item.lis.map((li, i) => (
+                  <li key={i}>
+                    <h4 className="text-lg text-text">{li.title}</h4>
+                    <p className="text-gray-500 mt-1">{li.desc}</p>
+                  </li>
+                ))}
+              </ol>
+            )}
           </div>
         ))}
       </div>
-      <p className="mt-10 max-w-4xl mx-auto text-center md:text-xl text-lg/5 text-primary">
-        {extra}
-      </p>
+      {extra && (
+        <p className="mt-10 max-w-4xl mx-auto text-center md:text-xl text-lg/5 text-primary">
+          {extra}
+        </p>
+      )}
     </section>
   );
 };
