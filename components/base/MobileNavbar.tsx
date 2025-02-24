@@ -3,7 +3,7 @@ import { Link } from "@/i18n/routing";
 import { RiAddLine, RiMenu3Fill, RiPhoneFill } from "@remixicon/react";
 import { useLocale, useTranslations } from "next-intl";
 import React, { useEffect, useState } from "react";
-import logo from "../../public/image001.png";
+import logo from "../../public/logo-svg.svg";
 import Image from "next/image";
 import AddressBox from "../AddressBox";
 import SearchLayout from "../SearchLayout";
@@ -68,17 +68,18 @@ const MobileNavbar = () => {
             : "translate-y-7 bg-accent"
         } transition-all duration-200`}
       >
-        <div className="w-36 h-9 relative">
-          <Image
-            alt="dubai used furniture logo"
-            title="dubai used furniture logo"
-            src={logo}
-            fill
-            className="absolute object-contain"
-          />
-        </div>
+        <Image
+          alt="dubai used furniture logo"
+          title="dubai used furniture logo"
+          src={logo}
+          width={150}
+          height={150}
+          className=""
+          loading="eager"
+          priority
+        />
         <div className="flex gap-x-2">
-          <SearchLayout />
+          <SearchLayout forMobile={true} />
           <AddressBox />
 
           <input type="checkbox" id="menu-toggle" className="peer hidden" />

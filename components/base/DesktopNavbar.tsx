@@ -1,11 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import logo from "../../public/image001.png";
-import { RiMapPinFill, RiPhoneFill } from "@remixicon/react";
+import logo from "../../public/logo-svg.svg";
+import { RiCellphoneFill, RiMapPinFill, RiPhoneFill } from "@remixicon/react";
 import { Link } from "@/i18n/routing";
 import { useLocale, useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
+import { Button } from "../ui/button";
+import SearchLayout from "../SearchLayout";
 const DesktopNavbar = () => {
   const locale = useLocale();
   const u = useTranslations("utils");
@@ -74,123 +76,139 @@ const DesktopNavbar = () => {
         </div>
       </div>
       <nav
-        className={`fixed z-50 top-0 left-0 w-full  ${
+        className={`fixed z-50 bg-white top-0 left-0 w-full  ${
           !showNavbar
-            ? "translate-y-0 bg-white shadow-lg shadow-black/5"
-            : "translate-y-8 bg-accent"
+            ? "translate-y-0  shadow-lg shadow-black/5"
+            : "translate-y-8 "
         } transition-all duration-200`}
       >
         <div className="con flex items-center h-16 justify-between">
           <Link aria-label="Home" href={"/"}>
-            <div className="w-52 h-12 relative">
-              <Image
-                src={logo}
-                alt="dubai used furniture logo"
-                title="dubai used furniture logo"
-                fill
-                loading="eager"
-                priority
-                className="absolute object-contain object-center"
-              />
-            </div>
+            <Image
+              src={logo}
+              alt="dubai used furniture logo"
+              title="dubai used furniture logo"
+              width={200}
+              height={200}
+              loading="eager"
+              priority
+              className=""
+            />
           </Link>
-          <ul className="flex items-center gap-x-1.5 text-primary relative">
-            <NavItem
-              locale={locale}
-              title={l("services.title")}
-              dropdownItems={[
-                {
-                  title: `${l("services.ser1")} ${l("services.buySell")}`,
-                  link: "/used-home-furniture-dubai",
-                },
-                {
-                  title: `${l("services.ser2")} ${l("services.buySell")}`,
-                  link: "/used-office-furniture-dubai",
-                },
-                {
-                  title: `${l("services.ser3")} ${l("services.buySell")}`,
-                  link: "/used-home-appliances",
-                },
-                {
-                  title: `${l("services.ser5")} ${l("services.buySell")}`,
-                  link: "/used-seating-furniture",
-                },
-                {
-                  title: `${l("services.ser6")} ${l("services.buySell")}`,
-                  link: "/used-table-furniture",
-                },
-                {
-                  title: `${l("services.ser7")} ${l("services.buySell")}`,
-                  link: "/used-sleeping-furniture",
-                },
-                {
-                  title: `${l("services.ser8")} ${l("services.buySell")}`,
-                  link: "/used-storage-furniture",
-                },
-                {
-                  title: `${l("services.ser9")} ${l("services.buySell")}`,
-                  link: "/used-hotel-furniture-dubai",
-                },
-              ]}
-            />
-            <NavItem
-              locale={locale}
-              title={l("locations.title")}
-              dropdownItems={[
-                {
-                  title: `${l("locations.usedFurniture")} ${l(
-                    "locations.loc1"
-                  )}`,
-                  link: "#",
-                },
-                {
-                  title: `${l("locations.usedFurniture")} ${l(
-                    "locations.loc2"
-                  )}`,
-                  link: "#",
-                },
-                {
-                  title: `${l("locations.usedFurniture")} ${l(
-                    "locations.loc3"
-                  )}`,
-                  link: "#",
-                },
-                {
-                  title: `${l("locations.usedFurniture")} ${l(
-                    "locations.loc5"
-                  )}`,
-                  link: "#",
-                },
-                {
-                  title: `${l("locations.usedFurniture")} ${l(
-                    "locations.loc6"
-                  )}`,
-                  link: "#",
-                },
-                {
-                  title: `${l("locations.usedFurniture")} ${l(
-                    "locations.loc7"
-                  )}`,
-                  link: "#",
-                },
-              ]}
-            />
-            <li>
-              <Link className="hover:bg-white px-2.5 py-2 text-[15px]" href="#">
-                {l("aboutUs")}
-              </Link>
-            </li>
-            <li>
-              <Link className="hover:bg-white px-2.5 py-2 text-[15px]" href="#">
-                {l("contactUs")}
-              </Link>
-            </li>
-            <li>
-              <Link className="hover:bg-white px-2.5 py-2 text-[15px]" href="#">
-                {l("blogs")}
-              </Link>
-            </li>
-          </ul>
+          <div className="flex items-center gap-x-10">
+            <ul className="flex items-center gap-x-1.5 text-primary relative">
+              <NavItem
+                locale={locale}
+                title={l("services.title")}
+                dropdownItems={[
+                  {
+                    title: `${l("services.ser1")} ${l("services.buySell")}`,
+                    link: "/used-home-furniture-dubai",
+                  },
+                  {
+                    title: `${l("services.ser2")} ${l("services.buySell")}`,
+                    link: "/used-office-furniture-dubai",
+                  },
+                  {
+                    title: `${l("services.ser3")} ${l("services.buySell")}`,
+                    link: "/used-home-appliances",
+                  },
+                  {
+                    title: `${l("services.ser5")} ${l("services.buySell")}`,
+                    link: "/used-seating-furniture",
+                  },
+                  {
+                    title: `${l("services.ser6")} ${l("services.buySell")}`,
+                    link: "/used-table-furniture",
+                  },
+                  {
+                    title: `${l("services.ser7")} ${l("services.buySell")}`,
+                    link: "/used-sleeping-furniture",
+                  },
+                  {
+                    title: `${l("services.ser8")} ${l("services.buySell")}`,
+                    link: "/used-storage-furniture",
+                  },
+                  {
+                    title: `${l("services.ser9")} ${l("services.buySell")}`,
+                    link: "/used-hotel-furniture-dubai",
+                  },
+                ]}
+              />
+              <NavItem
+                locale={locale}
+                title={l("locations.title")}
+                dropdownItems={[
+                  {
+                    title: `${l("locations.usedFurniture")} ${l(
+                      "locations.loc1"
+                    )}`,
+                    link: "#",
+                  },
+                  {
+                    title: `${l("locations.usedFurniture")} ${l(
+                      "locations.loc2"
+                    )}`,
+                    link: "#",
+                  },
+                  {
+                    title: `${l("locations.usedFurniture")} ${l(
+                      "locations.loc3"
+                    )}`,
+                    link: "#",
+                  },
+                  {
+                    title: `${l("locations.usedFurniture")} ${l(
+                      "locations.loc5"
+                    )}`,
+                    link: "#",
+                  },
+                  {
+                    title: `${l("locations.usedFurniture")} ${l(
+                      "locations.loc6"
+                    )}`,
+                    link: "#",
+                  },
+                  {
+                    title: `${l("locations.usedFurniture")} ${l(
+                      "locations.loc7"
+                    )}`,
+                    link: "#",
+                  },
+                ]}
+              />
+              <li>
+                <Link
+                  className="hover:bg-accent px-2.5 py-2 text-[15px]"
+                  href="#"
+                >
+                  {l("aboutUs")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="hover:bg-accent px-2.5 py-2 text-[15px]"
+                  href="#"
+                >
+                  {l("contactUs")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="hover:bg-accent px-2.5 py-2 text-[15px]"
+                  href="#"
+                >
+                  {l("blogs")}
+                </Link>
+              </li>
+            </ul>
+            <div className="flex items-center gap-x-3">
+              <SearchLayout />
+              <Button>
+                CALL US <RiCellphoneFill />
+              </Button>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
@@ -210,7 +228,7 @@ function NavItem({
 }) {
   return (
     <li className="relative group">
-      <Link className="hover:bg-white px-2.5 py-2 text-[15px]" href="#">
+      <Link className="hover:bg-accent px-2.5 py-2 text-[15px]" href="#">
         {title}
       </Link>
       <ul

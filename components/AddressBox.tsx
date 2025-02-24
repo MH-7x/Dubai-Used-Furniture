@@ -19,6 +19,7 @@ const AddressBox = () => {
       <button
         onClick={() => toggleOpen()}
         className="w-8 h-8 flex items-center justify-center text-secondary"
+        aria-label="contact details"
       >
         <RiCustomerService2Fill className="w-5 h-5" />
       </button>

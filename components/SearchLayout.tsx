@@ -1,10 +1,16 @@
 "use client";
 import List from "@/constants/SearchItems";
-import { RiFile2Line, RiSearch2Fill, RiSearchLine } from "@remixicon/react";
+import {
+  RiFile2Line,
+  RiSearch2Fill,
+  RiSearchFill,
+  RiSearchLine,
+} from "@remixicon/react";
 import { useCycle, motion } from "motion/react";
 import React, { useCallback, useEffect, useState } from "react";
+import { Button } from "./ui/button";
 
-const SearchLayout = () => {
+const SearchLayout = ({ forMobile = false }: { forMobile?: boolean }) => {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const [Query, setQuery] = useState("");
   const [Results, setResults] = useState<
@@ -47,15 +53,28 @@ const SearchLayout = () => {
 
   return (
     <>
-      <button
-        onClick={() => {
-          toggleOpen();
-          console.log("clicked");
-        }}
-        className="w-8 h-8 flex items-center justify-center text-secondary"
-      >
-        <RiSearchLine className="w-5 h-5" />
-      </button>
+      {forMobile ? (
+        <button
+          onClick={() => {
+            toggleOpen();
+            console.log("clicked");
+          }}
+          className="w-8 h-8 flex items-center justify-center text-secondary"
+        >
+          <RiSearchLine className="w-5 h-5" />
+        </button>
+      ) : (
+        <Button
+          onClick={() => {
+            toggleOpen();
+          }}
+          size={"icon"}
+          className="bg-white rounded-full"
+          variant={"default"}
+        >
+          <RiSearchFill />
+        </Button>
+      )}
 
       {isOpen && (
         <motion.section
@@ -68,12 +87,12 @@ const SearchLayout = () => {
         >
           <button
             onClick={() => toggleOpen()}
-            className="py-1 px-2 text-2xl absolute top-3 right-3 text-accent"
+            className="py-1 px-2 text-2xl absolute top-3 right-3 text-white drop-shadow"
           >
             ✖
           </button>
 
-          <div className="w-11/12 h-[70%] mt-20 bg-white mx-auto py-5 px-3">
+          <div className="md:w-[450px] w-11/12 h-[70%] mt-20 bg-white mx-auto py-5 px-3">
             <h3 className="text-xl text-center text-primary tracking-wide">
               Search Here
             </h3>
