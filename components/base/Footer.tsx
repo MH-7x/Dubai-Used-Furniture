@@ -18,7 +18,7 @@ const Footer = () => {
       <footer className="bg-accent mt-32 pt-10 md:px-0 px-3">
         <section className="con md:gap-10 gap-5 grid md:grid-cols-5 grid-cols-2">
           <div className="col-span-2">
-            <Image src={"/image001.png"} alt="logo" width={220} height={220} />
+            <Image src={"/logo-svg.svg"} alt="logo" width={220} height={220} />
             <h3 className="text-xl font-bold text-primary mt-4">
               {t("companyName")}
             </h3>
