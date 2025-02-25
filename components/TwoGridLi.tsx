@@ -17,7 +17,7 @@ const TwoGridLi = ({
 }) => {
   return (
     <section className="con mt-40 md:px-0 px-3">
-      <h2 className="md:text-3xl text-2xl text-primary ">{title}</h2>
+      <h2 className="md:text-3xl text-2xl text-primary max-w-3xl">{title}</h2>
       <p className="max-w-4xl text-lg/5 text-text mt-3">{desc}</p>
       <div className="mt-16 grid md:grid-cols-2 grid-cols-1 gap-10">
         {list.map((item, i) => (

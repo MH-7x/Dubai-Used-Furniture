@@ -12,7 +12,74 @@
         "details": "VIEW DETAILS",
         "callback": "CALL BACK",
         "send": "Send Message",
-        "sending": "Sending..."
+        "sending": "Sending...",
+        "service": "VIEW OUR SERVICES"
+    },
+    "testimonials": {
+        "sub": "TESTIMONIALS",
+        "title": "What Our Happy Customers Says!",
+        "sharjahPageTestimonials": [
+            {
+                "cus_name": "Aisha Al Mansoori",
+                "cus_message": "Found a beautiful dining set! Delivery was quick and the furniture was in excellent condition.",
+                "cus_rating": "5/5",
+                "cus_avatar": "https://i.pravatar.cc/50?img=1"
+            },
+            {
+                "cus_name": "Khaled Hassan",
+                "cus_message": "Selling my old office furniture was a breeze. They offered a fair price and handled everything efficiently.",
+                "cus_rating": "4/5",
+                "cus_avatar": "https://i.pravatar.cc/50?img=2"
+            },
+            {
+                "cus_name": "Sarah Khan",
+                "cus_message": "Furnished my apartment without breaking the bank. The quality is fantastic and the staff were very helpful.",
+                "cus_rating": "5/5",
+                "cus_avatar": "https://i.pravatar.cc/50?img=3"
+            },
+            {
+                "cus_name": "Omar Rashid",
+                "cus_message": "Needed to furnish a rental property quickly. The process was smooth, and the furniture looked great.",
+                "cus_rating": "4/5",
+                "cus_avatar": "https://i.pravatar.cc/50?img=4"
+            },
+            {
+                "cus_name": "Fatima Ahmed",
+                "cus_message": "Found a unique vintage coffee table! The team was very friendly and accommodating.",
+                "cus_rating": "5/5",
+                "cus_avatar": "https://i.pravatar.cc/50?img=5"
+            },
+            {
+                "cus_name": "Yousef Ali",
+                "cus_message": "Impressed with the variety of furniture available. Prices were unbeatable, and the quality was surprisingly good.",
+                "cus_rating": "4/5",
+                "cus_avatar": "https://i.pravatar.cc/50?img=6"
+            },
+            {
+                "cus_name": "Noura Salem",
+                "cus_message": "Sold my old bedroom set and was very satisfied with the price and the quick pickup.",
+                "cus_rating": "5/5",
+                "cus_avatar": "https://i.pravatar.cc/50?img=7"
+            },
+            {
+                "cus_name": "Mohammed Ibrahim",
+                "cus_message": "Dubai Used Furniture is a lifesaver! Great selection, and the delivery was prompt. Excellent customer service.",
+                "cus_rating": "5/5",
+                "cus_avatar": "https://i.pravatar.cc/50?img=8"
+            },
+            {
+                "cus_name": "Layla Saeed",
+                "cus_message": "They helped me find the perfect sofa! The condition was excellent, and the price was just right.",
+                "cus_rating": "5/5",
+                "cus_avatar": "https://i.pravatar.cc/50?img=9"
+            },
+            {
+                "cus_name": "Hassan Abdullah",
+                "cus_message": "Great experience buying and selling. Very professional and transparent. Will use them again!",
+                "cus_rating": "4/5",
+                "cus_avatar": "https://i.pravatar.cc/50?img=10"
+            }
+        ]
     },
     "NavList": {
         "services": {
@@ -2249,6 +2316,379 @@
             "desc": "Whether you’re a buyer searching for discounted hotel furniture liquidation Dubai or a seller needing top buyers for old hotel furniture Dubai, Dubai Used Furniture is your trusted partner.",
             "src": "/seating/contact-seating.png",
             "alt": "Contact For Used Hotel Furniture"
+        }
+    },
+    "UsedFurnitureSharjahPage": {
+        "locHeroSection": {
+            "title": {
+                "main": "Used Furniture in Sharjah,",
+                "auth": "Second-Hand Furniture Buyers & Sellers in Sharjah"
+            },
+            "desc": "Want to fill your home or workspace in Sharjah with furniture but don't want to spend a lot? Or maybe you're getting rid of some things and want to sell your furniture that's still in good condition for money? We, at Dubai Used Furniture, make it easy, cheap, and handy to buy and sell used furniture in Sharjah. Check out our large selection of used furniture in Sharjah and find the perfect piece for your home or office.",
+            "alt": "Used Furniture in Sharjah -Store Image Of Dubai Used Furniture"
+        },
+        "text": {
+            "title": "Buy, Sell, and Discover Quality Pre-Owned Furniture in Sharjah - Affordable Prices & Wide Selection at Dubai Used Furniture",
+            "desc": "Dubai Used Furniture is your trusted marketplace for buying and selling quality used furniture in Sharjah. Whether you’re looking to purchase affordable pre-owned pieces or want to sell your old furniture quickly, we have a large connection with verified buyers ready to give you the best deals on used furniture in Sharjah and sellers eager to sell their used furniture. Enjoy an effortless experience with free furniture delivery, eco-friendly recycling options, and a secure online marketplace tailored just for you."
+        },
+        "serChooseUs1": {
+            "title": "Best Place to Buy Used Furniture in Sharjah - Why Choose Dubai Used Furniture?",
+            "desc": "When it comes to finding the best place to buy used furniture in Sharjah, Dubai Used Furniture stands out. We are your trusted Sharjah used furniture dealers, known for quality, affordability, and exceptional service. Here’s why buyers in Sharjah choose us:",
+            "items": [
+                {
+                    "title": "Quality Assurance",
+                    "desc": "We carefully inspect all used furniture near me Sharjah listings to ensure they meet our quality standards before they reach you."
+                },
+                {
+                    "title": "Wide Selection",
+                    "desc": "From stylish sofas and beds to functional office desks and dining sets, our inventory is constantly updated with a diverse range of furniture."
+                },
+                {
+                    "title": "Affordable Prices",
+                    "desc": "Save significantly compared to buying new furniture. We offer some of the most competitive prices on second-hand furniture in Sharjah."
+                },
+                {
+                    "title": "Delivery Options",
+                    "desc": "We offer reliable and affordable delivery services across Sharjah, making furniture shopping hassle-free."
+                },
+                {
+                    "title": "Dedicated Customer Support",
+                    "desc": "Our helpful team is always ready to assist you with any inquiries, ensuring a smooth and pleasant buying experience."
+                }
+            ]
+        },
+        "testimonialSlider": {
+            "title": "Testimonials"
+        },
+        "services": {
+            "title": "Buy and Sell A Wide Range of Used Furniture in Sharjah.",
+            "desc": "At Dubai Used Furniture, we offers a range of services to help you buy and sell used furniture in Sharjah. Explore our services below.",
+            "serviceItems": [
+                {
+                    "title": "Used Seating Furniture in Sharjah",
+                    "description": "🛋️ Find high-quality used seating furniture in Sharjah, including sofas, chairs, recliners, and more at unbeatable prices. Buy or sell today!",
+                    "src": "/images/seating-furniture.jpg",
+                    "items": [
+                        "Rocking chair",
+                        "Chair",
+                        "Lift chair",
+                        "Bar Stool",
+                        "Chaise longue",
+                        "Bench",
+                        "Divan",
+                        "Sofa or settee"
+                    ]
+                },
+                {
+                    "title": "Used Table Furniture in Sharjah",
+                    "description": "🪑 Discover durable used table furniture in Sharjah, from dining tables to office desks. Affordable, stylish, and in excellent condition!",
+                    "src": "/images/table-furniture.jpg",
+                    "items": [
+                        "Coffee Table",
+                        "Billiard Table",
+                        "Dining Table",
+                        "Office Work Station",
+                        "Computer Table",
+                        "Study Table",
+                        "TV Stand",
+                        "Dressing Table (Child Bed)"
+                    ]
+                },
+                {
+                    "title": "Used Laying / Sleeping Furniture in Sharjah",
+                    "description": "🛏️ Buy or sell used sleeping furniture in Sharjah, including beds, mattresses, and sofas. Get top-quality comfort at the best prices!",
+                    "src": "/images/laying-furniture.jpg",
+                    "items": [
+                        "Bunk Bed",
+                        "Bed",
+                        "Platform Bed",
+                        "Four-Poster Bed",
+                        "Murphy Bed",
+                        "Infant Bed (Child Bed)",
+                        "Sleigh Bed",
+                        "Mattress"
+                    ]
+                },
+                {
+                    "title": "Used Storage Furniture in Sharjah",
+                    "description": "📦 Shop for used storage furniture in Sharjah, including wardrobes, cabinets, and shelving units. Maximize space with affordable solutions!",
+                    "src": "/images/storage-furniture.jpg",
+                    "items": [
+                        "Baker's Rack",
+                        "Cupboard",
+                        "Chifforobe",
+                        "Bookcase",
+                        "Cabinetry",
+                        "Filing Cabinet",
+                        "Kitchen Cabinet",
+                        "Chest of Drawers or Dresser"
+                    ]
+                },
+                {
+                    "title": "Used Home Appliance in Sharjah",
+                    "description": "🔌 Get top-brand used home appliances in Sharjah, from refrigerators to washing machines, at unbeatable prices. Buy now and save big!",
+                    "src": "/images/home-appliance.webp",
+                    "items": [
+                        "Refrigerator",
+                        "Washing Machine",
+                        "Air Condition",
+                        "Gas Cooker",
+                        "Dish Washer",
+                        "Freezer",
+                        "LED TV",
+                        "Microwave Oven"
+                    ]
+                }
+            ],
+            "others": [
+                {
+                    "title": "Used Home Furniture in Sharjah",
+                    "desc": "Sell or purchase used home furniture in Dubai. Receive best price for your second-hand sofas, beds, and more. Quick, convenient service!",
+                    "src": "/images/used-home-furniture.jpg"
+                },
+                {
+                    "title": "Used Office Furniture in Sharjah",
+                    "desc": "Sell your old office furniture in Dubai or purchase cheap second-hand desks, chairs, and cabinets. Top prices, fast deals!",
+                    "src": "/images/used-office-furniture.jpeg"
+                },
+                {
+                    "title": "Used Hotel Furniture in Sharjah",
+                    "desc": "Dubai Used Furniture offers hassle-free hotel furniture removal with reasonable prices, easy pick-up, and quick payment in Dubai.",
+                    "src": "/images/used-hotel-furniture.webp"
+                }
+            ]
+        },
+        "twoGrid": {
+            "title": "For Buyers: Best Places to Buy Used Furniture in Sharjah",
+            "desc": "Sharjah is home to a thriving used furniture market, offering a wide range of affordable and high-quality furniture for homes and offices. Whether you're looking for sofas, dining tables, wardrobes, or home appliances, finding the right place to buy second-hand furniture can make all the difference. Here’s a guide to the best places and why Dubai Used Furniture is your best choice!",
+            "sideOne": {
+                "title": "Popular Markets for Used Furniture in Sharjah",
+                "alt": "Used furniture stores in sharjah",
+                "src": "/sharjah/used-furniture-sharjah-store.jpg",
+                "desc": [
+                    "If you're looking for budget-friendly options, here are some well-known used furniture markets in Sharjah:",
+                    "✅ Abu Shagara Used Furniture Market – One of the busiest furniture hubs, known for a wide selection of second-hand items.",
+                    "✅ Al Wahda Street Furniture Shops – Offers a variety of used home and office furniture at reasonable prices.",
+                    "✅ Industrial Area Markets – A great place to find bulk furniture deals, especially for businesses and offices.",
+                    "💡 However, shopping in these markets requires time, effort, and good negotiation skills to get the best deals."
+                ]
+            },
+            "sideTwo": {
+                "title": "Online Marketplaces for Second-Hand Furniture",
+                "alt": "online options for used furniture in sharjah",
+                "src": "/sharjah/used-furniture-online-options.jpg",
+                "desc": [
+                    "Many people in Sharjah sell used furniture through online classified websites like:",
+                    "🔹 Dubizzle – One of the most popular platforms for buying and selling second-hand items.",
+                    "🔹 Facebook Marketplace – A great place to find local deals from individual sellers.",
+                    "🔹 Private WhatsApp Groups – Some sellers use WhatsApp groups to showcase their available stock.",
+                    "💡 While online platforms offer convenience, you may need to inspect items carefully and arrange your own transport."
+                ]
+            }
+        },
+        "serChooseUs2": {
+            "title": "Why Choose Dubai Used Furniture? 🏆",
+            "desc": "While local markets and online platforms have their advantages, Dubai Used Furniture offers a hassle-free, reliable, and affordable alternative with several benefits:",
+            "items": [
+                {
+                    "title": "✔️ Wide Selection of Quality Furniture",
+                    "desc": "We offer a curated collection of sofas, tables, beds, storage units, and home appliances."
+                },
+                {
+                    "title": "✔️ Affordable Prices",
+                    "desc": "Get the best value for your money without the hassle of bargaining."
+                },
+                {
+                    "title": "✔️ Free Delivery & Setup",
+                    "desc": "No need to worry about transportation; we handle everything for you."
+                },
+                {
+                    "title": "✔️ Inspected & Cleaned Furniture",
+                    "desc": "Every piece we sell is carefully checked for quality and sanitized before delivery."
+                },
+                {
+                    "title": "✔️ Customer Satisfaction Guaranteed",
+                    "desc": "Our goal is to provide top-notch furniture with excellent customer service."
+                },
+                {
+                    "title": "✔️ Language Support (English & Arabic)",
+                    "desc": "We communicate in both English and Arabic to ensure a smooth and comfortable experience for all our customers."
+                }
+            ]
+        },
+        "content1": {
+            "sections": [
+                {
+                    "title": "Wide Selection of Used Furniture for Every Need",
+                    "parts": [
+                        "Dubai Used Furniture offers an extensive used furniture marketplace in Sharjah, catering to diverse tastes and requirements.",
+                        "Whether you're searching for elegant vintage furniture stores in Sharjah for unique statement pieces, practical used office furniture Sharjah to equip your workspace, or comfortable second-hand sofas Sharjah for your living room, we have you covered.",
+                        "Our online platform showcases a vast collection of pre-loved home furniture Sharjah, including durable used wooden furniture Sharjah and much more. Explore our online furniture trading platform and discover hidden gems at incredible prices."
+                    ],
+                    "extra": "Explore All Furniture Categories"
+                },
+                {
+                    "title": "Affordable & Discounted Used Furniture in Sharjah",
+                    "parts": [
+                        "Why pay full price when you can find quality affordable pre-owned furniture in Sharjah? We specialize in offering cheap used furniture for sale Sharjah, providing budget-friendly options for furnishing your space. Take advantage of incredible discount furniture Sharjah deals and furnish your entire home or office without exceeding your budget. Looking for where to buy cheap used furniture in Sharjah for a new apartment? Our selection of cheap used furniture for new apartment in Sharjah is perfect. Don't miss our regular used furniture clearance sale Sharjah events for even greater savings!"
+                    ]
+                }
+            ]
+        },
+        "twoGridLi": {
+            "title": "For Sellers: Sell Your Used Furniture in Sharjah for Cash - Quick & Hassle-Free",
+            "desc": "Selling your used furniture in Sharjah has never been easier! Whether you're upgrading your home, relocating, or simply looking to free up space, Dubai Used Furniture offers a hassle-free, fast, and reliable way to sell your pre-owned furniture and appliances.",
+            "lists": [
+                {
+                    "title": "Step-by-Step Process to Sell Your Used Furniture",
+                    "listType": "ol",
+                    "lis": [
+                        {
+                            "title": "📝 Step 1: Contact Us",
+                            "desc": "Send us a message via WhatsApp or call us with details about your furniture, including pictures, condition, and location."
+                        },
+                        {
+                            "title": "💰 Step 2: Get a Free Quote",
+                            "desc": "Our team will assess your items and provide a competitive price offer within minutes."
+                        },
+                        {
+                            "title": "🚚 Step 3: Fast Pickup & Instant Payment",
+                            "desc": "Once you accept the offer, we schedule a free pickup at your convenience. We pay cash on the spot or via bank transfer!"
+                        },
+                        {
+                            "title": "✔️ Step 4: Hassle-Free Removal",
+                            "desc": "No need to worry about disassembly or transport—we handle everything professionally and quickly."
+                        }
+                    ]
+                },
+                {
+                    "title": "We purchase a wide range of used furniture including:",
+                    "lis": [
+                        {
+                            "title": "🛋 Living Room Furniture",
+                            "desc": "Sofas, recliners, coffee tables, TV units"
+                        },
+                        {
+                            "title": "🪑 Dining & Seating Furniture",
+                            "desc": "Dining tables, chairs, bar stools"
+                        },
+                        {
+                            "title": "🛏 Bedroom Furniture",
+                            "desc": "Beds, mattresses, wardrobes, dressers"
+                        },
+                        {
+                            "title": "🏢 Office Furniture",
+                            "desc": "Desks, chairs, filing cabinets, workstations"
+                        },
+                        {
+                            "title": "🏠 Home Appliances",
+                            "desc": "Refrigerators, washing machines, ovens, AC units"
+                        },
+                        {
+                            "title": "🍽 Kitchen Items",
+                            "desc": "Cabinets, countertops, sinks, kitchen appliances"
+                        }
+                    ]
+                }
+            ],
+            "extra": "💡 If you’re unsure whether we buy your items, simply contact us—we’re happy to assist!"
+        },
+        "boxs": {
+            "heading": "Explore Used Furniture by Location in Sharjah",
+            "desc": "Looking for used furniture near me Sharjah in your specific area? We serve all neighborhoods across Sharjah, including:",
+            "items": [
+                {
+                    "title": "Al Nahda Used Furniture Market",
+                    "desc": "Find great deals and a wide selection of furniture in Al Nahda and surrounding areas."
+                },
+                {
+                    "title": "Al Qasimia",
+                    "desc": "Discover cheap furniture in Al Qasimia and furnish your home affordably."
+                },
+                {
+                    "title": "Muwaileh",
+                    "desc": "Explore options for cheap used beds in Muwaileh Sharjah and other household furniture."
+                },
+                {
+                    "title": "Al Yarmook & Abu Shagara",
+                    "desc": "We provide services throughout Al Yarmook Sharjah and Abu Shagara Sharjah, ensuring you can find quality used furniture wherever you are in Sharjah."
+                },
+                {
+                    "title": "Industrial Area",
+                    "desc": "Equip your office space with office furniture resellers Industrial Area Sharjah - we cater to businesses across Sharjah's industrial zones."
+                }
+            ]
+        },
+        "gallery": {
+            "title": "Explore Our Used Furniture Collection in Sharjah",
+            "desc": "Discover a wide range of quality used furniture in Sharjah, from sofas and beds to dining sets and office furniture. Browse our gallery to find the perfect pieces for your home or office.",
+            "images": [
+                "/sharjah/gallery-1.jpeg",
+                "/sharjah/gallery-2.jpeg",
+                "/sharjah/gallery-3.jpg",
+                "/sharjah/gallery-4.webp",
+                "/sharjah/gallery-5.jpeg",
+                "/sharjah/gallery-6.jpg",
+                "/sharjah/gallery-7.jpeg",
+                "/sharjah/gallery-8.jpg",
+                "/sharjah/gallery-9.webp",
+                "/sharjah/gallery-10.webp"
+            ]
+        },
+        "content2": {
+            "title": "Find Rare & Unique Used Furniture in Sharjah",
+            "desc": "Explore a curated selection of specialty and niche second-hand furniture, from vintage treasures to modern statement pieces, all at unbeatable prices!",
+            "sections": [
+                {
+                    "title": "Used Vintage Furniture",
+                    "desc": "Vintage Used Furniture Sharjah. Explore our curated collection of vintage furniture in Sharjah. Find unique, timeless pieces to add character to your home.",
+                    "extra": "Contact For Vintage Furniture"
+                },
+                {
+                    "title": "Used Wooden Sofas",
+                    "desc": "Used Wooden Sofas Sharjah. Discover a range of sturdy and stylish second-hand sofas in Sharjah crafted from quality wood. Perfect for adding warmth and durability to your living space.",
+                    "extra": "Explore Used Sofas"
+                },
+                {
+                    "title": "Office Clearance Furniture",
+                    "desc": "Office Clearance Furniture Sharjah. Get fantastic deals on office clearance furniture in Sharjah. Equip your workspace for less with our selection of desks, chairs, and more.",
+                    "extra": "View Office Furniture"
+                },
+                {
+                    "title": "Second-hand luxury furniture",
+                    "desc": "Second-hand luxury furniture Sharjah. Find second-hand luxury furniture in Sharjah for your home at discounted prices. Explore premium brands and high-end designs to elevate your interior.",
+                    "extra": "Contact For Used Luxury Furniture"
+                },
+                {
+                    "title": "Used furniture for small apartments",
+                    "desc": "Used furniture for small apartments Sharjah. Discover space-saving and functional used furniture for small apartments in Sharjah. Maximize your living area without compromising on style or comfort.",
+                    "extra": "Contact For Small Apartments Furniture"
+                }
+            ]
+        },
+        "faqs": {
+            "questions": [
+                {
+                    "question": "Is buying second-hand furniture in Sharjah safe?",
+                    "answer": "Yes, buying second-hand furniture in Sharjah from reputable dealers like Dubai Used Furniture is absolutely safe. We thoroughly inspect all items for quality and condition before offering them for sale. We prioritize transparency and customer satisfaction."
+                },
+                {
+                    "question": "How to negotiate prices for used furniture in Sharjah?",
+                    "answer": "When you negotiate prices for used furniture in Sharjah, be polite and respectful. Do some research to understand the market value of similar items. Point out any minor imperfections you notice (if any) and be prepared to offer a reasonable counter-offer. Building rapport with the seller can also be helpful."
+                },
+                {
+                    "question": "Which areas in Sharjah have the cheapest used furniture?",
+                    "answer": "While deals can be found across Sharjah, areas with higher residential density or older buildings, like parts of Al Nahda and Al Qasimia, may sometimes offer a wider range of cheap used furniture options. However, always compare quality and condition alongside price."
+                },
+                {
+                    "question": "What to check before buying used furniture in Sharjah?",
+                    "answer": "Before you buy used furniture in Sharjah, carefully inspect it for structural integrity, signs of damage (like stains, scratches, or loose joints), and overall cleanliness. Ask about the age and usage history if possible. At Dubai Used Furniture, we strive to highlight any notable imperfections in our listings to ensure transparency."
+                },
+                {
+                    "question": "Best time to sell used furniture in Sharjah?",
+                    "answer": "The best time to sell used furniture in Sharjah can be during moving seasons (end of school year, lease renewals), before major holidays when people redecorate, or when furniture trends change. However, there is always a demand for quality used furniture throughout the year in Sharjah."
+                }
+            ]
         }
     }
 }

@@ -12,7 +12,7 @@ const SerChooseUs = ({
   return (
     <section className="bg-primary py-16 md:px-0 px-3 mt-32">
       <div className="con ">
-        <h2 className="md:text-3xl text-2xl text-accent">{title}</h2>
+        <h2 className="md:text-3xl max-w-3xl text-2xl text-accent">{title}</h2>
         <p className="max-w-2xl text-lg/6 mt-3 font-light text-accent">
           {desc}
         </p>

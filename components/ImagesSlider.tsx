@@ -32,7 +32,7 @@ const ImageSlider = ({ imgs }: { imgs: string[] }) => {
             <div className="relative bg-accent h-72 overflow-hidden">
               <Image
                 src={src}
-                alt={`seating furniture image ${index + 1}`}
+                alt={`Used Furniture Gallery Image No ${index + 1}`}
                 fill
                 className="object-cover object-center absolute"
               />

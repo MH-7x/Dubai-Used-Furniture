@@ -7,7 +7,7 @@ import {
   RiSearchLine,
 } from "@remixicon/react";
 import React, { useEffect, useState } from "react";
-import logo from "../../public/image001.png";
+import logo from "../../public/logo-svg.svg";
 import Image from "next/image";
 import BlogAddressBox from "../BlogAddressBox";
 const BlogMobileNav = () => {
@@ -61,15 +61,16 @@ const BlogMobileNav = () => {
             : "translate-y-7 bg-accent"
         } transition-all duration-200`}
       >
-        <div className="w-36 h-9 relative">
-          <Image
-            alt="dubai used furniture logo"
-            title="dubai used furniture logo"
-            src={logo}
-            fill
-            className="absolute object-contain"
-          />
-        </div>
+        <Image
+          alt="dubai used furniture logo"
+          title="dubai used furniture logo"
+          src={logo}
+          width={150}
+          height={150}
+          className=""
+          loading="eager"
+          priority
+        />
         <div className="flex gap-x-2">
           <button className="w-8 h-8 flex items-center justify-center  text-secondary">
             <RiSearchLine className="w-5 h-5" />

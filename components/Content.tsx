@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
 const Content = ({
   title,
@@ -12,7 +12,12 @@ const Content = ({
   desc?: string;
   sub1?: string;
   sub2?: string;
-  first: { title: string; desc?: string; parts?: string[] }[];
+  first: {
+    title: string;
+    desc?: string;
+    parts?: string[];
+    extra?: ReactNode;
+  }[];
   second?: { title: string; desc: string }[];
 }) => {
   return (
@@ -39,6 +44,7 @@ const Content = ({
                       {p}
                     </p>
                   ))}
+                {box.extra && <div className="mt-5">{box.extra}</div>}
               </div>
             ))}
           </div>

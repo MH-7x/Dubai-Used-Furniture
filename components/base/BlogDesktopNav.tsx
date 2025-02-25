@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import logo from "../../public/image001.png";
+import logo from "../../public/logo-svg.svg";
 import { RiMapPinFill, RiPhoneFill } from "@remixicon/react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -66,17 +66,16 @@ const BlogDesktopNav = () => {
       >
         <div className="con flex items-center h-16 justify-between">
           <Link aria-label="Home" href={"/"}>
-            <div className="w-52 h-12 relative">
-              <Image
-                src={logo}
-                alt="dubai used furniture logo"
-                title="dubai used furniture logo"
-                fill
-                loading="eager"
-                priority
-                className="absolute object-contain object-center"
-              />
-            </div>
+            <Image
+              src={logo}
+              alt="dubai used furniture logo"
+              title="dubai used furniture logo"
+              width={200}
+              height={200}
+              loading="eager"
+              priority
+              className=""
+            />
           </Link>
           <ul className="flex items-center gap-x-1.5 text-primary relative">
             <NavItem
@@ -84,8 +83,8 @@ const BlogDesktopNav = () => {
               dropdownItems={[
                 "Home Furniture Buy & Sell",
                 "Office Furniture Buy & Sell",
-                "Home Appilance Buy & Sell",
-                "Outdoor Furniture Buy & Sell",
+                "Home Appliances Buy & Sell",
+
                 "Seating Furniture Buy & Sell",
                 "Table Furniture Buy & Sell",
                 "Sleeping / Buy & Sell Laying furniture",

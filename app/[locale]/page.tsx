@@ -16,6 +16,7 @@ export default function Home() {
   const t = useTranslations("cta2");
   const g = useTranslations("getStarted");
   const i = useTranslations("intro");
+  const s = useTranslations("service");
   return (
     <>
       <main className="md:mt-24 mt-[70px]">
@@ -48,7 +49,12 @@ export default function Home() {
         />
         <PersonText />
         <Types />
-        <Services />
+        <Services
+          title={s("section_title")}
+          desc={s("description")}
+          services={s.raw("services")}
+          others={s.raw("otherServices")}
+        />
         <WhyChooseUs />
         <AboutUs />
         <Cities />

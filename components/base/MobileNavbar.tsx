@@ -68,16 +68,18 @@ const MobileNavbar = () => {
             : "translate-y-7 bg-accent"
         } transition-all duration-200`}
       >
-        <Image
-          alt="dubai used furniture logo"
-          title="dubai used furniture logo"
-          src={logo}
-          width={150}
-          height={150}
-          className=""
-          loading="eager"
-          priority
-        />
+        <Link title="Home" href={"/"}>
+          <Image
+            alt="dubai used furniture logo"
+            title="dubai used furniture logo"
+            src={logo}
+            width={150}
+            height={150}
+            className=""
+            loading="eager"
+            priority
+          />
+        </Link>
         <div className="flex gap-x-2">
           <SearchLayout forMobile={true} />
           <AddressBox />
@@ -186,7 +188,7 @@ const Sidebar = () => {
               },
               {
                 title: `${l("locations.usedFurniture")} ${l("locations.loc2")}`,
-                link: "#",
+                link: "/used-furniture-in-sharjah",
               },
               {
                 title: `${l("locations.usedFurniture")} ${l("locations.loc3")}`,

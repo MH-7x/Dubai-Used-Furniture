@@ -8,18 +8,32 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import { Button } from "../ui/button";
+import { RiArrowRightUpFill, RiPhoneFill } from "@remixicon/react";
 
-const Services = () => {
-  const t = useTranslations("service");
+const Services = ({
+  title,
+  desc,
+  services,
+  others,
+}: {
+  title: string;
+  desc: string;
+  services: {
+    title: string;
+    description: string;
+    src: string;
+    items: string[];
+  }[];
+  others: { title: string; desc: string; src: string }[];
+}) => {
   const b = useTranslations("buttons");
   const locale = useLocale();
   return (
     <>
-      <section className="con mt-32 md:px-0 px-3">
+      <section id="furniture-categories" className="con mt-32 md:px-0 px-3">
         <div className="grid md:grid-cols-2 grid-cols-1 items-center">
-          <h2 className="md:text-4xl text-3xl text-primary">
-            {t("section_title")}
-          </h2>
+          <h2 className="md:text-4xl text-3xl text-primary">{title}</h2>
           <div
             className={` text-text  py-5 ${
               locale === "ar"
@@ -27,17 +41,20 @@ const Services = () => {
                 : "border-l-2 pl-3 border-l-secondary"
             }`}
           >
-            <p className="text-lg">{t("description")}</p>
-            <button className="px-4 py-2 mt-4 bg-secondary text-primary">
+            <p className="text-lg">{desc}</p>
+            <Button variant={"secondary"} className="mt-5" size={"lg"}>
               {b("callOrWhatsapp")}
-            </button>
+            </Button>
           </div>
         </div>
 
         <div className="grid md:grid-cols-2 grid-cols-1 mt-16 gap-10">
-          {t.raw("services").map((service: any, index: number) => (
-            <div key={index} className="bg-accent md:p-5 p-3 text-text">
-              <div className="w-full md:h-80 h-60 bg-white overflow-hidden relative">
+          {services.map((service: any, index: number) => (
+            <div
+              key={index}
+              className="bg-accent md:rounded-xl md:p-5 p-3 text-text"
+            >
+              <div className="w-full rounded-lg md:h-80 h-60 bg-white overflow-hidden relative">
                 <Image
                   alt={service.title}
                   title={service.title}
@@ -53,7 +70,7 @@ const Services = () => {
               </Link>
               <p className="mt-2">{service.description}</p>
               <ul
-                className={`grid md:grid-cols-2 grid-cols-1 gap-x-2 text-primary list-disc pl-5 mt-2 ${
+                className={`grid md:grid-cols-2 grid-cols-1 gap-x-2 text-primary list-disc pl-5 mt-5 ${
                   locale === "ar" ? "pr-5" : "pl-5"
                 }`}
               >
@@ -61,13 +78,20 @@ const Services = () => {
                   <li key={i}>{item}</li>
                 ))}
               </ul>
-              <div className="con mt-5 grid grid-cols-2 gap-3">
-                <button className="py-2 text-center bg-secondary text-primary">
-                  {b("details")}
-                </button>
-                <button className="py-2 text-center text-secondary">
-                  {b("call")}
-                </button>
+              <div className="con mt-8 grid grid-cols-2 gap-3">
+                <Button
+                  title={`view more details about ${service.title}`}
+                  size={"lg"}
+                >
+                  {b("details")} <RiArrowRightUpFill />
+                </Button>
+                <Button
+                  variant={"link"}
+                  title={`Call For ${service.title}`}
+                  size={"lg"}
+                >
+                  {b("call")} <RiPhoneFill />
+                </Button>
               </div>
             </div>
           ))}
@@ -87,41 +111,31 @@ const Services = () => {
             }}
             navigation
             pagination={{ clickable: true }}
-            className=" "
           >
-            {t
-              .raw("otherServices")
-              .map(
-                (
-                  slide: { title: string; desc: string; src: string },
-                  i: number
-                ) => (
-                  <SwiperSlide className="bg-accent mt-10 pb-5" key={i}>
-                    <div className="w-full h-60 bg-white overflow-hidden relative">
-                      <Image
-                        src={slide.src}
-                        alt={slide.title}
-                        fill
-                        className="object-cover object-center absolute"
-                      />
-                    </div>
-                    <h2 className="text-xl text-text px-3 mt-5">
-                      {slide.title}
-                    </h2>
-                    <p className="text-gray-600 text-base/5 px-3 mt-2">
-                      {slide.desc}
-                    </p>
-                    <div className="con mt-5 grid grid-cols-2 gap-3">
-                      <button className="py-1.5 text-center bg-secondary text-primary">
-                        {b("details")}
-                      </button>
-                      <button className="py-1.5 text-center text-secondary">
-                        {b("call")}
-                      </button>
-                    </div>
-                  </SwiperSlide>
-                )
-              )}
+            {others.map((slide, i: number) => (
+              <SwiperSlide className="bg-accent rounded-xl mt-10 pb-5" key={i}>
+                <div className="w-full h-60 rounded-t-xl bg-white overflow-hidden relative">
+                  <Image
+                    src={slide.src}
+                    alt={slide.title}
+                    fill
+                    className="object-cover object-center absolute"
+                  />
+                </div>
+                <h2 className="text-xl text-text px-3 mt-5">{slide.title}</h2>
+                <p className="text-gray-600 text-base/5 px-3 mt-2">
+                  {slide.desc}
+                </p>
+                <div className="con mt-5 grid grid-cols-2 gap-3 px-3">
+                  <Button title={`view more details about ${slide.title}`}>
+                    {b("details")} <RiArrowRightUpFill />
+                  </Button>
+                  <Button variant={"link"} title={`Call For ${slide.title}`}>
+                    {b("call")} <RiPhoneFill />
+                  </Button>
+                </div>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </section>

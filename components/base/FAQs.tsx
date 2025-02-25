@@ -36,7 +36,7 @@ function FAQs({
                     </h3>
                   </div>
                 </summary>
-                <div className="mt-4 md:pl-11 pl-7 pr-4 py-2 bg-purple-50 text-gray-700 border-l-4 border-secondary">
+                <div className="mt-4 md:pl-11 pl-7 pr-4 py-2 bg-secondary/10 text-gray-700 border-l-4 border-secondary">
                   <p className="md:text-base text-sm">{faq.answer}</p>
                 </div>
               </details>
