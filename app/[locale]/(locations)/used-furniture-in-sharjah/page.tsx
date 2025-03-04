@@ -19,7 +19,7 @@ import {
   RiTruckFill,
   RiShieldUserLine,
 } from "@remixicon/react";
-import imgSrc from "../../../../public/sharjah/used-furniture-in-sharjah.webp";
+import imgSrc from "../../../../public/ajman/used-furniture-store-in-ajman.jpg";
 
 const UsedFurnitureSharjahPage: React.FC = () => {
   const t = useTranslations("UsedFurnitureSharjahPage");
@@ -30,7 +30,7 @@ const UsedFurnitureSharjahPage: React.FC = () => {
     <RiTruckFill size={50} key="icon3" />,
     <RiShieldUserLine size={50} key="icon4" />,
   ];
-
+  const r = useTranslations("testimonials");
   return (
     <main className="md:mt-24 mt-36">
       <LocHeroSection
@@ -56,7 +56,7 @@ const UsedFurnitureSharjahPage: React.FC = () => {
         }))}
       />
 
-      <TestimonialSlider />
+      <TestimonialSlider testimonials={r.raw("sharjahPageTestimonials")} />
 
       <Services
         title={t("services.title")}

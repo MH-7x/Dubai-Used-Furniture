@@ -80,6 +80,7 @@ const SleepingFurniturePage = () => {
         title={t("threeGrid.title")}
         desc={t("threeGrid.desc")}
         list={threeGridList}
+        total={Number(t("threeGrid.total"))}
       />
 
       <Extra desc={t("extra2.desc")} list={extra2List} />

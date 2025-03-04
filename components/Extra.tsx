@@ -1,13 +1,15 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
 const Extra = ({
   desc,
   list,
   title,
+  extra,
 }: {
   desc: string;
   list: string[];
   title?: string;
+  extra?: ReactNode;
 }) => {
   return (
     <section className="mt-16 max-w-4xl mx-auto md:px-0 px-3">
@@ -22,6 +24,7 @@ const Extra = ({
           <li key={i}>{li}</li>
         ))}
       </ul>
+      {extra && extra}
     </section>
   );
 };

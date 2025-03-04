@@ -79,6 +79,68 @@
                 "cus_rating": "4/5",
                 "cus_avatar": "https://i.pravatar.cc/50?img=10"
             }
+        ],
+        "ajmanPageTestimonials": [
+            {
+                "cus_name": "Ahmed Al Mansoori",
+                "cus_message": "I had a smooth experience buying used furniture from Dubai Used Furniture. The quality met my expectations and the process was straightforward.",
+                "cus_rating": "4",
+                "cus_avatar": "https://i.pravatar.cc/50?img=1"
+            },
+            {
+                "cus_name": "Fatima Al Farsi",
+                "cus_message": "The selection of pre-owned furniture is decent and the transaction was hassle-free. I am happy with my purchase.",
+                "cus_rating": "4.5",
+                "cus_avatar": "https://i.pravatar.cc/50?img=2"
+            },
+            {
+                "cus_name": "Mohammed Al Qassimi",
+                "cus_message": "I appreciated the clear communication and honest description of the used furniture. A reliable service overall.",
+                "cus_rating": "4",
+                "cus_avatar": "https://i.pravatar.cc/50?img=3"
+            },
+            {
+                "cus_name": "Sara Al Nuaimi",
+                "cus_message": "The process of buying used furniture was smooth, and the staff was courteous. The items are in good condition.",
+                "cus_rating": "4",
+                "cus_avatar": "https://i.pravatar.cc/50?img=4"
+            },
+            {
+                "cus_name": "Khalid Al Marri",
+                "cus_message": "A neutral yet efficient experience. The product was as described and the process was transparent.",
+                "cus_rating": "3.5",
+                "cus_avatar": "https://i.pravatar.cc/50?img=5"
+            },
+            {
+                "cus_name": "Aisha Al Habsi",
+                "cus_message": "Dubai Used Furniture offered a decent selection and straightforward service. I found what I needed without any issues.",
+                "cus_rating": "4",
+                "cus_avatar": "https://i.pravatar.cc/50?img=6"
+            },
+            {
+                "cus_name": "Yousef Al Mansoor",
+                "cus_message": "I was satisfied with the process and the condition of the furniture. The overall experience was neutral and professional.",
+                "cus_rating": "4",
+                "cus_avatar": "https://i.pravatar.cc/50?img=7"
+            },
+            {
+                "cus_name": "Noura Al Suwaidi",
+                "cus_message": "A straightforward service that met my requirements. The used furniture is of acceptable quality and priced fairly.",
+                "cus_rating": "3.5",
+                "cus_avatar": "https://i.pravatar.cc/50?img=8"
+            },
+            {
+                "cus_name": "Omar Al Amiri",
+                "cus_message": "The experience was neutral; nothing exceptional but no issues either. The furniture condition was as promised.",
+                "cus_rating": "3.5",
+                "cus_avatar": "https://i.pravatar.cc/50?img=9"
+            },
+            {
+                "cus_name": "Laila Al Fayed",
+                "cus_message": "An efficient buying process with clear details. I am satisfied with the overall service and the quality of the used furniture.",
+                "cus_rating": "4",
+                "cus_avatar": "https://i.pravatar.cc/50?img=10"
+            }
         ]
     },
     "NavList": {
@@ -919,6 +981,7 @@
         "threeGrid": {
             "title": "Quality You Can Trust",
             "desc": "We understand that purchasing used furniture requires assurance of quality and condition. At Dubai Used Furniture, we maintain high standards through rigorous quality checks. Our offerings include:",
+            "total": "8",
             "list": [
                 {
                     "title": "Gently Used Beds Dubai",
@@ -951,10 +1014,6 @@
                 {
                     "title": "Barely used sleeping furniture Dubai",
                     "desc": "that offers you the best in both durability and style."
-                },
-                {
-                    "title": "Almost new pre-owned beds Dubai",
-                    "desc": "available at prices that make luxury affordable."
                 }
             ]
         },
@@ -2689,6 +2748,389 @@
                     "answer": "The best time to sell used furniture in Sharjah can be during moving seasons (end of school year, lease renewals), before major holidays when people redecorate, or when furniture trends change. However, there is always a demand for quality used furniture throughout the year in Sharjah."
                 }
             ]
+        }
+    },
+    "UsedFurnitureAjmanPage": {
+        "locHeroSection": {
+            "title": {
+                "main": "Used Furniture in Ajman, ",
+                "auth": "Buy & Sell Second Hand Furniture"
+            },
+            "desc": "We are renowned buyers and sellers of used furniture in Ajman. We offer a wide range of second-hand and refurbished furniture items, including dining chairs, tables, office chairs, sofas, and beds. All our products are crafted from high-quality materials and are available at very affordable prices.",
+            "alt": "Used Furniture  in Ajman"
+        },
+        "text": {
+            "title": "Welcome to Dubai Used Furniture - Your Premier Destination for Quality Used Furniture in Ajman",
+            "desc": "As Ajman’s trusted used furniture marketplace, Dubai Used Furniture connects buyers and sellers of high-quality pre-owned furniture across Ajman UAE. Whether you’re searching for affordable home furniture near Ajman University, need to sell office furniture in Ajman Free Zone, or want vintage wooden cabinets refurbished to like-new condition, we’re your one-stop solution. Serving Ajman City, Al Jurf, Ajman Corniche, and beyond!"
+        },
+        "twoGridLi1": {
+            "title": "Buy Affordable Used Furniture in Ajman UAE",
+            "desc": "Discover a wide range of quality used furniture for sale in Ajman, handpicked for durability and style:",
+            "lists": [
+                {
+                    "title": "Quality Used Home Furniture",
+                    "lis": [
+                        {
+                            "title": "Used Sofa Ajman:",
+                            "desc": "Comfortable, well-maintained couches for living rooms."
+                        },
+                        {
+                            "title": "Used Dining Table Ajman:",
+                            "desc": "Perfect sets for families, starting under 500 AED."
+                        },
+                        {
+                            "title": "Used Wooden Furniture Ajman:",
+                            "desc": "Vintage cabinets, wardrobes, and beds."
+                        }
+                    ]
+                },
+                {
+                    "title": "Budget-Friendly Office Furniture",
+                    "lis": [
+                        {
+                            "title": "Used Office Desks & Chairs:",
+                            "desc": "Ideal for startups in Ajman Industrial Area."
+                        },
+                        {
+                            "title": "Refurbished Office Desks Ajman Free Zone:",
+                            "desc": "Like-new condition at half the price."
+                        }
+                    ]
+                }
+            ]
+        },
+        "extra": {
+            "title": "Sell Your Used Furniture in Ajman Quickly & Easily",
+            "desc": "Looking to declutter or upgrade your furniture? Dubai Used Furniture is also a leading used furniture buyer in Ajman. We offer a hassle-free way to sell used furniture Ajman for cash. We are known as the best place to sell used furniture Ajman because we offer:",
+            "list": [
+                "Fair and competitive prices for your pre-owned furniture Ajman.",
+                "Quick and convenient used furniture pickup Ajman service.",
+                "Hassle-free process – we handle everything!"
+            ],
+            "extra": "Whether you have used home furniture, used office furniture, or specific items like a used sofa or used dining table, we are interested! Sell Your Furniture Now & Get a Free Quote. Find out why we are the best place to sell used furniture in Ajman"
+        },
+        "twoGridLi2": {
+            "title": "Sell Your Used Furniture Fast in Ajman",
+            "desc": "Turn your old furniture into cash quickly with Dubai Used Furniture:",
+            "lists": [
+                {
+                    "title": "How It Works:",
+                    "listType": "ol",
+                    "lis": [
+                        {
+                            "title": "Contact Us:",
+                            "desc": "Send photos of your items for a free valuation using our whatsapp number."
+                        },
+                        {
+                            "title": "Schedule Pickup:",
+                            "desc": "We offer same-day used furniture pickup service Ajman."
+                        },
+                        {
+                            "title": "Get Paid Instantly:",
+                            "desc": "Cash on the spot for quality items!"
+                        }
+                    ]
+                },
+                {
+                    "title": "What We Mostly Buy",
+                    "listType": "ul",
+                    "lis": [
+                        {
+                            "title": "Pre-Owned IKEA Furniture:",
+                            "desc": "Sofas, bookshelves, and kids’ bedroom sets."
+                        },
+                        {
+                            "title": "Used Electronics and Appliances:",
+                            "desc": "TVs, refrigerators, and washing machines etc."
+                        },
+                        {
+                            "title": "Used Office Furniture:",
+                            "desc": "Desks, chairs, and cabinets from businesses in Ajman Free Zone."
+                        },
+                        {
+                            "title": "Get Paid Instantly:",
+                            "desc": "Cash on the spot for quality items!"
+                        }
+                    ]
+                }
+            ]
+        },
+        "services": {
+            "title": "All Kind Of Furniture Furniture in Ajman",
+            "desc": "To make your experience seamless, we offer a range of services in Ajman to fullfil your homes and office requirements, check our used furniture services in ajman:",
+            "serviceList": [
+                {
+                    "title": "Used Seating Furniture in Ajman",
+                    "description": "We provide furniture buy and sell services in ajman for the following types of seating furniture used for seating purposes.",
+                    "items": [
+                        "Rocking chair",
+                        "Chair",
+                        "Lift chair",
+                        "Bar Stool",
+                        "Chaise longue",
+                        "Bench",
+                        "Divan",
+                        "Sofa or settee"
+                    ],
+                    "src": "/images/seating-furniture.jpg"
+                },
+                {
+                    "title": "Used Table Furniture in Ajman",
+                    "description": "We buy and sell any kind of table furniture in good condition in UAE. Located in ajman.",
+                    "items": [
+                        "Coffee Table",
+                        "Billiard Table",
+                        "Dining Table",
+                        "Office Work Station",
+                        "Computer Table",
+                        "Study Table",
+                        "TV Stand",
+                        "Dressing Table (Child Bed)"
+                    ],
+                    "src": "/images/table-furniture.jpg"
+                },
+                {
+                    "title": "Used Sleeping or Lying Furniture in Ajman",
+                    "description": "We buy and sell different types of furniture mostly used for sleeping and lying purposes.",
+                    "items": [
+                        "Bunk Bed",
+                        "Bed",
+                        "Platform Bed",
+                        "Four-Poster Bed",
+                        "Murphy Bed",
+                        "Infant Bed (Child Bed)",
+                        "Sleigh Bed",
+                        "Mattress"
+                    ],
+                    "src": "/images/laying-furniture.jpg"
+                },
+                {
+                    "title": "Used Storage Furniture in Ajman",
+                    "description": "We buy and sell all kinds of storage furniture like cupboards, cabinets, etc., in Dubai.",
+                    "items": [
+                        "Baker's Rack",
+                        "Cupboard",
+                        "Chifforobe",
+                        "Bookcase",
+                        "Cabinetry",
+                        "Filing Cabinet",
+                        "Kitchen Cabinet",
+                        "Chest of Drawers or Dresser"
+                    ],
+                    "src": "/images/storage-furniture.jpg"
+                },
+                {
+                    "title": "Used Home Appliance in Ajman",
+                    "description": "We buy all kinds of used home appliances at the best price in good condition. Contact us if you have any appliance to sell.",
+                    "items": [
+                        "Refrigerator",
+                        "Washing Machine",
+                        "Air Condition",
+                        "Gas Cooker",
+                        "Dish Washer",
+                        "Freezer",
+                        "LED TV",
+                        "Microwave Oven"
+                    ],
+                    "src": "/images/home-appliance.webp"
+                }
+            ],
+            "others": [
+                {
+                    "title": "Used Home Furniture Buyers in Ajman",
+                    "desc": "Sell or purchase used home furniture in ajman. Receive best price for your second-hand sofas, beds, and more. Quick, convenient service!",
+                    "src": "/images/used-home-furniture.jpg"
+                },
+                {
+                    "title": "Used Office Furniture Buyers in Ajman",
+                    "desc": "Sell your old office furniture in ajman or purchase cheap second-hand desks, chairs, and cabinets. Top prices, fast deals!",
+                    "src": "/images/used-office-furniture.jpeg"
+                },
+                {
+                    "title": "Used Hotel Furniture Buyers in Ajman",
+                    "desc": "Dubai Used Furniture offers hassle-free hotel furniture removal with reasonable prices, easy pick-up, and quick payment in Ajman.",
+                    "src": "/images/used-hotel-furniture.webp"
+                }
+            ]
+        },
+        "content": {
+            "title": "Browse Our Wide Range of Used Furniture Categories in Ajman",
+            "desc": "Browse our wide range of used furniture categories in Ajman, including sofas, beds, cabinets, desks, chairs, and more. Find the perfect piece for your home or office.",
+            "first": [
+                {
+                    "title": "Used Home Furniture Ajman",
+                    "parts": [
+                        "Create a comfortable and inviting home with our selection of used home furniture Ajman. We offer everything from used sofa Ajman sets and comfortable armchairs to elegant used dining table Ajman sets and bedroom furniture.",
+                        "Find quality pieces to furnish your living room, dining room, bedroom, and more.",
+                        "Used sofa for sale in Ajman Quality Used Sofa Set Comfortable and stylish sofa set, perfect for your living room. View More Used Sofas for Sale in Ajman"
+                    ],
+                    "extra": "View Furniture Images; View All Used Home Furniture"
+                },
+                {
+                    "title": "Used Office Furniture Ajman",
+                    "parts": [
+                        "Equip your workspace efficiently with our range of used office furniture Ajman. We have a variety of desks, chairs, cabinets, and more to suit your office needs",
+                        "Find affordable used furniture Ajman for your business and create a productive environment.",
+                        "Comfortable and supportive office chair for long working hours. View More Office Chairs for Sale in Ajman",
+                        "Used office desk Ajman Spacious Used Office Desk Functional and durable desk for your office setup. View More Office Desks"
+                    ],
+                    "extra": "See Our Used Office Furniture"
+                },
+                {
+                    "title": "Used Wooden Furniture Ajman",
+                    "parts": [
+                        "Discover the warmth and durability of used wooden furniture Ajman. From classic wooden cabinets and wardrobes to sturdy tables and chairs, find timeless pieces to enhance your space.",
+                        "Explore our collection of used wooden furniture Ajman today.",
+                        "Used wooden cabinet Ajman Classic Used Wooden Cabinet Beautiful and functional wooden cabinet for storage and display",
+                        "Used wooden wardrobe Ajman Spacious Used Wooden Wardrobe Durable and elegant wooden wardrobe for bedroom storage. View More Wooden Wardrobes"
+                    ],
+                    "extra": "Browse All Used Wooden Furniture"
+                }
+            ]
+        },
+        "serChooseUs": {
+            "title": "Why Choose Us for Used Furniture in Ajman?",
+            "desc": "When you choose Dubai Used Furniture, you are choosing:",
+            "lis": [
+                {
+                    "title": "Quality Used Furniture:",
+                    "desc": "We carefully inspect and select only well-maintained used furniture Ajman to ensure customer satisfaction. We also offer refurbished furniture Ajman options."
+                },
+                {
+                    "title": "Affordable Prices:",
+                    "desc": "Get the best value for your money with our cheap secondhand furniture Ajman and discount used furniture Ajman UAE."
+                },
+                {
+                    "title": "Wide Selection of Furniture:",
+                    "desc": "From homes to offices, find everything you need in one place. Convenience: Easy online browsing, reliable delivery and pickup services."
+                },
+                {
+                    "title": "Local Experts:",
+                    "desc": "We understand the Ajman used furniture market and cater to the needs of the local community."
+                }
+            ]
+        },
+        "threeGrid": {
+            "title": "Exploring the Local Used Furniture Market in Ajman: Neighborhoods & Hotspots",
+            "desc": "Ajman's used furniture market is vibrant and dynamic, reflecting the diverse needs of its residents. Here’s a glimpse into the local landscape:",
+            "list": [
+                {
+                    "title": "Used Furniture Shops near Ajman University",
+                    "desc": "The areas surrounding Ajman University are often bustling with students and residents seeking affordable furniture solutions."
+                },
+                {
+                    "title": "Secondhand Furniture near Al Zorah Ajman",
+                    "desc": "As Al Zorah develops, the demand for quality and affordable home furnishings is growing."
+                },
+                {
+                    "title": "Used Furniture Stores close to Ajman China Mall",
+                    "desc": "The area around Ajman China Mall is a commercial hub with demand for practical furniture."
+                },
+                {
+                    "title": "Pre-owned Furniture near Ajman Corniche",
+                    "desc": "Ajman Corniche residents seek quality pieces at great value."
+                },
+                {
+                    "title": "Ajman Used Furniture Market Areas",
+                    "desc": "Shops are located throughout Industrial Area, Al Jurf, and near commercial centers."
+                },
+                {
+                    "title": "Serving All of Ajman",
+                    "desc": "We serve Ajman Uptown, Al Nuaimiya, Al Rashidiya, Al Hamidiya, and all Ajman neighborhoods."
+                }
+            ]
+        },
+        "Gallery": {
+            "title": "Our Used Furniture Gallery",
+            "desc": "See our second hand furniture gallery that are currently available for sale in ajman."
+        },
+        "faqs": [
+            {
+                "question": "Where to buy cheap used furniture in Ajman UAE?",
+                "answer": "Dubai Used Furniture offers a wide range of affordable and cheap secondhand furniture in Ajman. Browse our online catalog or visit our store to discover great deals."
+            },
+            {
+                "question": "Why we buy used furniture in ajman",
+                "answer": "There are many reasons why we buy used furniture in Ajman, UAE, but the main reason is that when People plan to buy used furniture for their home or office, they don't have a place for new furniture because all the places are already filled with old furniture. For that reason, people in Ajman contact us to sell their second-hand furniture."
+            },
+            {
+                "question": "Is buying used furniture in Ajman worth it?",
+                "answer": "Absolutely! Buying used furniture in Ajman is a smart, economical, and sustainable choice. You can find high-quality pieces at significantly lower prices compared to brand new furniture, and it's an eco-friendly option."
+            },
+            {
+                "question": "Do you offer used furniture delivery service in Ajman Free Zone?",
+                "answer": "Yes, we provide used furniture delivery service in Ajman Free Zone and across Ajman. We ensure reliable and affordable delivery to your location."
+            },
+            {
+                "question": "Where to find used furniture for small apartments in Ajman?",
+                "answer": "Dubai Used Furniture has a variety of space-saving used furniture for small apartments in Ajman. Explore our selection of compact sofas, dining sets, and multi-functional storage solutions perfect for smaller living spaces."
+            },
+            {
+                "question": "Are there fake used furniture sellers in Ajman?",
+                "answer": "While most used furniture sellers in Ajman are reputable, it's always wise to exercise caution. Choose trusted and established businesses like Dubai Used Furniture that have a proven track record of quality and customer satisfaction."
+            },
+            {
+                "question": "How to negotiate prices for secondhand furniture in Ajman?",
+                "answer": "Negotiation is common in the secondhand furniture market in Ajman. Politely inquire if there is any flexibility in the price, especially if you are buying multiple items or paying in cash. Research similar items online to understand fair market prices."
+            },
+            {
+                "question": "Where to donate used furniture in Ajman UAE?",
+                "answer": "If you have furniture you wish to donate rather than sell, there are several charitable organizations in Ajman and the UAE that accept furniture donations. Research local charities like the Red Crescent or Beit Al Khair Society to see if they accept furniture donations and arrange for pickup."
+            },
+            {
+                "question": "Best time to buy used furniture in Ajman?",
+                "answer": "You can find good deals on used furniture throughout the year in Ajman. However, you might find a wider selection and potentially lower prices during off-peak seasons or when people are moving and decluttering."
+            }
+        ],
+        "TwoGridOne": {
+            "sideOne": {
+                "title": "Used Household items buyers in Ajman",
+                "desc": [
+                    "Our services are for all buyers of household items such as appliances, furniture, dishes, decorative items, or other usable items for the home. ",
+                    "We buy all kinds of high-quality items and clean them everywhere in the UAE capital Ajman. The main goal is to provide quality services to our esteemed clients.",
+                    "We offer services for ovens, refrigerators, washing machines, dryers, dishwashers, water coolers, stoves, juicers, irons, air conditioning units, water dispensers, computers, printers, and massage chairs. We also buy and sell rocking chairs and various types of furniture."
+                ],
+                "src": "/ajman/used-household-items.jpg",
+                "alt": "Used household items for sale"
+            },
+            "sideTwo": {
+                "title": "Used AC Buyers in Ajman",
+                "desc": [
+                    "We at Dubai Used Offers buy used air conditioners in Ajman, regardless of their condition. We handle the maintenance and repair of all types of used air conditioners, restoring them to like-new condition. ",
+                    "All you have to do is just contact us with our WhatsApp number or contact form and our team will reach to your door to buy second hand AC in ajman.",
+                    "Also if you wish to buy second hand furniture like washing machines, refrigerators, stoves, TV screens, gas oven or other electronics at reasonable price and in good condition, then contact us."
+                ],
+                "src": "/ajman/used-ac.jpg",
+                "alt": "Used AC for sale"
+            }
+        },
+        "TwoGridTwo": {
+            "sideOne": {
+                "title": "Used Furniture For Sale in Ajman ",
+                "desc": [
+                    "Have you used furniture for sale Ajman? If you have a lot of items like cupboards, dining tables, desk, wardrobe and other furniture that you don’t use often and are already thinking of selling them, you can search for a furniture buyers in Ajman to sell them.",
+                    " To sell used furniture, you can contact us directly to inquire about our used furniture for sale in Ajman.",
+                    "Another option is that we will visit your home and check the furniture directly. And if it is in good condition, we will give you the exact price or the rate above what we will give you. When all is well for both sellers and buyers, we can take the furniture because we provide you with the cash we promised."
+                ],
+                "src": "/ajman/used-furniture-for-sale.jpg",
+                "alt": "Used Furniture For Sale"
+            },
+            "sideTwo": {
+                "title": "Second hand bedrooms for sale in Ajman",
+                "desc": [
+                    "Clean used bedrooms for sale. In addition to the distinguished purchasing services, Dubai Used Furniture provides a group of the best clean used rooms of high quality. Therefore, do not worry in dealing with us. ",
+                    " With us, you will get the best distinguished services and a group of rooms that are distinguished by their quality.",
+                    "We will send a professional team in the field of used bedrooms for sale in Ajman, in addition to that. Evaluating the rooms with high accuracy and assessing the rooms, whatever their condition, without underestimating in its price."
+                ],
+                "src": "/ajman/second-hand-bedroom.jpeg",
+                "alt": "second hand bedrooms "
+            }
+        },
+        "footerCTA": {
+            "title": "Visit Our Store or Contact Us Today",
+            "desc": "Ready to explore our collection of used furniture stores Ajman online or sell your furniture? Contact Dubai Used Furniture today using our whatsapp number or contact form!",
+            "alt": "Contact For Used Furniture in Ajman",
+            "src": "/seating/contact-seating.png"
         }
     }
 }

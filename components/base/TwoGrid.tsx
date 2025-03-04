@@ -20,7 +20,7 @@ const TwoGrid = ({
       )}
       {desc && (
         <div className="max-w-4xl mx-auto text-center text-text text-lg mt-5">
-          {desc}
+          <p>{desc}</p>
         </div>
       )}
       <div className="con mt-16 grid md:grid-cols-2 grid-cols-1 gap-5 items-center">

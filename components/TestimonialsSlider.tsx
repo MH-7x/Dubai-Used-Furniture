@@ -6,7 +6,16 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import { useTranslations } from "next-intl";
 
-const TestimonialSlider: React.FC = () => {
+const TestimonialSlider = ({
+  testimonials,
+}: {
+  testimonials: {
+    cus_name: string;
+    cus_message: string;
+    cus_rating: string;
+    cus_avatar: string;
+  }[];
+}) => {
   const t = useTranslations("testimonials");
   return (
     <section className="mt-40 md:mb-16">
@@ -34,46 +43,36 @@ const TestimonialSlider: React.FC = () => {
           }}
           className="mySwiper"
         >
-          {t.raw("sharjahPageTestimonials").map(
-            (
-              review: {
-                cus_name: string;
-                cus_message: string;
-                cus_rating: string;
-                cus_avatar: string;
-              },
-              i: number
-            ) => (
-              <SwiperSlide key={i}>
-                <div className="group bg-white border border-solid border-gray-300 rounded-xl p-6 transition-all duration-500 hover:border-secondary hover:shadow-sm">
-                  <div>
-                    <div className="flex items-center mb-7 gap-2 text-amber-500">
-                      <RiStarFill />
-                      <span className="text-base font-semibold text-primary">
-                        {review.cus_rating}
-                      </span>
-                    </div>
-                    <p className="text-base text-gray-600 leading-6 pb-8 group-hover:text-gray-800">
-                      {review.cus_message}
-                    </p>
+          {testimonials.map((review, i: number) => (
+            <SwiperSlide key={i}>
+              <div className="group bg-white border border-solid border-gray-300 rounded-xl p-6 transition-all duration-500 hover:border-secondary hover:shadow-sm">
+                <div>
+                  <div className="flex items-center mb-7 gap-2 text-amber-500">
+                    <RiStarFill />
+                    <span className="text-base font-semibold text-primary">
+                      {review.cus_rating}
+                    </span>
                   </div>
-                  <div className="flex items-center gap-5 border-t border-solid border-gray-200 pt-5">
-                    <img
-                      className="rounded-full h-10 w-10 object-cover"
-                      loading="lazy"
-                      src={review.cus_avatar}
-                      alt={`${review.cus_name} avatar`}
-                    />
-                    <div>
-                      <h5 className="text-gray-900 font-medium mb-1">
-                        {review.cus_name}
-                      </h5>
-                    </div>
+                  <p className="text-base text-gray-600 leading-6 pb-8 group-hover:text-gray-800">
+                    {review.cus_message}
+                  </p>
+                </div>
+                <div className="flex items-center gap-5 border-t border-solid border-gray-200 pt-5">
+                  <img
+                    className="rounded-full h-10 w-10 object-cover"
+                    loading="lazy"
+                    src={review.cus_avatar}
+                    alt={`${review.cus_name} avatar`}
+                  />
+                  <div>
+                    <h5 className="text-gray-900 font-medium mb-1">
+                      {review.cus_name}
+                    </h5>
                   </div>
                 </div>
-              </SwiperSlide>
-            )
-          )}
+              </div>
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </section>
