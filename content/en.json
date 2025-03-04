@@ -13,7 +13,7 @@
         "callback": "CALL BACK",
         "send": "Send Message",
         "sending": "Sending...",
-        "service": "VIEW OUR SERVICES"
+        "service": "OUR SERVICES"
     },
     "testimonials": {
         "sub": "TESTIMONIALS",
@@ -2748,6 +2748,14 @@
                     "answer": "The best time to sell used furniture in Sharjah can be during moving seasons (end of school year, lease renewals), before major holidays when people redecorate, or when furniture trends change. However, there is always a demand for quality used furniture throughout the year in Sharjah."
                 }
             ]
+        },
+        "FooterCTA": {
+            "title": {
+                "main": "Lets Talk For",
+                "auth": "Your Used Furniture in Sharjah"
+            },
+            "desc": "Contact us for the best deals on used furniture in Sharjah. Buy and sell quality second-hand furniture at affordable prices. Get in touch today!",
+            "alt": "Contact Us For Used Furniture in sharjah"
         }
     },
     "UsedFurnitureAjmanPage": {

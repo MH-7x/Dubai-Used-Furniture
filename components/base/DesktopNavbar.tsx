@@ -155,7 +155,7 @@ const DesktopNavbar = () => {
                     title: `${l("locations.usedFurniture")} ${l(
                       "locations.loc3"
                     )}`,
-                    link: "#",
+                    link: "/used-furniture-in-ajman",
                   },
                   {
                     title: `${l("locations.usedFurniture")} ${l(

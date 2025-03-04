@@ -2,6 +2,7 @@ import { RiServiceFill, RiWhatsappFill } from "@remixicon/react";
 import { Button } from "../ui/button";
 import Image, { StaticImageData } from "next/image";
 import { useLocale, useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 const LocHeroSection = ({
   title,
   desc,
@@ -30,12 +31,17 @@ const LocHeroSection = ({
         </h1>
         <p className="mt-5  md:text-lg/5 text-base  text-text">{desc}</p>
         <div className="md:mt-5 mt-8 flex md:gap-x-5 gap-y-3 md:flex-row flex-col">
-          <Button size={"lg"}>
+          <Button className="w-full" whatsappBtn size={"lg"}>
             <RiWhatsappFill size={25} /> {b("whatsapp")}
           </Button>
-          <Button variant={"accent"} size={"lg"}>
-            <RiServiceFill size={25} /> {b("service")}
-          </Button>
+          <Link
+            title="Our Used Furniture Services in Sharjah"
+            href={"#used-furniture-services"}
+          >
+            <Button className="w-full" variant={"accent"} size={"lg"}>
+              <RiServiceFill size={25} /> {b("service")}
+            </Button>
+          </Link>
         </div>
       </div>
       <div

@@ -1,6 +1,9 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
+import { Button } from "../ui/button";
+import { RiUserShared2Line, RiWhatsappFill } from "@remixicon/react";
+import { Link } from "@/i18n/routing";
 
 const FooterCTA = ({
   title,
@@ -31,13 +34,15 @@ const FooterCTA = ({
             <em>{em}</em>
           </p>
         )}
-        <div className="mt-5 flex items-center gap-x-5">
-          <button className="px-5 py-2.5 bg-primary text-secondary">
-            {b("whatsapp")}
-          </button>
-          <button className="px-5 py-2.5 bg-accent text-primary">
-            {b("about")}
-          </button>
+        <div className="mt-5 flex items-center md:gap-x-5 gap-x-2">
+          <Button size={"lg"} whatsappBtn>
+            <RiWhatsappFill /> {b("whatsapp")}
+          </Button>
+          <Link href={"/about-us"} title="Know more about us">
+            <Button size={"lg"} variant={"accent"}>
+              <RiUserShared2Line /> {b("about")}
+            </Button>
+          </Link>
         </div>
       </div>
       <div className=" col-span-1 h-80 relative overflow-hidden">

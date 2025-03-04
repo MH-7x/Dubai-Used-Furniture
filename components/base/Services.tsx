@@ -11,6 +11,20 @@ import "swiper/css/pagination";
 import { Button } from "../ui/button";
 import { RiArrowRightUpFill, RiPhoneFill } from "@remixicon/react";
 
+const links = [
+  "/used-seating-furniture",
+  "/used-table-furniture",
+  "/used-sleeping-furniture",
+  "used-storage-furniture",
+  "/used-home-appliances",
+];
+
+const otherLinks = [
+  "used-home-furniture-dubai",
+  "used-office-furniture-dubai",
+  "used-hotel-furniture-dubai",
+];
+
 const Services = ({
   title,
   desc,
@@ -31,7 +45,7 @@ const Services = ({
   const locale = useLocale();
   return (
     <>
-      <section id="furniture-categories" className="con mt-32 md:px-0 px-3">
+      <section id="used-furniture-services" className="con mt-32 md:px-0 px-3">
         <div className="grid md:grid-cols-2 grid-cols-1 items-center">
           <h2 className="md:text-4xl text-3xl text-primary">{title}</h2>
           <div
@@ -42,7 +56,12 @@ const Services = ({
             }`}
           >
             <p className="text-lg">{desc}</p>
-            <Button variant={"secondary"} className="mt-5" size={"lg"}>
+            <Button
+              whatsappBtn
+              variant={"secondary"}
+              className="mt-5"
+              size={"lg"}
+            >
               {b("callOrWhatsapp")}
             </Button>
           </div>
@@ -63,7 +82,7 @@ const Services = ({
                   className="absolute object-contain object-center"
                 />
               </div>
-              <Link href={"/used-seating-furniture"}>
+              <Link href={links[index]}>
                 <h3 className="mt-5 md:text-2xl text-xl font-bold text-center">
                   {service.title}
                 </h3>
@@ -79,13 +98,19 @@ const Services = ({
                 ))}
               </ul>
               <div className="con mt-8 grid grid-cols-2 gap-3">
-                <Button
+                <Link
                   title={`view more details about ${service.title}`}
-                  size={"lg"}
+                  href={links[index]}
                 >
-                  {b("details")} <RiArrowRightUpFill />
-                </Button>
+                  <Button
+                    title={`view more details about ${service.title}`}
+                    size={"lg"}
+                  >
+                    {b("details")} <RiArrowRightUpFill />
+                  </Button>
+                </Link>
                 <Button
+                  callBtn
                   variant={"link"}
                   title={`Call For ${service.title}`}
                   size={"lg"}
@@ -127,10 +152,20 @@ const Services = ({
                   {slide.desc}
                 </p>
                 <div className="con mt-5 grid grid-cols-2 gap-3 px-3">
-                  <Button title={`view more details about ${slide.title}`}>
-                    {b("details")} <RiArrowRightUpFill />
-                  </Button>
-                  <Button variant={"link"} title={`Call For ${slide.title}`}>
+                  <Link
+                    title={`view more details about ${slide.title}`}
+                    href={otherLinks[i]}
+                  >
+                    <Button title={`view more details about ${slide.title}`}>
+                      {b("details")} <RiArrowRightUpFill />
+                    </Button>
+                  </Link>
+
+                  <Button
+                    callBtn
+                    variant={"link"}
+                    title={`Call For ${slide.title}`}
+                  >
                     {b("call")} <RiPhoneFill />
                   </Button>
                 </div>

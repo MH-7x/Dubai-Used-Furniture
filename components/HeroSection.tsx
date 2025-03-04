@@ -2,7 +2,10 @@ import { RiServiceFill, RiWhatsappFill } from "@remixicon/react";
 import { Button } from "./ui/button";
 import imgSrc from "../public/images/Dubai-Used-Furniture.webp";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 const HeroSection = () => {
+  const b = useTranslations("buttons");
   return (
     <section className="w-full md:mt-24 mt-36 grid md:grid-cols-2 grid-cols-1 items-center md:gap-0 gap-y-10">
       <div className="md:pl-16 md:px-0 px-3">
@@ -18,12 +21,18 @@ const HeroSection = () => {
           process.
         </p>
         <div className="md:mt-5 mt-8 flex md:gap-x-5 gap-y-3 md:flex-row flex-col">
-          <Button size={"lg"}>
-            <RiWhatsappFill size={25} /> WHATSAPP US
+          <Button className="w-full" whatsappBtn size={"lg"}>
+            <RiWhatsappFill size={25} /> {b("whatsapp")}
           </Button>
-          <Button variant={"accent"} size={"lg"}>
-            <RiServiceFill size={25} /> OUR SERVICES
-          </Button>
+          <Link
+            href={"#used-furniture-services"}
+            title="used furniture services"
+          >
+            <Button className="w-full" variant={"accent"} size={"lg"}>
+              <RiServiceFill size={25} />
+              {b("service")}
+            </Button>
+          </Link>
         </div>
       </div>
       <div className="bg-gray-200 md:ml-10 md:h-[550px] h-96 relative overflow-hidden">

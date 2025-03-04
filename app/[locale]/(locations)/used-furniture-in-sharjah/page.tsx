@@ -20,6 +20,7 @@ import {
   RiShieldUserLine,
 } from "@remixicon/react";
 import imgSrc from "../../../../public/ajman/used-furniture-store-in-ajman.jpg";
+import FooterCTA from "@/components/base/FooterCTA";
 
 const UsedFurnitureSharjahPage: React.FC = () => {
   const t = useTranslations("UsedFurnitureSharjahPage");
@@ -97,7 +98,7 @@ const UsedFurnitureSharjahPage: React.FC = () => {
             typeof section.extra === "string" ? (
               <Link
                 className="text-primary underline underline-offset-4"
-                href="#furniture-categories"
+                href="#used-furniture-services"
               >
                 {section.extra}
               </Link>
@@ -148,6 +149,15 @@ const UsedFurnitureSharjahPage: React.FC = () => {
       />
 
       <FAQs Faqs={t.raw("faqs.questions")} />
+      <FooterCTA
+        title={{
+          main: t("FooterCTA.title.main"),
+          ath: t("FooterCTA.title.auth"),
+        }}
+        desc={t("FooterCTA.desc")}
+        src="/seating/contact-seating.png"
+        alt={t("FooterCTA.alt")}
+      />
     </main>
   );
 };
