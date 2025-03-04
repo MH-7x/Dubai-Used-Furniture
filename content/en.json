@@ -3199,5 +3199,15 @@
             "heading": "Your Trust Matters",
             "description": "Transparency, integrity, and customer joy drive everything we do. Join thousands of satisfied clients who’ve turned to Dubai Used Furniture for reliable, eco-friendly solutions. Let us help you declutter, upgrade, or furnish your space today!"
         }
+    },
+    "contactUsPage": {
+        "title": " Visit Our Location",
+        "desc": "Get face to face deal with us.",
+        "alt": "Our Store Location in Dubai",
+        "address": "Our Address",
+        "hours": "Hours",
+        "Contact": "Contact",
+        "Email": "Email Address",
+        "Phone": "Phone Numbers"
     }
 }
