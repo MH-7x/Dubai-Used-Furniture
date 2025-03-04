@@ -3132,5 +3132,72 @@
             "alt": "Contact For Used Furniture in Ajman",
             "src": "/seating/contact-seating.png"
         }
+    },
+    "aboutUsPage": {
+        "about": {
+            "mainHeading": "About Dubai Used Furniture, Leading Used Furniture Company.",
+            "introParagraph": "For over a decade, Dubai Used Furniture has been the go-to destination for buying and selling high-quality pre-owned furniture across the UAE.",
+            "description": "With a deep-rooted commitment to affordability, sustainability, and customer satisfaction, we’ve built lasting relationships with residents and businesses in Dubai, Sharjah, Ajman, and beyond. Our journey began with a simple mission: to make furniture transactions seamless, fair, and eco-friendly. Today, we proudly stand as one of the UAE’s most trusted names in the used furniture industry."
+        },
+        "whyChooseUs": {
+            "heading": "Why Choose Dubai Used Furniture?",
+            "subheading": "Explore the benefits of buying secondhand furniture in Dubai, highlighting affordability, sustainability, and the potential for finding unique pieces.",
+            "features": [
+                {
+                    "title": "10+ Years of Expertise",
+                    "description": "With over a decade of experience, we understand the true value of your furniture. Our team of experts ensures transparent pricing, hassle-free transactions, and top-notch service."
+                },
+                {
+                    "title": "Fair & Instant Cash Offers",
+                    "description": "Selling your furniture? Get competitive prices and immediate payment—no hidden fees, no delays."
+                },
+                {
+                    "title": "Quality Assurance",
+                    "description": "Every piece we sell undergoes rigorous inspection, cleaning, and refurbishment to meet our high standards."
+                },
+                {
+                    "title": "Free Evaluation & Removal",
+                    "description": "We offer complimentary in-person or virtual assessments and handle pickup/delivery at no extra cost."
+                },
+                {
+                    "title": "Eco-Conscious Approach",
+                    "description": "By promoting reuse, we reduce landfill waste and contribute to a greener UAE."
+                }
+            ]
+        },
+        "services": {
+            "heading": "Our Services",
+            "subheading": "Whether you’re moving, upgrading, or downsizing, we make the process effortless:",
+            "list": [
+                {
+                    "title": "Sell Used Furniture:",
+                    "description": "Get instant cash for sofas, beds, dining sets, office furniture, electronics, and more."
+                },
+                {
+                    "title": "Buy Affordable Furniture:",
+                    "description": "Explore our curated collection of pre-owned items in excellent condition at up to 70% off retail prices."
+                },
+                {
+                    "title": "Free Pickup & Delivery:",
+                    "description": "Serving homes, offices, hotels, and schools across the UAE."
+                }
+            ]
+        },
+        "location": {
+            "heading": "We Serve All Emirates",
+            "description": "From bustling Dubai to vibrant Sharjah, Ajman, and every corner of the UAE, our reach is extensive. Our central location in Building No.4, Moatab Bin Auf St, Bu Shaghara, Sharjah, allows us to respond swiftly to your needs.",
+            "buttons": {
+                "callToUs": "CALL TO US",
+                "viewOurServices": "VIEW OUR SERVICES"
+            }
+        },
+        "sustainability": {
+            "heading": "Sustainability at Our Core",
+            "description": "At Dubai Used Furniture, we believe in giving furniture a second life. By choosing us, you’re not just saving money—you’re supporting a circular economy and reducing environmental impact."
+        },
+        "trust": {
+            "heading": "Your Trust Matters",
+            "description": "Transparency, integrity, and customer joy drive everything we do. Join thousands of satisfied clients who’ve turned to Dubai Used Furniture for reliable, eco-friendly solutions. Let us help you declutter, upgrade, or furnish your space today!"
+        }
     }
 }
