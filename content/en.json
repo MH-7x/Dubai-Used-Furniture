@@ -141,6 +141,68 @@
                 "cus_rating": "4",
                 "cus_avatar": "https://i.pravatar.cc/50?img=10"
             }
+        ],
+        "abuDhabiPageTestimonials": [
+            {
+                "cus_name": "Ahmed Al Otaibi",
+                "cus_message": "Excellent service! I bought a used sofa in great condition at a very reasonable price.",
+                "cus_rating": 5,
+                "cus_avatar": "https://i.pravatar.cc/150?img=1"
+            },
+            {
+                "cus_name": "Fatima Al Hashimi",
+                "cus_message": "I sold my old furniture easily and got a fair price. Thank you!",
+                "cus_rating": 4.5,
+                "cus_avatar": "https://i.pravatar.cc/150?img=2"
+            },
+            {
+                "cus_name": "Saeed Al Kaabi",
+                "cus_message": "Professional service and fast delivery. I will buy again.",
+                "cus_rating": 5,
+                "cus_avatar": "https://i.pravatar.cc/150?img=3"
+            },
+            {
+                "cus_name": "Maryam Al Zahrani",
+                "cus_message": "The furniture was in very good condition, and the process was smooth from start to finish.",
+                "cus_rating": 4.8,
+                "cus_avatar": "https://i.pravatar.cc/150?img=4"
+            },
+            {
+                "cus_name": "Abdullah Al Mansoori",
+                "cus_message": "The best place to buy and sell used furniture in Abu Dhabi. Highly recommended.",
+                "cus_rating": 5,
+                "cus_avatar": "https://i.pravatar.cc/150?img=5"
+            },
+            {
+                "cus_name": "Noora Al Shamsi",
+                "cus_message": "I bought a beautiful wooden table at an amazing price! Great experience.",
+                "cus_rating": 4.7,
+                "cus_avatar": "https://i.pravatar.cc/150?img=6"
+            },
+            {
+                "cus_name": "Ali Al Marri",
+                "cus_message": "Affordable prices, great quality, and a very helpful team.",
+                "cus_rating": 5,
+                "cus_avatar": "https://i.pravatar.cc/150?img=7"
+            },
+            {
+                "cus_name": "Hanan Al Suwaidi",
+                "cus_message": "Easy selling process and quick payment. Thanks for the fast service!",
+                "cus_rating": 4.6,
+                "cus_avatar": "https://i.pravatar.cc/150?img=8"
+            },
+            {
+                "cus_name": "Yousef Al Hammadi",
+                "cus_message": "Great service and excellent furniture condition. Wonderful shopping experience!",
+                "cus_rating": 5,
+                "cus_avatar": "https://i.pravatar.cc/150?img=9"
+            },
+            {
+                "cus_name": "Kholoud Al Dosari",
+                "cus_message": "I found beautiful furniture at competitive prices. Highly recommend!",
+                "cus_rating": 4.9,
+                "cus_avatar": "https://i.pravatar.cc/150?img=10"
+            }
         ]
     },
     "NavList": {
@@ -3217,5 +3279,386 @@
         "Contact": "Contact",
         "Email": "Email Address",
         "Phone": "Phone Numbers"
+    },
+    "UsedFurnitureAbuDhabiPage": {
+        "locHeroSection": {
+            "title": {
+                "main": "Used Furniture in Abu Dhabi",
+                "auth": "Buy & Sell Premium Pre-Owned Furniture"
+            },
+            "desc": "We are a trusted buyer and seller of used furniture & appliances in Abu Dhabi. Looking for quality used furniture? At Dubai Used Furniture, we connect buyers and sellers across the UAE’s capital. Whether you’re hunting for a luxury pre-owned sofa for your apartment or need to sell used office furniture, we offer the largest curated collection of premium second-hand furniture at unbeatable prices.",
+            "alt": "Used Furniture Store in Abu Dhabi"
+        },
+        "text": {
+            "title": "About Us - Best Buyers & Sellers Of Used Furniture In Abu Dhabi",
+            "desc": "Dubai Used Furniture is the leading buyer and seller of second-hand furniture in Abu Dhabi, UAE, proudly serving our customers since 2008. We guarantee competitive prices on a wide range of used furniture for homes, offices, and hotels, all while upholding the highest standards of safety and quality. Reach out to us for all your used furniture needs in Abu Dhabi—we're here to help!"
+        },
+        "services": {
+            "title": "Buy & Sell Any Kind Of Used Furniture in Abu Dhabi",
+            "desc": "Easily buy and sell all types of used furniture in Abu Dhabi. Find high-quality pre-owned sofas, beds, dining sets, office furniture, and more at great prices.",
+            "list": {
+                "services": [
+                    {
+                        "title": "Used Seating Furniture in Abu Dhabi",
+                        "description": "🛋️ Find high-quality used seating furniture in Abu Dhabi, including sofas, chairs, recliners, and more at unbeatable prices. Buy or sell today!",
+                        "src": "/images/seating-furniture.jpg",
+                        "items": [
+                            "Rocking chair",
+                            "Chair",
+                            "Lift chair",
+                            "Bar Stool",
+                            "Chaise longue",
+                            "Bench",
+                            "Divan",
+                            "Sofa or settee"
+                        ]
+                    },
+                    {
+                        "title": "Used Table Furniture in Abu Dhabi",
+                        "description": "🪑 Discover durable used table furniture in Abu Dhabi, from dining tables to office desks. Affordable, stylish, and in excellent condition!",
+                        "src": "/images/table-furniture.jpg",
+                        "items": [
+                            "Coffee Table",
+                            "Billiard Table",
+                            "Dining Table",
+                            "Office Work Station",
+                            "Computer Table",
+                            "Study Table",
+                            "TV Stand",
+                            "Dressing Table (Child Bed)"
+                        ]
+                    },
+                    {
+                        "title": "Used Laying / Sleeping Furniture in Abu Dhabi",
+                        "description": "🛏️ Buy or sell used sleeping furniture in Abu Dhabi, including beds, mattresses, and sofas. Get top-quality comfort at the best prices!",
+                        "src": "/images/laying-furniture.jpg",
+                        "items": [
+                            "Bunk Bed",
+                            "Bed",
+                            "Platform Bed",
+                            "Four-Poster Bed",
+                            "Murphy Bed",
+                            "Infant Bed (Child Bed)",
+                            "Sleigh Bed",
+                            "Mattress"
+                        ]
+                    },
+                    {
+                        "title": "Used Storage Furniture in Abu Dhabi",
+                        "description": "📦 Shop for used storage furniture in Abu Dhabi, including wardrobes, cabinets, and shelving units. Maximize space with affordable solutions!",
+                        "src": "/images/storage-furniture.jpg",
+                        "items": [
+                            "Baker's Rack",
+                            "Cupboard",
+                            "Chifforobe",
+                            "Bookcase",
+                            "Cabinetry",
+                            "Filing Cabinet",
+                            "Kitchen Cabinet",
+                            "Chest of Drawers or Dresser"
+                        ]
+                    },
+                    {
+                        "title": "Used Home Appliance in Abu Dhabi",
+                        "description": "🔌 Get top-brand used home appliances in Abu Dhabi, from refrigerators to washing machines, at unbeatable prices. Buy now and save big!",
+                        "src": "/images/home-appliance.webp",
+                        "items": [
+                            "Refrigerator",
+                            "Washing Machine",
+                            "Air Condition",
+                            "Gas Cooker",
+                            "Dish Washer",
+                            "Freezer",
+                            "LED TV",
+                            "Microwave Oven"
+                        ]
+                    }
+                ],
+                "others": [
+                    {
+                        "title": "Used Home Furniture in Abu Dhabi",
+                        "desc": "Sell or purchase used home furniture in Dubai. Receive the best price for your second-hand sofas, beds, and more. Quick, convenient service!",
+                        "src": "/images/used-home-furniture.jpg"
+                    },
+                    {
+                        "title": "Used Office Furniture in Abu Dhabi",
+                        "desc": "Sell your old office furniture in Dubai or purchase affordable second-hand desks, chairs, and cabinets. Top prices, fast deals!",
+                        "src": "/images/used-office-furniture.jpeg"
+                    },
+                    {
+                        "title": "Used Hotel Furniture in Abu Dhabi",
+                        "desc": "Dubai Used Furniture offers hassle-free hotel furniture removal with reasonable prices, easy pick-up, and quick payment in Dubai.",
+                        "src": "/images/used-hotel-furniture.webp"
+                    }
+                ]
+            }
+        },
+        "thirdSec": {
+            "title": "Explore Premium Used Furniture for Sale in Abu Dhabi",
+            "desc": "Transform your home or office with our handpicked selection of pre-owned furniture in Abu Dhabi. From high-end designer brands to budget-friendly student essentials, we cater to every taste and budget.",
+            "items": [
+                {
+                    "title": "Luxury Pre-Owned Furniture Abu Dhabi",
+                    "desc": "Indulge in sophistication with gently used pieces from brands like Natuzzi, Roche Bobois, and Fendi Casa. Perfect for upscale villas in Yas Island or penthouses on Corniche Road:",
+                    "lis": [
+                        {
+                            "desc": "Italian leather sectionals (50% off retail prices)"
+                        },
+                        {
+                            "desc": "Marble-top dining tables with matching chairs"
+                        },
+                        {
+                            "desc": "Premium bedroom sets (king beds, mirrored wardrobes)"
+                        }
+                    ],
+                    "src": "/images/seating-furniture.jpg",
+                    "alt": "Luxury Pre-Owned Furniture Abu Dhabi"
+                },
+                {
+                    "title": "Affordable Second-Hand Furniture Deals",
+                    "desc": "Furnish your space without breaking the bank:",
+                    "lis": [
+                        {
+                            "desc": "Dining sets from AED 299"
+                        },
+                        {
+                            "desc": "Bookshelves & coffee tables (ideal for student housing)"
+                        },
+                        {
+                            "desc": "Modern office desks (70% off original prices)"
+                        }
+                    ],
+                    "src": "/images/seating-furniture.jpg",
+                    "alt": "Luxury Pre-Owned Furniture Abu Dhabi"
+                },
+                {
+                    "title": "Eco-Friendly & Sustainable Furniture Options",
+                    "desc": "Join Abu Dhabi’s green movement with our refurbished and recycled collections:",
+                    "lis": [
+                        {
+                            "desc": "Upcycled wooden cabinets (non-toxic finishes)"
+                        },
+                        {
+                            "desc": "Energy-efficient office desks made from reclaimed materials"
+                        },
+                        {
+                            "desc": "Vintage Persian rugs restored to pristine condition"
+                        }
+                    ],
+                    "src": "/images/seating-furniture.jpg",
+                    "alt": "Luxury Pre-Owned Furniture Abu Dhabi"
+                },
+                {
+                    "title": "Top Furniture Categories in Abu Dhabi",
+                    "desc": "Used Dining Room Furniture for Sale – Tables, chairs, sideboards",
+                    "lis": [
+                        {
+                            "desc": "Upcycled wooden cabinets (non-toxic finishes)"
+                        },
+                        {
+                            "desc": "Pre-owned Bedroom Sets – King beds, wardrobes, nightstands"
+                        },
+                        {
+                            "desc": "Luxury Outdoor & Patio Furniture – Teak wood sets, sun loungers"
+                        },
+                        {
+                            "desc": "High-Quality Used Sofas – Sectionals, recliners, L-shaped"
+                        }
+                    ],
+                    "src": "/images/seating-furniture.jpg",
+                    "alt": "Luxury Pre-Owned Furniture Abu Dhabi"
+                }
+            ]
+        },
+        "serChooseUs": {
+            "title": "Why Choose Dubai Used Furniture",
+            "desc": "We understand that you have many choices when it comes to furniture stores. That's why we are committed to providing you with the best possible experience. Here are just a few reasons to choose Dubai Used Furniture:",
+            "lis": [
+                {
+                    "desc": "We offer a wide selection of used furniture at affordable prices. We have something for everyone, from sofas and beds to dining sets and appliances."
+                },
+                {
+                    "desc": "Our team of friendly and knowledgeable staff is always ready to assist you in finding the perfect items for your home. We collaborate with you to understand your needs and budget."
+                },
+                {
+                    "desc": "We have a long history of providing excellent customer service."
+                },
+                {
+                    "desc": "We offer a variety of financing options to make it easier for you to afford your furniture."
+                },
+                {
+                    "desc": "We offer a variety of delivery and assembly options. We can deliver your furniture to your home or office, and we can also assemble it for you."
+                },
+                {
+                    "desc": "We offer a satisfaction guarantee. If you're not happy with your purchase, simply return it for a full refund."
+                },
+                {
+                    "desc": "We offer a satisfaction guarantee. If you're not happy with your purchase, simply return it for a full refund."
+                },
+                {
+                    "desc": "We are committed to sustainability and only sell used furniture that is in good condition."
+                },
+                {
+                    "desc": "We are constantly updating our inventory with new pieces, so you're sure to find something you love."
+                }
+            ]
+        },
+        "twoGrid": {
+            "grid1": {
+                "sideOne": {
+                    "title": "Quality Used Sofas Abu Dhabi and Living Room Furniture",
+                    "desc": [
+                        "Transform your living room with our selection of comfortable and stylish quality used sofas in Abu Dhabi.",
+                        "Find the perfect coffee table, entertainment unit, and more to complete your living space.",
+                        "We carry 'High-Quality Used Sofas and Recliners in Abu Dhabi' from trusted brands."
+                    ],
+                    "src": "/abuDhabi/used-sofa-and-living-room-furniture.jpg",
+                    "alt": "Used Sofas & Living Room Furniture Abu Dhabi"
+                },
+                "sideTwo": {
+                    "title": "Pre-owned Bedroom Sets and Wardrobes in Abu Dhabi",
+                    "desc": [
+                        "Create a serene and inviting bedroom with our pre-owned bedroom sets and wardrobes in Abu Dhabi. We offer complete sets and individual pieces to suit your needs."
+                    ],
+                    "src": "/abuDhabi/used-bedroom-sets-and-wardrobes.jpg",
+                    "alt": "Used bedroom sets and wardrobes Abu Dhabi"
+                }
+            },
+            "grid2": {
+                "sideOne": {
+                    "title": "Used Dining Room Furniture for Sale in Abu Dhabi",
+                    "desc": [
+                        "Host memorable gatherings with our elegant used dining room furniture for sale in Abu Dhabi.",
+                        "Explore 'Discounted Pre-owned Kitchen and Dining Furniture in Abu Dhabi' today!"
+                    ],
+                    "src": "/abuDhabi/used-dinning-room-furniture.jpg",
+                    "alt": "Used Dining Room Furniture in Abu Dhabi"
+                },
+                "sideTwo": {
+                    "title": "Used Outdoor and Patio Furniture for Sale in Abu Dhabi",
+                    "desc": [
+                        "Enjoy the beautiful Abu Dhabi weather with our used outdoor and patio furniture for sale in Abu Dhabi. Create a relaxing outdoor oasis."
+                    ],
+                    "src": "/abuDhabi/used-patio-furniture.jpg",
+                    "alt": "Used Patio Furniture Abu Dhabi"
+                }
+            }
+        },
+        "content": {
+            "title": "Turn Your Unwanted Furniture into Instant Cash in Abu Dhabi",
+            "desc": "Looking to declutter or upgrade your furniture? We make it easy to sell used furniture in Abu Dhabi.",
+            "first": [
+                {
+                    "title": "Used Furniture Buyers in Abu Dhabi",
+                    "parts": [
+                        "We are leading used furniture buyers in Abu Dhabi, offering a hassle-free selling process with fair prices and convenient pickup services.",
+                        "Dubai Used Furniture is the best real-time online option that brings together all home accessories on a single platform.",
+                        "We connect you with your favorite online stores in Abu Dhabi for stylish and modern household products."
+                    ]
+                },
+                {
+                    "title": "Used Furniture Seller in Abu Dhabi",
+                    "parts": [
+                        "We have a wide range of high-quality second-hand items available, including appliances, luxury and royal furniture, local pieces, curtains, and décor items.",
+                        "In Abu Dhabi, we offer various used furniture options from well-known brands, including bedroom furniture, office pieces, and hotel furnishings.",
+                        "If you have quality items in good condition, we will buy them from you at a fair price."
+                    ]
+                },
+                {
+                    "title": "Premium Used Furniture Abu Dhabi - Quality You Can Trust",
+                    "parts": [
+                        "We take pride in offering premium used furniture in Abu Dhabi. All our pieces undergo a rigorous inspection process to ensure top quality."
+                    ]
+                },
+                {
+                    "title": "Eco-friendly Furniture Abu Dhabi - Sustainable Choices",
+                    "parts": [
+                        "Choosing used furniture is a sustainable and eco-friendly choice.",
+                        "Our eco-friendly approach gives pre-loved pieces a new life and contributes to a circular economy.",
+                        "Furnish your home with unique items that carry stories and character while reducing your carbon footprint."
+                    ]
+                },
+                {
+                    "title": "Used Furniture Deals Abu Dhabi - Affordable Prices",
+                    "parts": [
+                        "We offer competitive prices and regular deals on high-quality used furniture in Abu Dhabi."
+                    ]
+                }
+            ]
+        },
+        "twoGridLi": {
+            "title": "Guides for Buying & Selling Used Furniture in Abu Dhabi",
+            "desc": "Find the best tips for buying and selling used furniture in Abu Dhabi, from top marketplaces to trusted buyers and great deals.",
+            "list": [
+                {
+                    "title": "Tips for Buying Quality Used Furniture in Abu Dhabi",
+                    "listType": "ol",
+                    "lis": [
+                        {
+                            "title": "Inspect furniture thoroughly",
+                            "desc": "Carefully examine used furniture for durability, structural integrity, and hidden damages before purchasing."
+                        },
+                        {
+                            "title": "Check for signs of wear and tear",
+                            "desc": "Look for scratches, stains, or loose joints to ensure the furniture is in good condition and worth the investment."
+                        },
+                        {
+                            "title": "Ask about the furniture's history",
+                            "desc": "Inquire about previous ownership, usage, and maintenance to assess quality and longevity."
+                        }
+                    ]
+                },
+                {
+                    "title": "How to ready your used furniture for sale in Abu Dhabi",
+                    "listType": "ol",
+                    "lis": [
+                        {
+                            "title": "Clean and polish your furniture",
+                            "desc": "Ensure your used furniture looks its best by cleaning, polishing, and removing dust or stains before selling."
+                        },
+                        {
+                            "title": "Take high-quality photos",
+                            "desc": "Capture clear, well-lit images from multiple angles to attract buyers and showcase the furniture’s true condition."
+                        },
+                        {
+                            "title": "Highlight the furniture's best features",
+                            "desc": "Emphasize unique details, materials, and functionality to make your listing stand out and appeal to potential buyers."
+                        }
+                    ]
+                }
+            ]
+        },
+        "gallery": {
+            "title": "Our Used Furniture Collection",
+            "desc": "Explore our wide selection of high-quality used furniture in Abu Dhabi. Find affordable sofas, beds, dining sets, and more at Dubai Used Furniture.",
+            "images": [
+                "/tables/gallery-2.jpg",
+                "/tables/gallery-3.jpg",
+                "/tables/gallery-4.jpg",
+                "/tables/gallery-5.jpg",
+                "/tables/gallery-6.jpg",
+                "/tables/gallery-7.jpg",
+                "/seating/gallay-1.jpg",
+                "/seating/gallay-2.jpg",
+                "/seating/gallay-3.jpg",
+                "/seating/gallay-4.jpg",
+                "/seating/gallay-5.jpg",
+                "/appliance/gallery-1.jpg",
+                "/appliance/gallery-2.jpg",
+                "/appliance/gallery-3.jpg",
+                "/appliance/gallery-4.jpg",
+                "/appliance/gallery-5.jpg",
+                "/appliance/gallery-6.jpg"
+            ]
+        },
+        "footerCTA": {
+            "title": {
+                "main": "Get in Touch With Dubai's",
+                "ath": "Leading Used Furniture Company"
+            },
+            "desc": "Contact Dubai Used Furniture, Abu Dhabi’s trusted experts in buying and selling quality used furniture. Get the best deals with hassle-free service today!",
+            "alt": "Contact For Used Furniture in Abu Dhabi",
+            "src": "/seating/contact-seating.png"
+        }
     }
 }

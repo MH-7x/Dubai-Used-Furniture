@@ -35,7 +35,7 @@ const TwoGridLi = ({
                 ))}
               </ul>
             ) : (
-              <ol className="mt-5 flex flex-col gap-y-2">
+              <ol className="mt-5 flex flex-col gap-y-2 list-decimal">
                 {item.lis.map((li, i) => (
                   <li key={i}>
                     <h4 className="text-lg text-text">{li.title}</h4>

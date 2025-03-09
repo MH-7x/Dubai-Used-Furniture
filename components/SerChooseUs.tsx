@@ -6,7 +6,7 @@ const SerChooseUs = ({
 }: {
   title: string;
   desc: string;
-  lis: { title: string; desc: string; icon?: React.ReactNode }[];
+  lis: { title?: string; desc: string; icon?: React.ReactNode }[];
   extra?: string;
 }) => {
   return (
@@ -29,7 +29,7 @@ const SerChooseUs = ({
                   {li.icon}
                 </div>
               )}
-              <h3 className="text-xl text-primary">{li.title}</h3>
+              {li.title && <h3 className="text-xl text-primary">{li.title}</h3>}
               <p className="text-text ">{li.desc}</p>
             </div>
           ))}
