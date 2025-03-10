@@ -204,7 +204,7 @@ const Sidebar = () => {
               },
               {
                 title: `${l("locations.usedFurniture")} ${l("locations.loc7")}`,
-                link: "#",
+                link: "/used-furniture-al-ain",
               },
             ]}
           />
