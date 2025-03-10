@@ -200,7 +200,7 @@ const Sidebar = () => {
               },
               {
                 title: `${l("locations.usedFurniture")} ${l("locations.loc6")}`,
-                link: "#",
+                link: "/used-furniture-fujairah",
               },
               {
                 title: `${l("locations.usedFurniture")} ${l("locations.loc7")}`,
@@ -212,12 +212,12 @@ const Sidebar = () => {
 
         {/* OTHER LINKS */}
         <li className="border-b border-accent/50 mb-2 pl-4 py-2">
-          <Link onClick={closeSidebar} href={"#"}>
+          <Link onClick={closeSidebar} href={"/about-us"}>
             {l("aboutUs")}
           </Link>
         </li>
         <li className="border-b border-accent/50 mb-2 pl-4 py-2">
-          <Link onClick={closeSidebar} href={"#"}>
+          <Link onClick={closeSidebar} href={"/contact-uss"}>
             {l("contactUs")}
           </Link>
         </li>
