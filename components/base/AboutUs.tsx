@@ -3,6 +3,7 @@ import personImage from "../../public/images/about-used-furniture-dubai.png";
 import Image from "next/image";
 import { RiArrowRightLine } from "@remixicon/react";
 import { useLocale, useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 const AboutUs = () => {
   const locale = useLocale();
   const t = useTranslations("about");
@@ -11,7 +12,7 @@ const AboutUs = () => {
     <section
       className={`mt-32 md:pt-3 md:pb-16 pt-5 md:px-0 px-3 con bg-secondary relative `}
     >
-      <span className="bg-pattren opacity-75" />
+      <span className=" opacity-75" />
       <div
         className={`mt-16 grid md:grid-cols-2 grid-cols-1 items-center  md:gap-0 gap-y-5 ${
           locale === "ar" ? "md:pr-16" : "md:pl-16"
@@ -25,12 +26,16 @@ const AboutUs = () => {
             {t("description")}
           </p>
           <div className="mt-7 flex md:gap-x-5 gap-x-3">
-            <button className="px-5 py-2 text-secondary bg-primary">
-              {b("about")}
-            </button>
-            <button className="px-5 py-2 text-primary bg-accent flex items-center gap-x-2">
-              {b("contact")} <RiArrowRightLine size={15} />
-            </button>
+            <Link href={"/about-us"}>
+              <button className="px-5 rounded-lg py-2 text-secondary bg-primary">
+                {b("about")}
+              </button>
+            </Link>
+            <Link href={"/contact-us"}>
+              <button className="px-5 rounded-lg py-2 text-primary bg-accent flex items-center gap-x-2">
+                {b("contact")} <RiArrowRightLine size={15} />
+              </button>
+            </Link>
           </div>
         </div>
         <div className="relative md:h-96 h-80 flex justify-center">

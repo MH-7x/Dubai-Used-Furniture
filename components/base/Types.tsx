@@ -2,7 +2,7 @@
 import { useTranslations } from "next-intl";
 const Types = () => {
   const t = useTranslations("types");
-  const b = useTranslations("buttons");
+
   return (
     <section className="con mt-32">
       <h2 className="text-center md:text-4xl text-3xl text-primary">
@@ -25,9 +25,6 @@ const Types = () => {
                 <li key={index}>{item}</li>
               ))}
             </ul>
-            <button className="py-2.5 text-secondary border-b border-accent mt-5 con">
-              {b("contact")}
-            </button>
           </div>
         ))}
       </div>

@@ -80,7 +80,7 @@ function ContactForm() {
       <form id="contact-form" onSubmit={handleSubmit} className="mt-12">
         <div className="-mx-2 md:items-center md:flex">
           <div className="flex-1 px-2">
-            <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
+            <label className="block mb-2 text-sm text-accent">
               {l("name")}
             </label>
             <input
@@ -93,7 +93,7 @@ function ContactForm() {
           </div>
 
           <div className="flex-1 px-2 mt-4 md:mt-0">
-            <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
+            <label className="block mb-2 text-sm text-accent">
               {l("email")}
             </label>
             <input
@@ -107,7 +107,7 @@ function ContactForm() {
         </div>
         <div className="-mx-2 mt-5 md:items-center md:flex">
           <div className="flex-1 px-2">
-            <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
+            <label className="block mb-2 text-sm text-accent">
               {l("phone")}
             </label>
             <input
@@ -120,7 +120,7 @@ function ContactForm() {
           </div>
 
           <div className="flex-1 px-2 mt-4 md:mt-0">
-            <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
+            <label className="block mb-2 text-sm text-accent">
               {l("type")}
             </label>
             <select
@@ -142,7 +142,7 @@ function ContactForm() {
           </div>
         </div>
         <div className="mt-5">
-          <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200"></label>
+          <label className="block mb-2 text-sm text-accent"></label>
           <input
             required
             type="text"
@@ -152,7 +152,7 @@ function ContactForm() {
           />
         </div>
         <div className="w-full mt-4">
-          <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
+          <label className="block mb-2 text-sm text-accent">
             {l("message")}
           </label>
           <textarea

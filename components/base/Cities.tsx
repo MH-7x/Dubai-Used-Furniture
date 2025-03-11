@@ -1,7 +1,19 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+import { Link } from "@/i18n/routing";
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
+
+const list = [
+  "/",
+  "/used-furniture-in-sharjah",
+  "/used-furniture-in-abu-dhabi",
+  "/used-furniture-in-ajman",
+  "/used-furniture-in-ajman",
+  "/used-furniture-fujairah",
+  "#",
+  "/used-furniture-al-ain",
+];
 
 const Cities = () => {
   const locale = useLocale();
@@ -27,9 +39,17 @@ const Cities = () => {
           </h3>
           <p className="text-text md:text-lg text-base/5 mt-3">{city.text}</p>
           <div className="mt-5 flex md:gap-x-5 gap-x-2">
-            <button className="md:px-5 px-2 md:text-base text-sm py-2 text-secondary bg-primary">
-              {b("details")}
-            </button>
+            <Link
+              title={`more detail about ${city.heading}`}
+              href={list[index]}
+            >
+              <button
+                aria-label={`more detail about ${city.heading}`}
+                className="md:px-5 px-2 md:text-base text-sm py-2 text-secondary bg-primary"
+              >
+                {b("details")}
+              </button>
+            </Link>
             <button className="md:px-5 px-2 md:text-base text-sm py-2 text-secondary bg-white">
               {b("call")} : +971 50 000 000
             </button>

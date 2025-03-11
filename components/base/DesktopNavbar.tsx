@@ -8,6 +8,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 import { Button } from "../ui/button";
 import SearchLayout from "../SearchLayout";
+import LanguageSwitcher from "../LanguageSwitcher";
 const DesktopNavbar = () => {
   const locale = useLocale();
   const u = useTranslations("utils");
@@ -59,19 +60,7 @@ const DesktopNavbar = () => {
             <RiMapPinFill size={20} />
             <address className="ml-2 ">{u("address")}</address>
 
-            {locale === "ar" ? (
-              <Link
-                href={"/"}
-                locale="en"
-                className="mr-6 text-secondary mb-0.5"
-              >
-                English
-              </Link>
-            ) : (
-              <Link href={"/"} locale="ar" className="ml-6 text-secondary mb-1">
-                عربي
-              </Link>
-            )}
+            <LanguageSwitcher locale={locale} />
           </div>
         </div>
       </div>
@@ -204,7 +193,7 @@ const DesktopNavbar = () => {
             </ul>
             <div className="flex items-center gap-x-3">
               <SearchLayout />
-              <Button>
+              <Button callBtn>
                 CALL US <RiCellphoneFill />
               </Button>
             </div>

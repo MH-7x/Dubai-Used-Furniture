@@ -7,6 +7,7 @@ import logo from "../../public/logo-svg.svg";
 import Image from "next/image";
 import AddressBox from "../AddressBox";
 import SearchLayout from "../SearchLayout";
+import LanguageSwitcher from "../LanguageSwitcher";
 const MobileNavbar = () => {
   const locale = useLocale();
 
@@ -51,15 +52,7 @@ const MobileNavbar = () => {
             +971 55 123 4567
           </Link>
         </div>
-        {locale === "ar" ? (
-          <Link href={"/"} locale="en" className=" text-secondary mb-0.5">
-            English
-          </Link>
-        ) : (
-          <Link href={"/"} locale="ar" className="ml-6 text-secondary mb-1">
-            عربي
-          </Link>
-        )}
+        <LanguageSwitcher locale={locale} />
       </div>
       <nav
         className={`fixed z-50 top-0 h-[55px] left-0 w-full px-3 flex items-center justify-between  ${

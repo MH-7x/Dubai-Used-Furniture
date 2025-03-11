@@ -110,9 +110,7 @@ const Contact = () => {
             </div>
 
             <div className="mt-6 w-80 md:mt-8">
-              <h3 className="text-gray-600 dark:text-gray-300 ">
-                {t("follow")}
-              </h3>
+              <h3 className="text-accent dark:text-gray-300 ">{t("follow")}</h3>
 
               <div className="flex mt-4 -mx-1.5 ">
                 <RiFacebookCircleFill

@@ -276,6 +276,22 @@
         "description": "Discover popular furniture types in Dubai, from luxurious sofas and modern office pieces to stylish outdoor sets. Perfect for elevating your home or workspace in Dubai’s vibrant market.",
         "categories": [
             {
+                "title": "Home Electronics Buyers",
+                "description": "We buy all types of used home electronics in dubai, UAE and here are some of them:",
+                "items": [
+                    "Television",
+                    "Refrigerator",
+                    "Washing Machine",
+                    "Air Conditioner",
+                    "Microwave Oven",
+                    "Dishwasher",
+                    "Vacuum Cleaner",
+                    "Water Heater",
+                    "Home Theater System",
+                    "Electric Stove"
+                ]
+            },
+            {
                 "title": "Buy Full Bedroom Set",
                 "description": "We buy and sell complete bedroom furniture sets of all kinds like:",
                 "items": [
@@ -459,11 +475,6 @@
                 "src": "/images/ajman.svg"
             },
             {
-                "heading": "Buy and Sell Used Furniture in Ras Al Khaimah",
-                "text": "Discover quality used furniture in Ras Al Khaimah with Dubai Used Furniture. Explore a wide range of used furniture for sale, including top picks from Dubizzle and leading stores in Ras Al Khaimah. Whether you're hunting for a great sale or premium second-hand pieces, our curated collection offers stylish and affordable options to elevate your space.",
-                "src": "/images/Ras-Al-Khaimah.svg"
-            },
-            {
                 "heading": "Used Furniture Buyer and Sellers in Fujairah",
                 "text": "Discover quality used furniture in Fujairah with our trusted network of buyers and sellers. Explore a diverse selection of used furniture for sale in Fujairah at competitive prices, and if you’re looking to buy used furniture, we offer fair valuations and seamless transactions. Upgrade your space today with premium second-hand options in Fujairah's thriving furniture market.",
                 "src": "/images/Fujairah.svg"
@@ -556,7 +567,9 @@
             "phoneLabel": "Phone No",
             "hoursLabel": "Hours",
             "address": "Building No.4 Moatab Bin Auf St, Bu Shaghara Sharjah",
-            "phone": "+971 55 123 4567, +971 55 123 4567",
+            "phone1": "+971 55 123 4567",
+            "email": "dubaiusedfurniture.ae@gmail.com",
+            "phone2": "+971 55 123 4567",
             "hours": "Open 24/7"
         },
         "services": {
