@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import {
   RiFacebookCircleFill,
   RiInstagramFill,
@@ -16,8 +17,8 @@ const Footer = () => {
   const t = useTranslations("footer");
   return (
     <>
-      <footer className="bg-zinc-50 text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left mt-32 md:px-10 px-3">
-        <div className="flex items-center md:pr-20 justify-center border-b-2 border-neutral-200 px-6 dark:border-white/10 lg:justify-between">
+      <footer className="bg-zinc-50  text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left mt-32 md:px-10 px-3">
+        <div className="flex items-center md:pr-20 justify-center border-b-2 border-neutral-200 md:px-6 dark:border-white/10 lg:justify-between">
           <div className="w-64 h-20  relative">
             <Image
               src={logo}
@@ -46,13 +47,13 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mx-6 py-10 text-center md:text-left">
+        <div className="mx-6 py-10 md:text-left">
           <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-5">
             <div>
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 {t("services.title")}
               </h6>
-
+              {/* //! links will be add into json content */}
               {t.raw("services.list").map((service: any, i: number) => (
                 <Link
                   key={i}
@@ -98,25 +99,25 @@ const Footer = () => {
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 Contact
               </h6>
-              <p className="mb-4 flex items-center justify-center md:justify-start">
+              <p className="mb-4 flex items-center md:justify-start">
                 <span className="me-3 [&>svg]:h-6 [&>svg]:w-6">
                   <RiStore2Fill />
                 </span>
                 {t("contact.address")}
               </p>
-              <p className="mb-4 flex items-center justify-center md:justify-start">
+              <p className="mb-4 flex items-center md:justify-start">
                 <span className="me-3 [&>svg]:h-6 [&>svg]:w-6">
                   <RiMailSendFill />
                 </span>
                 {t("contact.email")}
               </p>
-              <p className="mb-4 flex items-center justify-center md:justify-start">
+              <p className="mb-4 flex items-center md:justify-start">
                 <span className="me-3 [&>svg]:h-6 [&>svg]:w-6">
                   <RiPhoneFill />
                 </span>
                 {t("contact.phone1")}
               </p>
-              <p className="mb-4 flex items-center justify-center md:justify-start">
+              <p className="mb-4 flex items-center md:justify-start">
                 <span className="me-3 [&>svg]:h-6 [&>svg]:w-6">
                   <RiPhoneFill />
                 </span>
@@ -126,7 +127,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="p-6 flex items-center justify-between">
+        <div className="md:p-6 flex items-center justify-between md:flex-row flex-col">
           <span>Dubai&apos;s Leading Used Furniture Company</span>
           <div className="flex items-center gap-x-3 text-text ">
             <Link className="hover:underline" href={"#"}>
@@ -137,9 +138,9 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className="bg-black/5 p-6 text-center text-text">
+        <div className="bg-black/5 md:p-6 py-3 px-0 text-center text-text">
           <span>© {new Date().getFullYear()} Copyright:</span>
-          <span className="text-black"> Dubai Used Furniture</span>
+          <span className="text-black"> Dubai Used Furniture </span>
           develop by <a href="https://github.com/MH-7x">Mashal Huraira</a>
         </div>
       </footer>

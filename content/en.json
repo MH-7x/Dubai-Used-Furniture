@@ -1,4 +1,20 @@
 {
+    "MetadataHome": {
+        "title": "Dubai Used Furniture | Used Furniture Buyers & Sellers",
+        "desc": "We are a buyer & seller of used furniture in Dubai, UAE. We also deal in used electronics, home, office, and hotel furniture. Contact us for the best price today!",
+        "path": "/en",
+        "altPath": "/ar",
+        "images": [
+            {
+                "path": "images/Dubai-Used-Furniture.webp",
+                "alt": "Dubai Used Furniture Store"
+            }
+        ]
+    },
+    "MetaDataUtils": {
+        "applicationName": "Dubai Used Furniture",
+        "countryName": "United Arab Emirates"
+    },
     "utils": {
         "address": "Building No.4 Moatab Bin Auf St, Bu Shaghara Sharjah"
     },
@@ -512,31 +528,23 @@
         "sections": [
             {
                 "title": "Wide Selection of Used Furniture",
-                "text": "Our extensive inventory includes everything from stylish sofas to elegant dining sets. Explore our collection of used furniture for sale in Dubai and Abu Dhabi, and find the perfect pieces to enhance your home.",
-                "imageAlt": "Wide Selection of Used Furniture",
-                "src": "/images/wild-selection.png"
+                "desc": "Our extensive inventory includes everything from stylish sofas to elegant dining sets. Explore our collection of used furniture for sale in Dubai and Abu Dhabi, and find the perfect pieces to enhance your home."
             },
             {
                 "title": "Trusted Used Furniture Buyers",
-                "text": "We pride ourselves on being one of the best used furniture buyers in Dubai. Our team is dedicated to providing you with a seamless experience, whether you're looking to sell used furniture or buy second-hand items.",
-                "imageAlt": "Trusted Used Furniture Buyers",
-                "src": "/images/trusted-buyers.svg"
+                "desc": "We pride ourselves on being one of the best used furniture buyers in Dubai. Our team is dedicated to providing you with a seamless experience, whether you're looking to sell used furniture or buy second-hand items."
             },
             {
                 "title": "Convenient Selling Options",
-                "text": "If you have old furniture to sell, we make the process easy. Our platform allows you to sell furniture in Dubai and Abu Dhabi quickly and efficiently. Connect with old furniture buyers who are eager to find quality pieces at great prices.",
-                "imageAlt": "Convenient Selling Options",
-                "src": "/images/selling-options.svg"
+                "desc": "If you have old furniture to sell, we make the process easy. Our platform allows you to sell furniture in Dubai and Abu Dhabi quickly and efficiently. Connect with old furniture buyers who are eager to find quality pieces at great prices."
             },
             {
                 "title": "Local Expertise",
-                "text": "As a leading used furniture dealer in Dubai, we understand the local market. Our knowledge of used furniture shops in Dubai and Abu Dhabi ensures that you receive the best value for your items.",
-                "imageAlt": "Local Expertise",
-                "src": "/images/local-experts.svg"
+                "desc": "As a leading used furniture dealer in Dubai, we understand the local market. Our knowledge of used furniture shops in Dubai and Abu Dhabi ensures that you receive the best value for your items."
             },
             {
                 "title": "Eco-Friendly Choices",
-                "text": "By choosing to buy and sell second-hand furniture, you are making a sustainable choice that benefits the environment. Join us in promoting a greener lifestyle by opting for used furniture.",
+                "desc": "By choosing to buy and sell second-hand furniture, you are making a sustainable choice that benefits the environment. Join us in promoting a greener lifestyle by opting for used furniture.",
                 "imageAlt": "Eco-Friendly Choices",
                 "src": "/images/friendly-options.svg"
             }

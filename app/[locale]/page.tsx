@@ -6,17 +6,32 @@ import IntroText from "@/components/base/IntroText";
 import PersonText from "@/components/base/PersonText";
 import Services from "@/components/base/Services";
 import Types from "@/components/base/Types";
-import WhyChooseUs from "@/components/base/WhyChooseUs";
 import Contact from "@/components/Contact";
 import CallToAction from "@/components/CTA";
 import HeroSection from "@/components/HeroSection";
+import SerChooseUs from "@/components/SerChooseUs";
+import MetadataTemplate from "@/lib/MetaDataTemplate";
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale;
+  return MetadataTemplate({
+    locale,
+    namespace: "MetadataHome",
+  });
+}
 
 export default function Home() {
   const t = useTranslations("cta2");
   const g = useTranslations("getStarted");
   const i = useTranslations("intro");
   const s = useTranslations("service");
+  const c = useTranslations("whyChooseUs");
   return (
     <>
       <main className="md:mt-24 mt-[70px]">
@@ -55,7 +70,11 @@ export default function Home() {
           services={s.raw("services")}
           others={s.raw("otherServices")}
         />
-        <WhyChooseUs />
+        <SerChooseUs
+          title={c("mainTitle.main") + " " + c("mainTitle.ath")}
+          desc={c("description")}
+          lis={c.raw("sections")}
+        />
         <AboutUs />
         <Cities />
         <Contact />

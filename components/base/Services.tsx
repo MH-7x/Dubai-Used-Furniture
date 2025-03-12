@@ -45,11 +45,11 @@ const Services = ({
   const locale = useLocale();
   return (
     <>
-      <section id="used-furniture-services" className="con mt-32 md:px-0 px-3">
-        <div className="grid md:grid-cols-2 grid-cols-1 items-center">
+      <section id="used-furniture-services" className="con mt-32 ">
+        <div className="grid md:grid-cols-2 grid-cols-1 items-center md:px-0 px-3">
           <h2 className="md:text-4xl text-3xl text-primary">{title}</h2>
           <div
-            className={` text-text  py-5 ${
+            className={` text-text md:mt-0 mt-3 py-5 ${
               locale === "ar"
                 ? "border-r-2 pr-3 border-r-secondary"
                 : "border-l-2 pl-3 border-l-secondary"

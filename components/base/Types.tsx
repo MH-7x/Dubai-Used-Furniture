@@ -5,10 +5,10 @@ const Types = () => {
 
   return (
     <section className="con mt-32">
-      <h2 className="text-center md:text-4xl text-3xl text-primary">
+      <h2 className="text-center md:text-4xl text-3xl text-primary md:px-0 px-3">
         {t("title")}
       </h2>
-      <p className="text-xl/6 text-center text-text mt-5 max-w-4xl mx-auto">
+      <p className="text-xl/6 text-center text-text mt-5 max-w-4xl mx-auto md:px-0 px-3">
         {t("description")}
       </p>
       <div className="grid md:grid-cols-3 grid-cols-1 gap-5 mt-10">
