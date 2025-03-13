@@ -4,7 +4,6 @@ import SecondSec from "@/components/base/SecondSec";
 import ServiceHeroSection from "@/components/base/ServiceHeroSection";
 import ThirdSec from "@/components/base/thirdSec";
 import SerChooseUs from "@/components/SerChooseUs";
-
 import {
   RiBriefcase2Fill,
   RiSecurePaymentFill,
@@ -13,6 +12,19 @@ import {
 } from "@remixicon/react";
 import { useTranslations } from "next-intl";
 import { JSX } from "react";
+import type { Metadata } from "next";
+import MetadataTemplate from "@/lib/MetaDataTemplate";
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale;
+  return MetadataTemplate({
+    locale,
+    namespace: "SeatingFurniturePageMetadata",
+  });
+}
 
 const iconMap: Record<string, JSX.Element> = {
   trusted: <RiShieldCheckFill size={50} />,

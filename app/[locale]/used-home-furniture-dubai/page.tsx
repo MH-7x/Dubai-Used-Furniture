@@ -9,14 +9,28 @@ import ThirdSec from "@/components/base/thirdSec";
 import Content from "@/components/Content";
 import Extra from "@/components/Extra";
 import SerChooseUs from "@/components/SerChooseUs";
+import MetadataTemplate from "@/lib/MetaDataTemplate";
 import {
   RiBriefcase2Fill,
   RiMedal2Fill,
   RiMoneyDollarCircleLine,
   RiRecycleFill,
 } from "@remixicon/react";
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { ReactNode } from "react";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale;
+  return MetadataTemplate({
+    locale,
+    namespace: "UsedHomeFurniturePageMetadata",
+  });
+}
 
 const UsedHomeFurniturePage = () => {
   const icons = [

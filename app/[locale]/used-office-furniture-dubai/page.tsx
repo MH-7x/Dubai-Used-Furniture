@@ -20,6 +20,20 @@ import {
   RiRecycleFill,
   RiUserStarFill,
 } from "@remixicon/react";
+import type { Metadata } from "next";
+import MetadataTemplate from "@/lib/MetaDataTemplate";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale;
+  return MetadataTemplate({
+    locale,
+    namespace: "UsedOfficeFurniturePageMetadata",
+  });
+}
 
 const UsedOfficeFurniturePage = () => {
   const t = useTranslations("UsedOfficeFurniturePage");

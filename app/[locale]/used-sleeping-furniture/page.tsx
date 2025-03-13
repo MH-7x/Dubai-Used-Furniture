@@ -9,6 +9,20 @@ import Gallery from "@/components/base/Gallery";
 import TwoGrid from "@/components/base/TwoGrid";
 import Content from "@/components/Content";
 import FooterCTA from "@/components/base/FooterCTA";
+import type { Metadata } from "next";
+import MetadataTemplate from "@/lib/MetaDataTemplate";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale;
+  return MetadataTemplate({
+    locale,
+    namespace: "SleepingFurniturePageMetadata",
+  });
+}
 
 const SleepingFurniturePage = () => {
   const t = useTranslations("usedSleepingFurniturePage");

@@ -25,19 +25,18 @@ export default async function MetadataTemplate({
     alternates: {
       canonical: `${App.appUrl}${t("path")}`,
       languages: {
-        en: `${App.appUrl}${t("path")}`,
-        ar: `${App.appUrl}${t("altPath")}`,
+        en: `${App.appUrl}${t("enPath")}`,
+        ar: `${App.appUrl}${t("arPath")}`,
+        "x-default": `${App.appUrl}${t("enPath")}`,
       },
     },
     openGraph: {
       title: t("title"),
       images: t.raw("images").map((image: { path: string; alt: string }) => {
-        return [
-          {
-            url: `${App.appUrl}/${image.path}`,
-            alt: image.alt,
-          },
-        ];
+        return {
+          url: image.path,
+          alt: image.alt,
+        };
       }),
       description: t("desc"),
       type: "website",

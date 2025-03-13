@@ -3,7 +3,8 @@
         "title": "Dubai Used Furniture | Used Furniture Buyers & Sellers",
         "desc": "We are a buyer & seller of used furniture in Dubai, UAE. We also deal in used electronics, home, office, and hotel furniture. Contact us for the best price today!",
         "path": "/en",
-        "altPath": "/ar",
+        "arPath": "/ar",
+        "enPath": "/en",
         "images": [
             {
                 "path": "images/Dubai-Used-Furniture.webp",
@@ -14,6 +15,213 @@
     "MetaDataUtils": {
         "applicationName": "Dubai Used Furniture",
         "countryName": "United Arab Emirates"
+    },
+    "SeatingFurniturePageMetadata": {
+        "title": "Buy & Sell Premium Used Seating Furniture | Dubai Used Furniture",
+        "desc": "we’re your trusted partner in buying and selling high-quality used seating furniture like sofas, beds, chairs etc across the UAE. Contact us for the best price today!",
+        "path": "/en/used-seating-furniture",
+        "arPath": "/ar/used-seating-furniture",
+        "enPath": "/ar/used-seating-furniture",
+        "images": [
+            {
+                "path": "seating/seating-furniture-image-2.webp",
+                "alt": "Used Seating Furniture Collection image"
+            },
+            {
+                "path": "seating/seating-furniture-image-3.jpg",
+                "alt": "Used Furniture Store Image"
+            },
+            {
+                "path": "seating/seating-furniture-image.jpeg",
+                "alt": "Dubai Used Furniture Store"
+            },
+            {
+                "path": "seating/used-office-chairs.jpg",
+                "alt": "Used Office Chairs in Dubai"
+            },
+            {
+                "path": "seating/used-outdoor-furniture.jpg",
+                "alt": "Used Outdoor Furniture Dubai"
+            }
+        ]
+    },
+    "TableFurniturePageMetadata": {
+        "title": "Used Table Furniture in Dubai, Buy & Sell Table Furniture",
+        "desc": "We buy & sell second-hand tables, pre-owned dining tables, office tables, or specialty pieces like used study tables and conference tables in best prices. Contact to dubai used furniture now!",
+        "path": "/en/used-table-furniture",
+        "altPath": "/ar/used-table-furniture",
+        "images": [
+            {
+                "path": "tables/used-tables-furniture-landscape.webp",
+                "alt": "Used Table Furniture Collection image"
+            },
+            {
+                "path": "tables/used-coffee-tables.jpg",
+                "alt": "Used Coffee Table"
+            },
+            {
+                "path": "tables/used-dinning-tables.webp",
+                "alt": "Used Dining Tables"
+            },
+            {
+                "path": "tables/used-office-tables-desks.jpeg",
+                "alt": "Used Office Tables & Disks"
+            }
+        ]
+    },
+    "SleepingFurniturePageMetadata": {
+        "title": "Used Sleeping Furniture in Dubai | Second-hand Beds, Mattresses & More",
+        "desc": "Buy quality used bedroom furniture in Dubai at the best prices! Find second-hand beds, pre-owned mattresses & luxury bed frames in Dubai Marina, Jumeirah & Deira.",
+        "path": "/en/used-storage-furniture",
+        "arPath": "/ar/used-storage-furniture",
+        "enPath": "/en/used-storage-furniture",
+        "images": [
+            {
+                "path": "beds/used-sleeping-beds.jpg",
+                "alt": "Used Sleeping beds collection"
+            },
+            {
+                "path": "beds/used-king-side-bed.webp",
+                "alt": "Used King Side Beds In Dubai"
+            },
+            {
+                "path": "beds/beds-related-accessories.webp",
+                "alt": "Used Beds Related Accessories in Dubai"
+            },
+            {
+                "path": "beds/used-beds-sellers.jpg",
+                "alt": "Used Beds Sellers in Dubai"
+            },
+            {
+                "path": "beds/used-beds-buyers.jpg",
+                "alt": "Used Beds Buyers in Dubai"
+            }
+        ]
+    },
+    "UsedStorageFurniturePageMetadata": {
+        "title": "Buy & Sell Used Storage Furniture in Dubai",
+        "desc": "Looking to buy or sell used storage furniture in Dubai? Find high-quality second-hand cabinets, wardrobes & shelves at the best prices. Contact us today!",
+        "path": "/en/used-sleeping-furniture",
+        "arPath": "/ar/used-sleeping-furniture",
+        "enPath": "/en/used-sleeping-furniture",
+        "images": [
+            {
+                "path": "storage/used-home-storage-furniture.webp",
+                "alt": "Used Home Storage Furniture"
+            },
+            {
+                "path": "storage/used-heavy-duty-racks.webp",
+                "alt": "Used Heavy Duty Racks In Dubai"
+            },
+            {
+                "path": "storage/used-office-cabinets.jpg",
+                "alt": "Used Office Cabinets in Dubai"
+            }
+        ]
+    },
+    "UsedHomeAppliancePageMetadata": {
+        "title": "Used Home Appliances in Dubai |  Buy & Sell Quality Refurbished Appliances",
+        "desc": "Top quality used home appliance in dubai, we offer quality, certified pre-owned appliances for buyers and a trusted marketplace for sellers. Contact us today!",
+        "path": "/en/used-home-appliances",
+        "arPath": "/ar/used-home-appliances",
+        "enPath": "/en/used-home-appliances",
+        "images": [
+            {
+                "path": "appliance/used-home-appliance-2.webp",
+                "alt": "Used Home Appliance store image"
+            },
+            {
+                "path": "appliance/used-home-appliance-3.webp",
+                "alt": "Used Home Appliances Collection image"
+            },
+            {
+                "path": "appliance/used-refrigerators.webp",
+                "alt": "Used Refrigerators in Dubai"
+            },
+            {
+                "path": "appliance/used-washing-machines.jpg",
+                "alt": "Used Washing Machines in Dubai"
+            },
+            {
+                "path": "appliance/used-microwave-ovens.webp",
+                "alt": "Used Microwave Ovens in Dubai"
+            }
+        ]
+    },
+    "UsedHomeFurniturePageMetadata": {
+        "title": "Used Home Furniture in Dubai | Buy & Sell Second Hand Furniture",
+        "desc": "Buy & sell quality used home furniture in Dubai! Find second-hand sofas, beds, tables & more at the best prices. Get great deals on pre-owned furniture today!",
+        "path": "/en/used-home-furniture-dubai",
+        "arPath": "/ar/used-home-furniture-dubai",
+        "enPath": "/en/used-home-furniture-dubai",
+        "images": [
+            {
+                "path": "home/used-living-room-furniture.jpg",
+                "alt": "Used Living Room Furniture"
+            },
+            {
+                "path": "home/used-outdoor-furniture.jpg",
+                "alt": "Used Outdoor Furniture Dubai"
+            },
+            {
+                "path": "home/used-dinning-room-furniture.jpg",
+                "alt": "Used Dinning Room Furniture, Dubai"
+            },
+            {
+                "path": "home/used-bedroom-furniture.jpg",
+                "alt": "Used Bedroom furniture dubai"
+            }
+        ]
+    },
+    "UsedHotelFurniturePageMetadata": {
+        "title": "Buy & Sell Used Hotel Furniture in Dubai | Dubai Used Furniture",
+        "desc": "Buy & sell high-quality used hotel furniture in Dubai! Find second-hand beds, chairs, tables & more at the best prices. Get top deals on pre-owned furniture today!",
+        "path": "/en/used-hotel-furniture-dubai",
+        "arPath": "/ar/used-hotel-furniture-dubai",
+        "enPath": "/en/used-hotel-furniture-dubai",
+        "images": [
+            {
+                "path": "hotel/gallery-1.jpg",
+                "alt": "Used Hotel Furniture in Dubai"
+            },
+            {
+                "path": "hotel/gallery-2.jpg",
+                "alt": "Used Hotel Chair"
+            },
+            {
+                "path": "hotel/gallery-4.jpg",
+                "alt": "Used hotel sofas, Dubai"
+            },
+            {
+                "path": "hotel/gallery-8.jpg",
+                "alt": "Used Hotel Furniture Collection"
+            }
+        ]
+    },
+    "UsedOfficeFurniturePageMetadata": {
+        "title": "Used Office Furniture in Dubai | Buy & Sell Used Desks, Chairs, & More",
+        "desc": "Find quality used office furniture in Dubai at Dubai Used Furniture! Browse our wide selection of second hand office desks, chairs, cabinets, and more.",
+        "path": "/en/used-office-furniture-dubai",
+        "arPath": "/ar/used-office-furniture-dubai",
+        "enPath": "/en/used-office-furniture-dubai",
+        "images": [
+            {
+                "path": "office/used-office-furniture.webp",
+                "alt": "Used Office Furniture in Dubai"
+            },
+            {
+                "path": "office/used-office-desks.jpg",
+                "alt": "Used Office Desk in Dubai"
+            },
+            {
+                "path": "office/used-office-chairs.webp",
+                "alt": "Used Office Chairs"
+            },
+            {
+                "path": "office/used-office-cabinets.png",
+                "alt": "Used Office Cabinets in Dubai"
+            }
+        ]
     },
     "utils": {
         "address": "Building No.4 Moatab Bin Auf St, Bu Shaghara Sharjah"

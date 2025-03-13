@@ -6,6 +6,7 @@ import Boxs from "@/components/Boxs";
 import Extra from "@/components/Extra";
 import SerChooseUs from "@/components/SerChooseUs";
 import TwoGridLi from "@/components/TwoGridLi";
+import MetadataTemplate from "@/lib/MetaDataTemplate";
 import {
   RiHandCoinFill,
   RiRecycleFill,
@@ -14,7 +15,20 @@ import {
   RiShoppingCart2Fill,
   RiTruckFill,
 } from "@remixicon/react";
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale;
+  return MetadataTemplate({
+    locale,
+    namespace: "UsedHotelFurniturePageMetadata",
+  });
+}
 
 const UsedHotelFurniturePage = () => {
   const t = useTranslations("UsedHotelFurniturePage");

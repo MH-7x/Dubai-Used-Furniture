@@ -15,6 +15,20 @@ import {
   RiShieldFlashFill,
   RiUserStarFill,
 } from "@remixicon/react";
+import type { Metadata } from "next";
+import MetadataTemplate from "@/lib/MetaDataTemplate";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale;
+  return MetadataTemplate({
+    locale,
+    namespace: "UsedHomeAppliancePageMetadata",
+  });
+}
 
 const UsedHomeAppliancePage: React.FC = () => {
   const t = useTranslations("UsedHomeAppliancePage");

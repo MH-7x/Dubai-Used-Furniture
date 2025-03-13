@@ -1,4 +1,3 @@
-"use client";
 import FAQs from "@/components/base/FAQs";
 import FooterCTA from "@/components/base/FooterCTA";
 import Gallery from "@/components/base/Gallery";
@@ -15,32 +14,40 @@ import {
 } from "@remixicon/react";
 import React from "react";
 import { useTranslations } from "next-intl";
+import type { Metadata } from "next";
+import MetadataTemplate from "@/lib/MetaDataTemplate";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale;
+  return MetadataTemplate({
+    locale,
+    namespace: "UsedStorageFurniturePageMetadata",
+  });
+}
 
 const UsedStorageFurniturePage: React.FC = () => {
-  // 1. Load translations from the "useStorageFurniturePage" namespace
   const t = useTranslations("useStorageFurniturePage");
 
-  // 2. For arrays you need to pass directly, use t.raw(...)
-  //    Example: SerChooseUs => "list" array
   const serChooseUsList = t.raw("SerChooseUs.list") as Array<{
     title: string;
     desc: string;
   }>;
 
-  // Example: ThirdSec => "items" array
   const thirdSecItems = t.raw("ThirdSec.items") as Array<{
     title: string;
     desc: string;
     lis: Array<{ title: string; desc: string }>;
   }>;
 
-  // Example: TwoGridLi => "list" array
   const twoGridLiList = t.raw("TwoGridLi.list") as Array<{
     title: string;
     lis: Array<{ title: string; desc: string }>;
   }>;
 
-  // Example: FAQs => "faqs" array
   const faqs = t.raw("FAQs.faqs") as Array<{
     question: string;
     answer: string;

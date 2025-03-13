@@ -5,6 +5,7 @@ import SecondSec from "@/components/base/SecondSec";
 import ServiceHeroSection from "@/components/base/ServiceHeroSection";
 import ThirdSec from "@/components/base/thirdSec";
 import SerChooseUs from "@/components/SerChooseUs";
+import MetadataTemplate from "@/lib/MetaDataTemplate";
 import {
   RiBankCardFill,
   RiBriefcase2Fill,
@@ -15,6 +16,7 @@ import {
   RiSofaFill,
   RiStore2Fill,
 } from "@remixicon/react";
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { JSX } from "react";
 
@@ -30,7 +32,17 @@ const iconBuyMap: Record<string, JSX.Element> = {
   service: <RiShieldCheckFill size={50} />,
   local: <RiStore2Fill size={50} />,
 };
-
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale;
+  return MetadataTemplate({
+    locale,
+    namespace: "TableFurniturePageMetadata",
+  });
+}
 const HomePage = () => {
   const t = useTranslations("usedTablePage");
   return (
