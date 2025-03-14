@@ -21,6 +21,20 @@ import {
 } from "@remixicon/react";
 import imgSrc from "../../../../public/ajman/used-furniture-store-in-ajman.jpg";
 import FooterCTA from "@/components/base/FooterCTA";
+import type { Metadata } from "next";
+import MetadataTemplate from "@/lib/MetaDataTemplate";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale;
+  return MetadataTemplate({
+    locale,
+    namespace: "SharjahPageMetadata",
+  });
+}
 
 const UsedFurnitureSharjahPage: React.FC = () => {
   const t = useTranslations("UsedFurnitureSharjahPage");

@@ -223,6 +223,133 @@
             }
         ]
     },
+    "SharjahPageMetadata": {
+        "title": "Used Furniture Sharjah | Buy & Sell Second Hand Furniture",
+        "desc": "Buy affordable second-hand furniture or sell your pre-owned items in Sharjah! Free delivery, instant cash, eco-friendly recycling, contact us now!",
+        "path": "/en/used-furniture-in-sharjah",
+        "arPath": "/ar/used-furniture-in-sharjah",
+        "enPath": "/en/used-furniture-in-sharjah",
+        "images": [
+            {
+                "path": "sharjah/used-furniture-in-sharjah.webp",
+                "alt": "Used Furniture in Sharjah"
+            },
+            {
+                "path": "sharjah/used-furniture-sharjah-store.jpg",
+                "alt": "Used furniture stores in sharjah"
+            },
+            {
+                "path": "sharjah/used-furniture-online-options.jpg",
+                "alt": "Buy & Sell Used Furniture in Sharjah Online"
+            },
+            {
+                "path": "sharjah/gallery-2.jpeg",
+                "alt": "Used Home Furniture in Sharjah"
+            }
+        ]
+    },
+    "AbuDhabiPageMetadata": {
+        "title": "Used Furniture Abu Dhabi | Buy & Sell Premium Pre-Owned Furniture",
+        "desc": "Quality used furniture in Abu Dhabi! We buy and sell used furniture for sale Abu Dhabi, including luxury pre-owned furniture. Get the best used furniture deals Abu Dhabi today!",
+        "path": "/en/used-furniture-in-abu-dhabi",
+        "arPath": "/ar/used-furniture-in-abu-dhabi",
+        "enPath": "/en/used-furniture-in-abu-dhabi",
+        "images": [
+            {
+                "path": "abuDhabi/used-furniture-store-in-abu-dhabi.webp",
+                "alt": "Used Furniture Store in Abu Dhabi"
+            },
+            {
+                "path": "abuDhabi/used-bedroom-sets-and-wardrobes.jpg",
+                "alt": "Used Bedroom Sets and Wardrobes"
+            },
+            {
+                "path": "abuDhabi/used-dinning-room-furniture.jpg",
+                "alt": "Used Dinning Room Furniture"
+            },
+            {
+                "path": "abuDhabi/used-sofa-and-living-room-furniture.jpg",
+                "alt": "Used Sofa and Living Room Furniture"
+            }
+        ]
+    },
+    "AjmanPageMetadata": {
+        "title": "Used Furniture Ajman | Buy & Sell Affordable Pre-Owned Furniture",
+        "desc": "Dubai Used Furniture offers top-quality used furniture in Ajman UAE. Buy affordable secondhand sofas, dining sets, office furniture, or sell your old items for cash. Contact Now!",
+        "path": "/en/used-furniture-in-ajman",
+        "arPath": "/ar/used-furniture-in-ajman",
+        "enPath": "/en/used-furniture-in-ajman",
+        "images": [
+            {
+                "path": "ajman/used-furniture-store-in-ajman.jpg",
+                "alt": "Used Furniture Store in Ajman"
+            },
+            {
+                "path": "ajman/second-hand-bedroom.jpeg",
+                "alt": "second hand bedrooms in ajman"
+            },
+            {
+                "path": "ajman/used-ac.jpg",
+                "alt": "Used AC in Ajman"
+            },
+            {
+                "path": "ajman/used-household-items.jpg",
+                "alt": "Used Household Items in Ajman"
+            }
+        ]
+    },
+    "FujairahPageMetadata": {
+        "title": "Used Furniture Fujairah | Buy & Sale Affordable Furniture",
+        "desc": "If you are looking for used furniture buyers in Fujairah, call us today. We offer best prices for all types of used furniture for sale, including sofas, dining sets, office furniture, and appliances",
+        "path": "/en/used-furniture-fujairah",
+        "arPath": "/ar/used-furniture-fujairah",
+        "enPath": "/en/used-furniture-fujairah",
+        "images": [
+            {
+                "path": "sharjah/gallery-4.webp",
+                "alt": "Used Furniture For Sale in Fujairah"
+            }
+        ]
+    },
+    "AlAinPageMetadata": {
+        "title": "Used Furniture Buyers in Al Ain | Best Dealers",
+        "desc": "We are a team of furniture buyers in al ain. We buy all kinds of used furniture, including living room sets, dining room sets, bedroom sets and more. Contact now",
+        "path": "/en/used-furniture-fujairah",
+        "arPath": "/ar/used-furniture-fujairah",
+        "enPath": "/en/used-furniture-fujairah",
+        "images": [
+            {
+                "path": "office/used-office-cabinets.png",
+                "alt": "Used Furniture Buyers in Al Ain"
+            }
+        ]
+    },
+    "AboutPageMetadata": {
+        "title": "About Us | Dubai Used Furniture",
+        "desc": "We are a leading used furniture company in the UAE known for buying and selling the best quality used home, office, and appliance furniture. Contact us today!",
+        "path": "/en/about-us",
+        "arPath": "/ar/about-us",
+        "enPath": "/en/about-us",
+        "images": [
+            {
+                "path": "images/about-image.jpg",
+                "alt": "About Dubai Used Furniture"
+            }
+        ]
+    },
+    "ContactPageMetadata": {
+        "title": "Buy & Sell Used Furniture | Contact Us",
+        "desc": "Looking to buy or sell used furniture in Dubai? We offer high-quality home, office, and appliance furniture at the best prices. Contact us today to Dubai Used Furniture!",
+        "path": "/en/contact-us",
+        "arPath": "/ar/contact-us",
+        "enPath": "/en/contact-us",
+        "images": [
+            {
+                "path": "images/person.png",
+                "alt": "Contact Us For Used Furniture"
+            }
+        ]
+    },
     "utils": {
         "address": "Building No.4 Moatab Bin Auf St, Bu Shaghara Sharjah"
     },
@@ -439,7 +566,7 @@
             "ser4": "Outdoor Furniture",
             "ser5": "Seating Furniture",
             "ser6": "Table Furniture",
-            "ser7": "Sleeping / Laying furniture",
+            "ser7": "Sleeping furniture",
             "ser8": "Storage Furniture",
             "ser9": "Hotel Furniture"
         },
@@ -778,14 +905,17 @@
     "footer": {
         "companyName": "Dubai Used Furniture",
         "description": "Dubai Used Furniture is a trusted buyer and seller of quality pre-owned furniture in Dubai, UAE. We offer competitive pricing on a wide range of home, office, and hotel furniture.",
+        "subLine": "Dubai's Leading Used Furniture Company",
+        "pr": "Privacy Policy",
+        "td": "Terms & Conditions",
         "contact": {
             "addressLabel": "Address",
             "phoneLabel": "Phone No",
             "hoursLabel": "Hours",
             "address": "Building No.4 Moatab Bin Auf St, Bu Shaghara Sharjah",
-            "phone1": "+971 55 123 4567",
+            "phone1": "+971 56 6651978",
             "email": "dubaiusedfurniture.ae@gmail.com",
-            "phone2": "+971 55 123 4567",
+            "phone2": "+971 50 3626685",
             "hours": "Open 24/7"
         },
         "services": {
@@ -3487,7 +3617,7 @@
             "description": "From bustling Dubai to vibrant Sharjah, Ajman, and every corner of the UAE, our reach is extensive. Our central location in Building No.4, Moatab Bin Auf St, Bu Shaghara, Sharjah, allows us to respond swiftly to your needs.",
             "buttons": {
                 "callToUs": "CALL TO US",
-                "viewOurServices": "VIEW OUR SERVICES"
+                "viewOurServices": "VIEW SERVICES"
             }
         },
         "sustainability": {

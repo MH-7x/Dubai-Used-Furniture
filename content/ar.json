@@ -223,6 +223,133 @@
       }
     ]
   },
+  "SharjahPageMetadata": {
+    "title": "أثاث مستعمل في الشارقة | شراء وبيع الأثاث المستعمل",
+    "desc": "اشترِ أثاثًا مستعملًا بأسعار معقولة أو قم ببيع أثاثك القديم في الشارقة! توصيل مجاني، نقد فوري، إعادة تدوير صديقة للبيئة، تواصل معنا الآن!",
+    "path": "/ar/used-furniture-in-sharjah",
+    "arPath": "/ar/used-furniture-in-sharjah",
+    "enPath": "/en/used-furniture-in-sharjah",
+    "images": [
+      {
+        "path": "sharjah/used-furniture-in-sharjah.webp",
+        "alt": "أثاث مستعمل في الشارقة"
+      },
+      {
+        "path": "sharjah/used-furniture-sharjah-store.jpg",
+        "alt": "متاجر الأثاث المستعمل في الشارقة"
+      },
+      {
+        "path": "sharjah/used-furniture-online-options.jpg",
+        "alt": "شراء وبيع الأثاث المستعمل في الشارقة عبر الإنترنت"
+      },
+      {
+        "path": "sharjah/gallery-2.jpeg",
+        "alt": "أثاث منزلي مستعمل في الشارقة"
+      }
+    ]
+  },
+  "AbuDhabiPageMetadata": {
+    "title": "أثاث مستعمل في أبوظبي | شراء وبيع أثاث فاخر مستعمل",
+    "desc": "أثاث مستعمل عالي الجودة في أبوظبي! نقوم بشراء وبيع الأثاث المستعمل، بما في ذلك الأثاث الفاخر المستعمل. احصل على أفضل عروض الأثاث المستعمل في أبوظبي اليوم!",
+    "path": "/ar/used-furniture-in-abu-dhabi",
+    "arPath": "/ar/used-furniture-in-abu-dhabi",
+    "enPath": "/en/used-furniture-in-abu-dhabi",
+    "images": [
+      {
+        "path": "abuDhabi/used-furniture-store-in-abu-dhabi.webp",
+        "alt": "متجر الأثاث المستعمل في أبوظبي"
+      },
+      {
+        "path": "abuDhabi/used-bedroom-sets-and-wardrobes.jpg",
+        "alt": "غرف نوم وخزائن مستعملة"
+      },
+      {
+        "path": "abuDhabi/used-dinning-room-furniture.jpg",
+        "alt": "أثاث غرفة طعام مستعمل"
+      },
+      {
+        "path": "abuDhabi/used-sofa-and-living-room-furniture.jpg",
+        "alt": "كنب وأثاث غرفة معيشة مستعمل"
+      }
+    ]
+  },
+  "AjmanPageMetadata": {
+    "title": "أثاث مستعمل في عجمان | شراء وبيع أثاث مستعمل بأسعار معقولة",
+    "desc": "يقدم دبي لشراء الأثاث المستعمل أفضل أنواع الأثاث المستعمل في عجمان، الإمارات. اشترِ أرائك مستعملة، طاولات طعام، أثاث مكتبي بأسعار مناسبة أو بع أثاثك القديم نقدًا. تواصل معنا الآن!",
+    "path": "/ar/used-furniture-in-ajman",
+    "arPath": "/ar/used-furniture-in-ajman",
+    "enPath": "/en/used-furniture-in-ajman",
+    "images": [
+      {
+        "path": "ajman/used-furniture-store-in-ajman.jpg",
+        "alt": "متجر الأثاث المستعمل في عجمان"
+      },
+      {
+        "path": "ajman/second-hand-bedroom.jpeg",
+        "alt": "غرف نوم مستعملة في عجمان"
+      },
+      {
+        "path": "ajman/used-ac.jpg",
+        "alt": "مكيفات مستعملة في عجمان"
+      },
+      {
+        "path": "ajman/used-household-items.jpg",
+        "alt": "أدوات منزلية مستعملة في عجمان"
+      }
+    ]
+  },
+  "FujairahPageMetadata": {
+    "title": "أثاث مستعمل في الفجيرة | شراء وبيع أثاث بأسعار مناسبة",
+    "desc": "إذا كنت تبحث عن مشتري أثاث مستعمل في الفجيرة، اتصل بنا اليوم. نقدم أفضل الأسعار لجميع أنواع الأثاث المستعمل للبيع، بما في ذلك الأرائك، طاولات الطعام، الأثاث المكتبي، والأجهزة الكهربائية.",
+    "path": "/ar/used-furniture-fujairah",
+    "arPath": "/ar/used-furniture-fujairah",
+    "enPath": "/en/used-furniture-fujairah",
+    "images": [
+      {
+        "path": "sharjah/gallery-4.webp",
+        "alt": "أثاث مستعمل للبيع في الفجيرة"
+      }
+    ]
+  },
+  "AlAinPageMetadata": {
+    "title": "مشترو الأثاث المستعمل في العين | أفضل التجار",
+    "desc": "نحن فريق متخصص في شراء الأثاث المستعمل في العين. نشتري جميع أنواع الأثاث المستعمل، بما في ذلك أطقم غرف المعيشة، غرف الطعام، غرف النوم والمزيد. تواصل معنا الآن!",
+    "path": "/ar/used-furniture-al-ain",
+    "arPath": "/ar/used-furniture-al-ain",
+    "enPath": "/en/used-furniture-al-ain",
+    "images": [
+      {
+        "path": "office/used-office-cabinets.png",
+        "alt": "مشترو الأثاث المستعمل في العين"
+      }
+    ]
+  },
+  "AboutPageMetadata": {
+    "title": "من نحن | دبي للأثاث المستعمل",
+    "desc": "نحن شركة رائدة في مجال شراء وبيع الأثاث المستعمل في الإمارات، نقدم أفضل أنواع الأثاث المنزلي والمكتبي والأجهزة المستعملة بجودة عالية. تواصل معنا اليوم!",
+    "path": "/ar/about-us",
+    "arPath": "/ar/about-us",
+    "enPath": "/en/about-us",
+    "images": [
+      {
+        "path": "images/about-image.jpg",
+        "alt": "عن دبي للأثاث المستعمل"
+      }
+    ]
+  },
+  "ContactPageMetadata": {
+    "title": "شراء وبيع الأثاث المستعمل | اتصل بنا",
+    "desc": "هل ترغب في شراء أو بيع الأثاث المستعمل في دبي؟ نوفر لك أثاث منزلي ومكتبي وأجهزة منزلية بجودة عالية وأسعار تنافسية. تواصل معنا اليوم في دبي للأثاث المستعمل!",
+    "path": "/ar/contact-us",
+    "arPath": "/ar/contact-us",
+    "enPath": "/en/contact-us",
+    "images": [
+      {
+        "path": "images/person.png",
+        "alt": "اتصل بنا لشراء وبيع الأثاث المستعمل"
+      }
+    ]
+  },
   "utils": {
     "address": "مبنى رقم 4 شارع معتب بن عوف، بو شغارة الشارقة"
   },

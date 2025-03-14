@@ -9,12 +9,10 @@ const list = [
   "/used-furniture-in-sharjah",
   "/used-furniture-in-abu-dhabi",
   "/used-furniture-in-ajman",
-  "/used-furniture-in-ajman",
   "/used-furniture-fujairah",
   "#",
   "/used-furniture-al-ain",
 ];
-
 const Cities = () => {
   const locale = useLocale();
   const t = useTranslations("cities");

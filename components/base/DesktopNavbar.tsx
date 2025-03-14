@@ -41,7 +41,7 @@ const DesktopNavbar = () => {
     <header>
       <div
         aria-label="upper bar"
-        className="bg-primary w-full z-40 fixed top-0 left-0 h-8 flex items-center"
+        className="bg-primary w-full z-40 fixed top-0 left-0 h-9 flex items-center"
       >
         <div className="con flex items-center justify-between text-accent font-light">
           <div
@@ -49,11 +49,17 @@ const DesktopNavbar = () => {
             className="flex items-center gap-1 text-sm  transition-colors tracking-wide"
           >
             <RiPhoneFill size={21} />
-            <Link href={"#"} className="ml-2 hover:text-secondary">
-              +971 55 123 4567
+            <Link
+              href={"tel:+971566651978"}
+              className="ml-2 hover:text-secondary"
+            >
+              +971 56 6651978
             </Link>
-            <Link href={"#"} className="ml-2 hover:text-secondary">
-              +971 55 123 4567
+            <Link
+              href={"tel:+971503626685"}
+              className="ml-2 hover:text-secondary"
+            >
+              +971 50 3626685
             </Link>
           </div>
           <div className="flex items-center gap-1 text-sm ">
@@ -68,7 +74,7 @@ const DesktopNavbar = () => {
         className={`fixed z-50 bg-white top-0 left-0 w-full  ${
           !showNavbar
             ? "translate-y-0  shadow-lg shadow-black/5"
-            : "translate-y-8 "
+            : "translate-y-9 "
         } transition-all duration-200`}
       >
         <div className="con flex items-center h-16 justify-between">

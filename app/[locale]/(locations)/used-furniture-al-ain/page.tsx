@@ -2,6 +2,21 @@ import FooterCTA from "@/components/base/FooterCTA";
 import Gallery from "@/components/base/Gallery";
 import Services from "@/components/base/Services";
 
+import type { Metadata } from "next";
+import MetadataTemplate from "@/lib/MetaDataTemplate";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale;
+  return MetadataTemplate({
+    locale,
+    namespace: "AlAinPageMetadata",
+  });
+}
+
 export default function UsedFurnitureInAlAin() {
   return (
     <>

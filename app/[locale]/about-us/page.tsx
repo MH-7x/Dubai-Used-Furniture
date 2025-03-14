@@ -6,6 +6,21 @@ import imageSrcTwo from "../../../public/images/about-image.jpg";
 import storeImage from "../../../public/images/store-image-1.webp";
 import storeImage2 from "../../../public/images/store-image-2.webp";
 import Image from "next/image";
+import type { Metadata } from "next";
+import MetadataTemplate from "@/lib/MetaDataTemplate";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale;
+  return MetadataTemplate({
+    locale,
+    namespace: "AboutPageMetadata",
+  });
+}
+
 const AboutUsPage = () => {
   const t = useTranslations("aboutUsPage");
   const list = [
@@ -45,7 +60,7 @@ const AboutUsPage = () => {
           xmlnsXlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 209 256"
           className="w-5 h-5 text-secondary lg:w-7 lg:h-7"
-          enable-background="new 0 0 209 256"
+          enableBackground="new 0 0 209 256"
           xmlSpace="preserve"
         >
           <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>

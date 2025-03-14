@@ -48,20 +48,20 @@ const SearchLayout = ({ forMobile = false }: { forMobile?: boolean }) => {
   useEffect(() => {
     const randomItems = getRandomItems(List, 4);
     setRandomItems(randomItems);
-    console.log("Random Items :: ", randomItems);
   }, []);
 
   return (
     <>
       {forMobile ? (
         <button
+          aria-label="search"
           onClick={() => {
             toggleOpen();
             console.log("clicked");
           }}
           className="w-8 h-8 flex items-center justify-center text-secondary"
         >
-          <RiSearchLine className="w-5 h-5" />
+          <RiSearchLine aria-label="search" className="w-5 h-5" />
         </button>
       ) : (
         <Button
@@ -71,8 +71,9 @@ const SearchLayout = ({ forMobile = false }: { forMobile?: boolean }) => {
           size={"icon"}
           className="bg-white rounded-full"
           variant={"default"}
+          aria-label="search"
         >
-          <RiSearchFill />
+          <RiSearchFill aria-label="search" />
         </Button>
       )}
 

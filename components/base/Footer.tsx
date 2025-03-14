@@ -13,8 +13,40 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import logo from "../../public/logo-svg.svg";
 import { Link } from "@/i18n/routing";
+
+const links = [
+  "/used-home-furniture-dubai",
+  "/used-office-furniture-dubai",
+  "/used-home-appliances",
+  "/used-seating-furniture",
+  "/used-table-furniture",
+  "/used-sleeping-furniture",
+  "used-storage-furniture",
+  "/used-hotel-furniture-dubai",
+];
+
+const list = [
+  "/",
+  "/used-furniture-in-sharjah",
+  "/used-furniture-in-ajman",
+  "/used-furniture-in-abu-dhabi",
+  "#",
+  "/used-furniture-fujairah",
+  "/used-furniture-al-ain",
+];
+
+const companyLinks = [
+  "/about-us",
+  "/contact-us",
+  "#",
+  "#",
+  "#",
+  "#",
+  "https://hamdanmoversuae.com/en/",
+];
 const Footer = () => {
   const t = useTranslations("footer");
+  const b = useTranslations("buttons");
   return (
     <>
       <footer className="bg-zinc-50  text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left mt-32 md:px-10 px-3">
@@ -50,91 +82,108 @@ const Footer = () => {
         <div className="mx-6 py-10 md:text-left">
           <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-5">
             <div>
-              <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              <h6 className="mb-4 flex font-semibold uppercase justify-start">
                 {t("services.title")}
               </h6>
               {/* //! links will be add into json content */}
-              {t.raw("services.list").map((service: any, i: number) => (
-                <Link
-                  key={i}
-                  href={"#"}
-                  className="mb-2.5 hover:underline text-text hover:text-black hover:underline-offset-2 block"
-                >
-                  {service}
-                </Link>
-              ))}
+              <ul>
+                {t.raw("services.list").map((service: any, i: number) => (
+                  <li
+                    className="mb-2.5  text-text hover:text-black flex justify-start"
+                    key={i}
+                  >
+                    <Link
+                      href={links[i]}
+                      className="hover:underline hover:underline-offset-2"
+                    >
+                      {service}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
             <div>
-              <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              <h6 className="mb-4 flex font-semibold uppercase justify-start">
                 {t("locations.title")}
               </h6>
 
-              {t.raw("locations.list").map((service: any, i: number) => (
-                <Link
-                  key={i}
-                  href={"#"}
-                  className="mb-2.5 hover:underline text-text hover:text-black hover:underline-offset-2 block"
-                >
-                  {service}
-                </Link>
-              ))}
+              <ul>
+                {t.raw("locations.list").map((location: any, i: number) => (
+                  <li
+                    className="mb-2.5  text-text hover:text-black flex justify-start"
+                    key={i}
+                  >
+                    <Link
+                      href={list[i]}
+                      className="hover:underline hover:underline-offset-2"
+                    >
+                      {location}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
             <div>
-              <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              <h6 className="mb-4 flex font-semibold uppercase justify-start">
                 {t("company.title")}
               </h6>
-
-              {t.raw("company.list").map((service: any, i: number) => (
-                <Link
-                  key={i}
-                  href={"#"}
-                  className="mb-2.5 hover:underline text-text hover:text-black hover:underline-offset-2 block"
-                >
-                  {service}
-                </Link>
-              ))}
+              <ul>
+                {t.raw("company.list").map((company: any, i: number) => (
+                  <li
+                    className="mb-2.5  text-text hover:text-black flex justify-start"
+                    key={i}
+                  >
+                    <Link
+                      href={companyLinks[i] || "#"}
+                      className="hover:underline hover:underline-offset-2"
+                    >
+                      {company}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
 
             <div className="col-span-2">
-              <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                Contact
+              <h6 className="mb-4 flex font-semibold uppercase justify-start">
+                {b("contact")}
               </h6>
-              <p className="mb-4 flex items-center md:justify-start">
+              <p className="mb-4 flex items-center justify-start">
                 <span className="me-3 [&>svg]:h-6 [&>svg]:w-6">
                   <RiStore2Fill />
                 </span>
                 {t("contact.address")}
               </p>
-              <p className="mb-4 flex items-center md:justify-start">
+              <p className="mb-4 flex items-center justify-start">
                 <span className="me-3 [&>svg]:h-6 [&>svg]:w-6">
                   <RiMailSendFill />
                 </span>
                 {t("contact.email")}
               </p>
-              <p className="mb-4 flex items-center md:justify-start">
+              <p className="mb-4 flex items-center justify-start">
                 <span className="me-3 [&>svg]:h-6 [&>svg]:w-6">
                   <RiPhoneFill />
                 </span>
-                {t("contact.phone1")}
+                <span dir="ltr">{t("contact.phone1")}</span>
               </p>
-              <p className="mb-4 flex items-center md:justify-start">
+              <p className="mb-4 flex items-center justify-start">
                 <span className="me-3 [&>svg]:h-6 [&>svg]:w-6">
                   <RiPhoneFill />
                 </span>
-                {t("contact.phone2")}
+                <span dir="ltr">{t("contact.phone2")}</span>
               </p>
             </div>
           </div>
         </div>
 
         <div className="md:p-6 flex items-center justify-between md:flex-row flex-col">
-          <span>Dubai&apos;s Leading Used Furniture Company</span>
+          <span>{t("subLine")}</span>
           <div className="flex items-center gap-x-3 text-text ">
             <Link className="hover:underline" href={"#"}>
-              Privacy Policy
+              {t("pr")}
             </Link>
             <Link className="hover:underline" href={"#"}>
-              Term & Conditions
+              {t("td")}
             </Link>
           </div>
         </div>

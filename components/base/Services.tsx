@@ -20,9 +20,9 @@ const links = [
 ];
 
 const otherLinks = [
-  "used-home-furniture-dubai",
-  "used-office-furniture-dubai",
-  "used-hotel-furniture-dubai",
+  "/used-home-furniture-dubai",
+  "/used-office-furniture-dubai",
+  "/used-hotel-furniture-dubai",
 ];
 
 const Services = ({

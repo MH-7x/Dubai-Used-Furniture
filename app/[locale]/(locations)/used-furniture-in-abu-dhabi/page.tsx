@@ -14,8 +14,22 @@ import Gallery from "@/components/base/Gallery";
 import TestimonialSlider from "@/components/TestimonialsSlider";
 import imageSrc from "../../../../public/abuDhabi/used-furniture-store-in-abu-dhabi.webp";
 
+import type { Metadata } from "next";
+import MetadataTemplate from "@/lib/MetaDataTemplate";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale;
+  return MetadataTemplate({
+    locale,
+    namespace: "AbuDhabiPageMetadata",
+  });
+}
+
 const UsedFurnitureAbuDhabiPage = () => {
-  // For the TestimonialSlider component, using the "testimonials" namespace
   const t = useTranslations("testimonials");
 
   const p = useTranslations("UsedFurnitureAbuDhabiPage");
@@ -24,7 +38,7 @@ const UsedFurnitureAbuDhabiPage = () => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const serChooseUsList = p.raw("serChooseUs.lis").map((item: any) => ({
     ...item,
-    // In case the translation does not provide an icon, assign the default one.
+
     icon: item.icon || defaultIcon,
   }));
 

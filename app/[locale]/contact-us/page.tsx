@@ -1,6 +1,20 @@
 import Contact from "@/components/Contact";
 import { useTranslations } from "next-intl";
-import React from "react";
+
+import type { Metadata } from "next";
+import MetadataTemplate from "@/lib/MetaDataTemplate";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale;
+  return MetadataTemplate({
+    locale,
+    namespace: "ContactPageMetadata",
+  });
+}
 
 const ContactUsPage = () => {
   const t = useTranslations("contactUsPage");
@@ -54,7 +68,8 @@ const ContactUsPage = () => {
                       {t("Email")}: dubaiusedfurniture.ae@gmail.com
                     </p>
                     <p className="mt-1 text-gray-600">
-                      {t("Phone")}: +971 55 123 4567, +971 55 123 4567
+                      {t("Phone")}:{" "}
+                      <span dir="ltr">+971 55 123 4567, +971 55 123 4567</span>
                     </p>
                   </div>
                 </div>

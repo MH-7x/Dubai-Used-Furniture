@@ -22,6 +22,20 @@ import {
   RiMoneyCnyBoxFill,
 } from "@remixicon/react";
 import TwoGrid from "@/components/base/TwoGrid";
+import type { Metadata } from "next";
+import MetadataTemplate from "@/lib/MetaDataTemplate";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale;
+  return MetadataTemplate({
+    locale,
+    namespace: "AjmanPageMetadata",
+  });
+}
 
 const UsedFurnitureAjmanPage = () => {
   const p = useTranslations("UsedFurnitureAjmanPage");

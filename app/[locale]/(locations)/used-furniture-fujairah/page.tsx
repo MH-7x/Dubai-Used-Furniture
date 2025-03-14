@@ -4,6 +4,21 @@ import TestimonialSlider from "@/components/TestimonialsSlider";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
+import type { Metadata } from "next";
+import MetadataTemplate from "@/lib/MetaDataTemplate";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale;
+  return MetadataTemplate({
+    locale,
+    namespace: "FujairahPageMetadata",
+  });
+}
+
 const UsedFurnitureFujairahPage = () => {
   const t = useTranslations("testimonials");
   return (
