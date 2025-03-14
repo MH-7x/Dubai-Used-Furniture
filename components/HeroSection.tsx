@@ -45,6 +45,7 @@ const HeroSection = () => {
           </p>
         </div>
         <Image
+          id="primaryimage"
           alt="Dubai Used Furniture, Buy & Sell Second Hand Furniture in Dubai"
           src={imgSrc}
           fill

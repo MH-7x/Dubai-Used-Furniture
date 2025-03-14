@@ -78,7 +78,7 @@ const DesktopNavbar = () => {
         } transition-all duration-200`}
       >
         <div className="con flex items-center h-16 justify-between">
-          <Link aria-label="Home" href={"/"}>
+          <Link id="logo" aria-label="Home" href={"/"}>
             <Image
               src={logo}
               alt="dubai used furniture logo"

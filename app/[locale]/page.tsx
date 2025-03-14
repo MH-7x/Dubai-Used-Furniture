@@ -10,9 +10,12 @@ import Contact from "@/components/Contact";
 import CallToAction from "@/components/CTA";
 import HeroSection from "@/components/HeroSection";
 import SerChooseUs from "@/components/SerChooseUs";
+import { App } from "@/constants/application";
+import { GenerateJSON_LD } from "@/lib/GenerateJSON_LD";
 import MetadataTemplate from "@/lib/MetaDataTemplate";
 import type { Metadata } from "next";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import Script from "next/script";
 
 export async function generateMetadata({
   params,
@@ -32,8 +35,48 @@ export default function Home() {
   const i = useTranslations("intro");
   const s = useTranslations("service");
   const c = useTranslations("whyChooseUs");
+
+  const locale = useLocale();
+
+  const JSON_LD = GenerateJSON_LD({
+    name: "Dubai Used Furniture",
+    url: `${App.appUrl}/${locale}`,
+    description:
+      "We are a buyer & seller of used furniture in Dubai, UAE. We also deal in used electronics, home, office, and hotel furniture. Contact us for the best price today!",
+    inLanguage: locale,
+    BreadcrumbList: {
+      itemListElement: [
+        {
+          name: "Home",
+          position: 1,
+          url: `${App.appUrl}/${locale}`,
+        },
+      ],
+    },
+    ImageObject: {
+      url: `${App.appUrl}/images/Dubai-Used-Furniture.webp`,
+      width: 580,
+      height: 580,
+      caption: "Dubai Used Furniture",
+    },
+    webpage: {
+      thumbnailUrl: `${App.appUrl}/images/Dubai-Used-Furniture.webp`,
+      datePublished: new Date().toISOString(),
+      dateModified: new Date().toISOString(),
+    },
+    website: {
+      sameAs: [],
+    },
+  });
+
   return (
     <>
+      <Script
+        id="json-ld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON_LD }}
+      />
       <main className="md:mt-24 mt-[70px]">
         <HeroSection />
         <IntroText text={i("text")} />
