@@ -43,6 +43,7 @@ const Services = ({
 }) => {
   const b = useTranslations("buttons");
   const locale = useLocale();
+
   return (
     <>
       <section id="used-furniture-services" className="con mt-32 ">

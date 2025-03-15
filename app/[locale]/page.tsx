@@ -51,6 +51,36 @@ export default function Home() {
           position: 1,
           url: `${App.appUrl}/${locale}`,
         },
+        {
+          name: "Used Furniture Sharjah",
+          position: 2,
+          url: `${App.appUrl}/${locale}/used-furniture-in-sharjah`,
+        },
+        {
+          name: "Used Furniture Abu Dhabi",
+          position: 3,
+          url: `${App.appUrl}/${locale}/used-furniture-in-abu-dhabi`,
+        },
+        {
+          name: "Used Office Furniture",
+          position: 4,
+          url: `${App.appUrl}/${locale}/used-office-furniture-dubai`,
+        },
+        {
+          name: "Used Home Appliances",
+          position: 5,
+          url: `${App.appUrl}/${locale}/used-home-appliances`,
+        },
+        {
+          name: "About Us",
+          position: 7,
+          url: `${App.appUrl}/${locale}/about-us`,
+        },
+        {
+          name: "Contact Us",
+          position: 8,
+          url: `${App.appUrl}/${locale}/contact-us`,
+        },
       ],
     },
     ImageObject: {

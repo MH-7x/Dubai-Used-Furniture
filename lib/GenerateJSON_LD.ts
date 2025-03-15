@@ -1,14 +1,3 @@
-// breadcrumb-list-schema	Breadcrumb List Schema (Google, Schema.org)
-// corporate-contact-schema	Corporate Contact Schema (Google)
-// event-schema	Event Schema (Google, Schema.org)
-// job-posting-schema	Job Posting Schema (Google, Schema.org)
-// product-aggregate-offer-schema	Product Aggregate Offer Schema (Google, Schema.org)
-// product-schema	Product Schema (Google, Schema.org)
-// recipe-schema	Recipe Schema (Google, Schema.org)
-// script-json-ld	JSON-LD Script Tag
-// sitelinks-searchbox-schema	Sitelinks Searchbox Schema (Google, Schema.org)
-// video-schema	Video Schema (Google, Schema.org)
-
 import { App } from "@/constants/application";
 
 interface GenerateJSON_LDProps {
