@@ -51,10 +51,11 @@ const BlogsList = () => {
             </div>
             <img
               src="https://images.unsplash.com/photo-1536437075651-01d675529a6b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt=""
+              alt="testing blog image"
+              loading="lazy"
               className="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full"
-              width="1216"
-              height="640"
+              width="616"
+              height="440"
             />
           </li>
         ))}

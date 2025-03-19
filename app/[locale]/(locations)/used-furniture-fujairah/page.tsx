@@ -277,7 +277,7 @@ const UsedFurnitureFujairahPage = () => {
               </Link>{" "}
               and practical{" "}
               <Link
-                href="/used-office-furniture"
+                href="/used-office-furniture-dubai-dubai-dubai"
                 className="font-medium text-blue-600 hover:underline"
               >
                 used office furniture Fujairah
@@ -456,7 +456,7 @@ const UsedFurnitureFujairahPage = () => {
           <div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               <Link
-                href="/used-office-furniture"
+                href="/used-office-furniture-dubai"
                 className="text-blue-600 hover:underline"
               >
                 Used Office Furniture Fujairah
@@ -471,7 +471,7 @@ const UsedFurnitureFujairahPage = () => {
               productivity.
             </p>
             <Link
-              href="/used-office-furniture"
+              href="/used-office-furniture-dubai"
               className="inline-block mt-2 bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-1 px-2 rounded-full text-sm"
             >
               Browse Office Furniture
