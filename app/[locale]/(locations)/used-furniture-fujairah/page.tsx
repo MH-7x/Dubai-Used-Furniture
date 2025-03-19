@@ -277,7 +277,7 @@ const UsedFurnitureFujairahPage = () => {
               </Link>{" "}
               and practical{" "}
               <Link
-                href="/used-office-furniture-dubai-dubai-dubai"
+                href="/used-office-furniture-dubai"
                 className="font-medium text-blue-600 hover:underline"
               >
                 used office furniture Fujairah

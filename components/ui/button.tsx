@@ -64,7 +64,8 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
           href={
             "https://wa.me/+971566651978?text=I%20contact%20you%20for%20used%20furniture!"
           }
-          rel="noopener noreferrer"
+          rel="noopener nofollow"
+          target="_blank"
           title="Send Us Message to our whatsapp number"
         >
           <Comp
