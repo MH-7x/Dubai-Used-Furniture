@@ -20,7 +20,7 @@ const changeFrequencyMap: Record<
   "/used-furniture-fujairah": "monthly",
   "/used-furniture-al-ain": "monthly",
   "/about-us": "yearly",
-  "/contact": "yearly",
+  "/contact-us": "yearly",
   "/used-home-appliances": "monthly",
   "/used-home-furniture-dubai": "monthly",
   "/used-office-furniture-dubai": "monthly",

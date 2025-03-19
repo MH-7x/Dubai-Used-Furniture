@@ -61,19 +61,39 @@ const Footer = () => {
           </div>
 
           <div className="flex justify-center gap-x-3">
-            <a href="#!" className="[&>svg]:h-6 [&>svg]:w-6">
+            <a
+              href="https://www.facebook.com"
+              rel="noopener noreferrer"
+              className="[&>svg]:h-6 [&>svg]:w-6"
+            >
               <RiFacebookCircleFill />
             </a>
-            <a href="#!" className="[&>svg]:h-6 [&>svg]:w-6">
+            <a
+              href="https://www.instagram.com"
+              rel="noopener noreferrer"
+              className="[&>svg]:h-6 [&>svg]:w-6"
+            >
               <RiInstagramFill />
             </a>
-            <a href="#!" className="[&>svg]:h-6 [&>svg]:w-6">
+            <a
+              href="https://www.twitter.com"
+              rel="noopener noreferrer"
+              className="[&>svg]:h-6 [&>svg]:w-6"
+            >
               <RiTwitterFill />
             </a>
-            <a href="#!" className="[&>svg]:h-6 [&>svg]:w-6">
+            <a
+              href="https://www.pinterest.com"
+              rel="noopener noreferrer"
+              className="[&>svg]:h-6 [&>svg]:w-6"
+            >
               <RiPinterestFill />
             </a>
-            <a href="#!" className="[&>svg]:h-6 [&>svg]:w-6">
+            <a
+              href="https://www.linkedin.com"
+              rel="noopener noreferrer"
+              className="[&>svg]:h-6 [&>svg]:w-6"
+            >
               <RiLinkedinBoxFill />
             </a>
           </div>

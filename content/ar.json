@@ -20,7 +20,8 @@
     "title": "شراء وبيع أثاث الجلوس المستعمل الفاخر | دبي للأثاث المستعمل",
     "desc": "نحن شريكك الموثوق لشراء وبيع أثاث الجلوس المستعمل عالي الجودة مثل الأرائك، الأسرّة، الكراسي وغيرها في جميع أنحاء الإمارات العربية المتحدة. تواصل معنا اليوم للحصول على أفضل الأسعار!",
     "path": "/ar/used-seating-furniture",
-    "altPath": "/en/used-seating-furniture",
+    "arPath": "/ar/used-seating-furniture",
+    "enPath": "/en/used-seating-furniture",
     "images": [
       {
         "path": "seating/seating-furniture-image-2.webp",
@@ -101,9 +102,9 @@
   "UsedStorageFurniturePageMetadata": {
     "title": "بيع وشراء أثاث التخزين المستعمل في دبي",
     "desc": "هل تبحث عن شراء أو بيع أثاث التخزين المستعمل في دبي؟ اكتشف خزائن ودواليب وأرفف مستعملة عالية الجودة بأفضل الأسعار. اتصل بنا اليوم!",
-    "path": "/ar/used-sleeping-furniture",
-    "arPath": "/ar/used-sleeping-furniture",
-    "enPath": "/en/used-sleeping-furniture",
+    "path": "/ar/used-storage-furniture",
+    "arPath": "/ar/used-storage-furniture",
+    "enPath": "/en/used-storage-furniture",
     "images": [
       {
         "path": "storage/used-home-storage-furniture.webp",

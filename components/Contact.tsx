@@ -9,7 +9,7 @@ import {
 } from "@remixicon/react";
 import { useTranslations } from "next-intl";
 
-const Contact = () => {
+const Contact = ({ h1 }: { h1?: boolean }) => {
   const t = useTranslations("contact");
   const u = useTranslations("utils");
   return (
@@ -17,9 +17,15 @@ const Contact = () => {
       <div className="container px-6 md:py-16 py-10 mx-auto ">
         <div className="lg:flex lg:items-center lg:-mx-10">
           <div className="lg:w-1/2 lg:mx-10">
-            <h2 className="text-2xl font-semibold text-secondary capitalize  lg:text-3xl">
-              {t("title")}
-            </h2>
+            {h1 ? (
+              <h1 className="text-2xl font-semibold text-secondary capitalize  lg:text-3xl">
+                {t("title")}
+              </h1>
+            ) : (
+              <h2 className="text-2xl font-semibold text-secondary capitalize  lg:text-3xl">
+                {t("title")}
+              </h2>
+            )}
 
             <p className="mt-4 text-accent">{t("desc")}</p>
 

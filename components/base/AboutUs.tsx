@@ -1,4 +1,3 @@
-import React from "react";
 import personImage from "../../public/images/about-used-furniture-dubai.png";
 import Image from "next/image";
 import { RiArrowRightLine } from "@remixicon/react";

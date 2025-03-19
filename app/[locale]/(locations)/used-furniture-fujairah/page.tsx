@@ -2,7 +2,7 @@
 import Services from "@/components/base/Services";
 import TestimonialSlider from "@/components/TestimonialsSlider";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 
 import type { Metadata } from "next";
 import MetadataTemplate from "@/lib/MetaDataTemplate";
@@ -256,7 +256,7 @@ const UsedFurnitureFujairahPage = () => {
               </span>
               . From stylish{" "}
               <Link
-                href="/"
+                href="/used-sleeping-furniture"
                 className="font-medium text-blue-600 hover:underline"
               >
                 used sofas & couches
@@ -270,7 +270,7 @@ const UsedFurnitureFujairahPage = () => {
               </Link>{" "}
               to elegant{" "}
               <Link
-                href="used-seating-furniture"
+                href="/used-seating-furniture"
                 className="font-medium text-blue-600 hover:underline"
               >
                 used dining tables & chairs
@@ -389,7 +389,10 @@ const UsedFurnitureFujairahPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              <Link href="/" className="text-blue-600 hover:underline">
+              <Link
+                href="/used-sleeping-furniture"
+                className="text-blue-600 hover:underline"
+              >
                 Used Sofas & Couches Fujairah
               </Link>
             </h3>
@@ -400,7 +403,7 @@ const UsedFurnitureFujairahPage = () => {
               or waiting area.
             </p>
             <Link
-              href="/"
+              href="/used-sleeping-furniture"
               className="inline-block mt-2 bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-1 px-2 rounded-full text-sm"
             >
               Browse Used Sofas
@@ -430,7 +433,7 @@ const UsedFurnitureFujairahPage = () => {
           <div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               <Link
-                href="used-seating-furniture"
+                href="/used-seating-furniture"
                 className="text-blue-600 hover:underline"
               >
                 Used Dining Tables & Chairs Fujairah
@@ -444,7 +447,7 @@ const UsedFurnitureFujairahPage = () => {
               . Perfect for family meals and entertaining guests.
             </p>
             <Link
-              href="used-seating-furniture"
+              href="/used-seating-furniture"
               className="inline-block mt-2 bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-1 px-2 rounded-full text-sm"
             >
               Browse Dining Sets

@@ -15,7 +15,7 @@ const links = [
   "/used-seating-furniture",
   "/used-table-furniture",
   "/used-sleeping-furniture",
-  "used-storage-furniture",
+  "/used-storage-furniture",
   "/used-home-appliances",
 ];
 

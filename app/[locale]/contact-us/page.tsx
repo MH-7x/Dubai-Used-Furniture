@@ -20,7 +20,7 @@ const ContactUsPage = () => {
   const t = useTranslations("contactUsPage");
   return (
     <main className="md:mt-24 mt-28">
-      <Contact />
+      <Contact h1 />
       <section className="bg-gray-100 mt-40">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
           <div className="max-w-2xl lg:max-w-4xl mx-auto text-center">

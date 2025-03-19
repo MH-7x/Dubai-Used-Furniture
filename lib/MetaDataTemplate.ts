@@ -31,6 +31,7 @@ export default async function MetadataTemplate({
       },
     },
     openGraph: {
+      url: `${App.appUrl}${t("path")}`,
       title: t("title"),
       images: t.raw("images").map((image: { path: string; alt: string }) => {
         return {

@@ -21,7 +21,7 @@
         "desc": "we’re your trusted partner in buying and selling high-quality used seating furniture like sofas, beds, chairs etc across the UAE. Contact us for the best price today!",
         "path": "/en/used-seating-furniture",
         "arPath": "/ar/used-seating-furniture",
-        "enPath": "/ar/used-seating-furniture",
+        "enPath": "/en/used-seating-furniture",
         "images": [
             {
                 "path": "seating/seating-furniture-image-2.webp",
@@ -49,7 +49,8 @@
         "title": "Used Table Furniture in Dubai, Buy & Sell Table Furniture",
         "desc": "We buy & sell second-hand tables, pre-owned dining tables, office tables, or specialty pieces like used study tables and conference tables in best prices. Contact to dubai used furniture now!",
         "path": "/en/used-table-furniture",
-        "altPath": "/ar/used-table-furniture",
+        "arPath": "/ar/used-table-furniture",
+        "enPath": "/en/used-table-furniture",
         "images": [
             {
                 "path": "tables/used-tables-furniture-landscape.webp",
@@ -72,9 +73,9 @@
     "SleepingFurniturePageMetadata": {
         "title": "Used Sleeping Furniture in Dubai | Second-hand Beds, Mattresses & More",
         "desc": "Buy quality used bedroom furniture in Dubai at the best prices! Find second-hand beds, pre-owned mattresses & luxury bed frames in Dubai Marina, Jumeirah & Deira.",
-        "path": "/en/used-storage-furniture",
-        "arPath": "/ar/used-storage-furniture",
-        "enPath": "/en/used-storage-furniture",
+        "path": "/en/used-sleeping-furniture",
+        "arPath": "/ar/used-sleeping-furniture",
+        "enPath": "/en/used-sleeping-furniture",
         "images": [
             {
                 "path": "beds/used-sleeping-beds.jpg",
@@ -101,9 +102,9 @@
     "UsedStorageFurniturePageMetadata": {
         "title": "Buy & Sell Used Storage Furniture in Dubai",
         "desc": "Looking to buy or sell used storage furniture in Dubai? Find high-quality second-hand cabinets, wardrobes & shelves at the best prices. Contact us today!",
-        "path": "/en/used-sleeping-furniture",
-        "arPath": "/ar/used-sleeping-furniture",
-        "enPath": "/en/used-sleeping-furniture",
+        "path": "/en/used-storage-furniture",
+        "arPath": "/ar/used-storage-furniture",
+        "enPath": "/en/used-storage-furniture",
         "images": [
             {
                 "path": "storage/used-home-storage-furniture.webp",
