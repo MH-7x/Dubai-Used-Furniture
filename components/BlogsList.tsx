@@ -1,6 +1,43 @@
+"use client";
 import { RiArrowRightLine, RiCalendar2Fill } from "@remixicon/react";
+import { useEffect, useState } from "react";
 
 const BlogsList = () => {
+  const [blogs, setBlogs] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    try {
+      setLoading(true);
+      fetch("https://blogs.dubaiusedfurniture.ae/api/blog?limit=3")
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+
+          setLoading(false);
+        });
+    } catch (error) {
+      console.error("Error fetching data", error);
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center h-96">
+        <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-gray-900"></div>
+      </div>
+    );
+  }
+  if (!loading && (!blogs || blogs.length === 0)) {
+    return (
+      <div className="flex justify-center items-center h-96">
+        <p>No blogs found</p>
+      </div>
+    );
+  }
+
   return (
     <section dir="ltr" className="mt-32 con md:px-0 px-3">
       <h2 className="md:text-4xl text-3xl text-primary">
