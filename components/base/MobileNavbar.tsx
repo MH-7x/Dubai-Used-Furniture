@@ -46,16 +46,16 @@ const MobileNavbar = () => {
         >
           <RiPhoneFill size={19} />
           <Link
-            href={"tel:+971566651978"}
+            href={"tel:+971545019655"}
             className="ml-2 hover:text-secondary"
           >
-            +971 56 6651978
+            +971 54 5019655
           </Link>
           <Link
             href={"tel:+971503626685"}
             className="ml-2 hover:text-secondary"
           >
-            +971 50 3626685
+            +0971 52 1314535
           </Link>
         </div>
         <LanguageSwitcher locale={locale} />

@@ -1,7 +1,14 @@
+"use client";
+
+// Extend the Window interface to include the dataLayer property
+declare global {
+  interface Window {
+    dataLayer?: { push: (event: Record<string, any>) => void };
+  }
+}
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
 import { cva, type VariantProps } from "class-variance-authority";
-
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
@@ -58,15 +65,26 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     ref
   ) => {
     const Comp = asChild ? Slot : "button";
+
+    // Custom GTM event function
+    const handleClick = (eventType: string) => {
+      if (typeof window !== "undefined" && window.dataLayer) {
+        window.dataLayer.push({
+          event: eventType,
+          buttonType: eventType, // You can track different button types
+          timestamp: new Date().toISOString(),
+        });
+      }
+    };
+
     if (whatsappBtn) {
       return (
         <Link
-          href={
-            "https://wa.me/+971566651978?text=I%20contact%20you%20for%20used%20furniture!"
-          }
+          href="https://wa.me/+971545019655?text=I%20contact%20you%20for%20used%20furniture!"
           rel="noopener nofollow"
           target="_blank"
-          title="Send Us Message to our whatsapp number"
+          title="Send Us Message to our WhatsApp number"
+          onClick={() => handleClick("whatsapp_click")}
         >
           <Comp
             className={cn(buttonVariants({ variant, size, className }))}
@@ -76,11 +94,13 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         </Link>
       );
     }
+
     if (callBtn) {
       return (
         <Link
-          href={"tel:+971566651978"}
-          title="Send Us Message to our whatsapp number"
+          href="tel:+971545019655"
+          title="Call Us"
+          onClick={() => handleClick("call_click")}
         >
           <Comp
             className={cn(buttonVariants({ variant, size, className }))}
@@ -90,6 +110,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         </Link>
       );
     }
+
     return (
       <Comp
         className={cn(buttonVariants({ variant, size, className }))}

@@ -89,7 +89,7 @@ const Contact = ({ h1 }: { h1?: boolean }) => {
                   dir="ltr"
                   className="mx-2 truncate w-72 text-accent font-light"
                 >
-                  +971 50 999 9999 , +971 50 888 8888
+                  +971 56 6651978, +971 50 3626685
                 </span>
               </p>
 

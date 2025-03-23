@@ -9,6 +9,7 @@ import {
 import { useCycle, motion } from "motion/react";
 import React, { useCallback, useEffect, useState } from "react";
 import { Button } from "./ui/button";
+import { Link } from "@/i18n/routing";
 
 const SearchLayout = ({ forMobile = false }: { forMobile?: boolean }) => {
   const [isOpen, toggleOpen] = useCycle(false, true);
@@ -150,12 +151,16 @@ const SearchLayout = ({ forMobile = false }: { forMobile?: boolean }) => {
                     <div className="col-span-1 flex items-center justify-center bg-white text-secondary h-12">
                       <RiFile2Line />
                     </div>
-                    <div className="col-span-4">
-                      <p className="text-primary line-clamp-1">{item.title}</p>
-                      <p className="text-xs/3 text-gray-500 font-light line-clamp-2">
-                        {item.desc}
-                      </p>
-                    </div>
+                    <Link href={item.link}>
+                      <div className="col-span-4">
+                        <p className="text-primary line-clamp-1">
+                          {item.title}
+                        </p>
+                        <p className="text-xs/3 text-gray-500 font-light line-clamp-2">
+                          {item.desc}
+                        </p>
+                      </div>
+                    </Link>
                   </div>
                 ))
               ) : (

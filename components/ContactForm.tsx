@@ -13,17 +13,6 @@ function ContactForm() {
   const t = useTranslations("NavList");
   const l = useTranslations("contact");
   const b = useTranslations("buttons");
-  const services = [
-    "ser1",
-    "ser2",
-    "ser3",
-    "ser4",
-    "ser5",
-    "ser6",
-    "ser7",
-    "ser8",
-    "ser9",
-  ] as const;
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     setOpen(false);
@@ -124,7 +113,7 @@ function ContactForm() {
               {l("type")}
             </label>
             <select
-              name="services"
+              name="service"
               required
               defaultValue={""}
               className="input"
@@ -133,23 +122,10 @@ function ContactForm() {
               <option value="" disabled>
                 Select your type
               </option>
-              {services.map((service) => (
-                <option key={service} value={t(`services.${service}`)}>
-                  {t(`services.${service}`)}
-                </option>
-              ))}
+              <option value="Buy Used Furniture">Buy Used Furniture</option>
+              <option value="Sell Used Furniture">Sell Used Furniture</option>
             </select>
           </div>
-        </div>
-        <div className="mt-5">
-          <label className="block mb-2 text-sm text-accent"></label>
-          <input
-            required
-            type="text"
-            name="address"
-            placeholder="123 Street, City"
-            className="input"
-          />
         </div>
         <div className="w-full mt-4">
           <label className="block mb-2 text-sm text-accent">

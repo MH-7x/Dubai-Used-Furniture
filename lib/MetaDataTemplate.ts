@@ -43,7 +43,7 @@ export default async function MetadataTemplate({
       type: "website",
       countryName: u("countryName"),
       emails: ["dubaiusedfurniture.ae@gmail.com", "hussain43ahmad@gmail.com"],
-      phoneNumbers: ["+971566651978", "+971 503626685"],
+      phoneNumbers: ["+971545019655", "+971 503626685"],
       siteName: u("applicationName"),
     },
     twitter: {

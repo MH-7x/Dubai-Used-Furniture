@@ -146,7 +146,7 @@ export const GenerateJSON_LD = ({
         sameAs: website.sameAs,
         contactPoint: {
           "@type": "ContactPoint",
-          telephone: "+971 56 6651978",
+          telephone: "+971 54 5019655",
           contactType: "Customer Service",
           areaServed: "AE",
           availableLanguage: ["English", "Arabic"],

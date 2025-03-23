@@ -50,16 +50,16 @@ const DesktopNavbar = () => {
           >
             <RiPhoneFill size={21} />
             <Link
-              href={"tel:+971566651978"}
+              href={"tel:+971545019655"}
               className="ml-2 hover:text-secondary"
             >
-              +971 56 6651978
+              +971 54 5019655
             </Link>
             <Link
               href={"tel:+971503626685"}
               className="ml-2 hover:text-secondary"
             >
-              +971 50 3626685
+              +971 52 1314535
             </Link>
           </div>
           <div className="flex items-center gap-1 text-sm ">

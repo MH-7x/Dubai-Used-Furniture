@@ -62,14 +62,14 @@ const Footer = () => {
 
           <div className="flex justify-center gap-x-3">
             <a
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/profile.php?id=61574525996520"
               rel="noopener noreferrer"
               className="[&>svg]:h-6 [&>svg]:w-6"
             >
               <RiFacebookCircleFill />
             </a>
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/dubai_used_furniture"
               rel="noopener noreferrer"
               className="[&>svg]:h-6 [&>svg]:w-6"
             >
@@ -83,7 +83,7 @@ const Footer = () => {
               <RiTwitterFill />
             </a>
             <a
-              href="https://www.pinterest.com"
+              href="https://www.pinterest.com/dubai_used_furniture"
               rel="noopener noreferrer"
               className="[&>svg]:h-6 [&>svg]:w-6"
             >

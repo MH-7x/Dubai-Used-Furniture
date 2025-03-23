@@ -10,6 +10,7 @@ import Navbar from "@/components/base/Navbar";
 import Footer from "@/components/base/Footer";
 import BlogsList from "@/components/BlogsList";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import GTM from "@/components/GTM";
 const almarai = Almarai({
   weight: ["300", "400", "700"],
   display: "swap",
@@ -55,7 +56,18 @@ export default async function RootLayout({
       lang={locale}
       suppressHydrationWarning
     >
+      <head>
+        <GTM />
+      </head>
       <body className={`${almarai.className} antialiased`}>
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=GTM-55PRPLF2`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         <NextIntlClientProvider messages={message}>
           <LazyMotion features={domAnimation}>
             <Navbar />

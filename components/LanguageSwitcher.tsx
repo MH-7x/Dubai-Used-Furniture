@@ -24,20 +24,44 @@ const LanguageSwitcher = ({ locale }: { locale: string }) => {
 
   return isMobile ? (
     locale === "ar" ? (
-      <Link href={newPath} locale="en" className="text-secondary mb-0.5">
+      <Link
+        aria-label="switch to english"
+        title="switch to english"
+        href={newPath}
+        locale="en"
+        className="text-secondary mb-0.5"
+      >
         English
       </Link>
     ) : (
-      <Link href={newPath} locale="ar" className="ml-6 text-secondary mb-1">
+      <Link
+        aria-label="switch to arabic"
+        title="switch to arabic"
+        href={newPath}
+        locale="ar"
+        className="ml-6 text-secondary mb-1"
+      >
         عربي
       </Link>
     )
   ) : locale === "ar" ? (
-    <Link href={newPath} locale="en" className="mr-6 text-secondary mb-0.5">
+    <Link
+      aria-label="switch to english"
+      title="switch to english"
+      href={newPath}
+      locale="en"
+      className="mr-6 text-secondary mb-0.5"
+    >
       English
     </Link>
   ) : (
-    <Link href={newPath} locale="ar" className="ml-6 text-secondary mb-1">
+    <Link
+      aria-label="switch to arabic"
+      title="switch to arabic"
+      href={newPath}
+      locale="ar"
+      className="ml-6 text-secondary mb-1"
+    >
       عربي
     </Link>
   );

@@ -28,7 +28,7 @@ const ServiceHeroSection = ({
           <Link
             className="md:py-3 rounded-lg flex items-center justify-center  py-2.5 bg-primary text-secondary"
             href={
-              "https://wa.me/+971566651978?text=I%20contact%20you%20for%20used%20furniture!"
+              "https://wa.me/+971545019655?text=I%20contact%20you%20for%20used%20furniture!"
             }
             title="Send Us Message to our whatsapp number"
           >
