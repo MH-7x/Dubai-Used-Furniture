@@ -10,7 +10,6 @@ function ContactForm() {
   const [Success, setSuccess] = useState("");
   const [Open, setOpen] = useState(false);
   const [Loading, setLoading] = useState(false);
-  const t = useTranslations("NavList");
   const l = useTranslations("contact");
   const b = useTranslations("buttons");
 

@@ -3,6 +3,7 @@
 // Extend the Window interface to include the dataLayer property
 declare global {
   interface Window {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     dataLayer?: { push: (event: Record<string, any>) => void };
   }
 }
