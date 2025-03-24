@@ -44,7 +44,15 @@ h2 {
 .bg-pattren {
   @apply absolute  inset-0 bg-[radial-gradient(#ffffff22_1px,transparent_2px)] bg-[size:16px_16px];
 }
-
+.blog h2 {
+  @apply text-3xl font-bold;
+}
+.blog h3 {
+  @apply text-2xl font-normal my-10;
+}
+.blog p {
+  @apply text-text my-5 text-lg;
+}
 @layer base {
   :root {
     --background: 0 0% 100%;

@@ -1,9 +1,50 @@
 "use client";
 import { RiArrowRightLine, RiCalendar2Fill } from "@remixicon/react";
+import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
+interface Main {
+  success: boolean;
+  message: string;
+  data: Datum[];
+  pagination: Pagination;
+}
+
+interface Datum {
+  author: Author;
+  seo: SEO;
+  _id: string;
+  title: string;
+  caption: string;
+  category: string;
+  FeaturedImage: string;
+  content: string;
+  slug: string;
+  createdAt: Date;
+  updatedAt: Date;
+  __v: number;
+}
+
+interface Author {
+  name: string;
+  avatarUrl: string;
+}
+
+interface SEO {
+  metaTitle: string;
+  metaDescription: string;
+}
+
+interface Pagination {
+  total: number;
+  page: number;
+  limit: number;
+  totalPages: number;
+}
+
 const BlogsList = () => {
-  const [blogs, setBlogs] = useState([]);
+  const [blogs, setBlogs] = useState<Datum[] | []>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -11,10 +52,8 @@ const BlogsList = () => {
       setLoading(true);
       fetch("https://blogs.dubaiusedfurniture.ae/api/blog?limit=3")
         .then((res) => res.json())
-        .then((data) => {
-          console.log(data);
-
-          setLoading(false);
+        .then((data: Main) => {
+          setBlogs(data.data);
         });
     } catch (error) {
       console.error("Error fetching data", error);
@@ -30,7 +69,7 @@ const BlogsList = () => {
       </div>
     );
   }
-  if (!loading && (!blogs || blogs.length === 0)) {
+  if (!blogs || blogs.length === 0) {
     return (
       <div className="flex justify-center items-center h-96">
         <p>No blogs found</p>
@@ -49,51 +88,49 @@ const BlogsList = () => {
         deals on second-hand furniture!
       </p>
       <ul className="grid grid-cols-1 xl:grid-cols-3 gap-y-10 gap-x-6 items-start md:p-8 py-8 px-0">
-        {Array.from({ length: 3 }).map((_, index) => (
+        {blogs.map((blog) => (
           <li
-            key={index}
+            key={blog._id}
             className="relative flex flex-col sm:flex-row xl:flex-col items-start"
           >
             <div className="order-1 sm:ml-6 xl:ml-0">
-              <h3 className="mb-1 text-slate-900 font-semibold">
+              <h3 className="mb-1 text-slate-900 font-semibold capitalize">
                 <span className="mb-1 block text-sm leading-6 text-secondary">
                   Headless UI
                 </span>
-                Completely unstyled, fully accessible UI components
+                <Link href={`/blogs/${blog.slug}`}>{blog.title}</Link>
               </h3>
               <div className="prose prose-slate prose-sm text-slate-600">
-                <p>
-                  Completely unstyled, fully accessible UI components, designed
-                  to integrate beautifully with Tailwind CSS.
-                </p>
+                <p>{blog.caption}</p>
               </div>
               <div className="mt-6 flex items-center justify-between">
                 <a
                   className="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-secondary/50 text-primary hover:bg-secondary  focus:ring-slate-500 "
-                  href=""
+                  href={`/blogs/${blog.slug}`}
                 >
-                  Learn more
-                  <span className="sr-only">
-                    , Completely unstyled, fully accessible UI components
-                  </span>
+                  Read More
+                  <span className="sr-only">{blog.title}</span>
                   <RiArrowRightLine size={15} className="ml-2" />
                 </a>
                 <div className="text-sm flex items-center gap-x-2 text-gray-400">
                   <RiCalendar2Fill size={18} />
-                  <time dateTime={"2022-10-11"} className="">
-                    2022-10-11
+                  <time
+                    dateTime={new Date(blog.createdAt).toDateString()}
+                    className=""
+                  >
+                    {new Date(blog.createdAt).toDateString()}
                   </time>
                 </div>
               </div>
             </div>
-            <img
-              src="https://images.unsplash.com/photo-1536437075651-01d675529a6b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="testing blog image"
-              loading="lazy"
-              className="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full"
-              width="616"
-              height="440"
-            />
+            <div className="mb-6 shadow-md rounded-lg h-64 relative bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full">
+              <Image
+                src={blog.FeaturedImage}
+                alt={blog.title}
+                fill
+                className="absolute object-cover object-center"
+              />
+            </div>
           </li>
         ))}
       </ul>
