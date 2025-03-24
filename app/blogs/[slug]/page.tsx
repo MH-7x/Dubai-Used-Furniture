@@ -1,16 +1,17 @@
+import LatestPosts from "@/components/LatestPosts";
 import { App } from "@/constants/application";
 import { RiCalendarCheckFill } from "@remixicon/react";
 import type { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
 
-interface Main {
+export interface Main {
   message: string;
   success: boolean;
   blog: Blog;
 }
 
-interface Blog {
+export interface Blog {
   author: Author;
   seo: SEO;
   _id: string;
@@ -125,17 +126,15 @@ const SingleBlogDetailPage = async ({
 
   if ("error" in BlogDetails) {
     return (
-      <div>
-        <header className="md:mt-24 py-10 mt-[75px] md:bg-secondary/40">
-          <div className="max-w-6xl mx-auto md:p-4">
-            <div className="bg-red-100 rounded-2xl md:shadow-lg overflow-hidden flex flex-col items-center">
-              <h2 className="text-center text-destructive">
-                {BlogDetails.error}
-              </h2>
-            </div>
+      <header className="md:mt-24 py-10 mt-[75px] md:bg-secondary/40">
+        <div className="max-w-6xl mx-auto md:p-4">
+          <div className="bg-red-100 rounded-2xl md:shadow-lg overflow-hidden flex flex-col items-center">
+            <h2 className="text-center text-destructive">
+              {BlogDetails.error}
+            </h2>
           </div>
-        </header>
-      </div>
+        </div>
+      </header>
     );
   }
   return (
@@ -188,15 +187,7 @@ const SingleBlogDetailPage = async ({
         <aside className="col-span-1">
           <div className="border-accent border rounded-xl min-h-40 p-5">
             <h3 className="font-bold text-xl text-text">Latest Posts</h3>
-            {Array.from({ length: 3 }).map((_, i) => (
-              <div className="mt-5 bg-accent/50 rounded-lg w-full p-2 flex items-center gap-x-3">
-                <div className="h-16 w-16 rounded-full bg-gray-200"></div>
-                <h4 className="w-[78%] text-text text-base/5">
-                  How To Sell Used Furniture Easily in Dubai - best market
-                  places
-                </h4>
-              </div>
-            ))}
+            <LatestPosts />
           </div>
         </aside>
       </div>
