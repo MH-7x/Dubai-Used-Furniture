@@ -187,7 +187,7 @@ const BlogSection = async () => {
           Explore our curated collections – from budget makeovers to luxury
           upcycles. Find ideas for every space!
         </p>
-        {uniqueCategories.map((category, i) => (
+        {uniqueCategories.map((category) => (
           <>
             <h2 className="md:text-2xl text-xl con mt-10">
               <span className="bg-secondary/40 rounded-2xl px-5 py-1">
