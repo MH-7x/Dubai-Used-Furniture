@@ -17,18 +17,20 @@ export interface Blog {
   _id: string;
   title: string;
   caption: string;
-  category: string;
+  category: Category;
   FeaturedImage: string;
   content: string;
-  slug: string;
   createdAt: Date;
   updatedAt: Date;
-  __v: number;
 }
 
 interface Author {
   name: string;
   avatarUrl: string;
+}
+export interface Category {
+  _id: string;
+  name: string;
 }
 
 interface SEO {
@@ -59,7 +61,7 @@ export async function generateMetadata({
     authors: {
       name: BlogDetails.author.name,
     },
-    category: BlogDetails.category,
+    category: BlogDetails.category.name,
     openGraph: {
       title: BlogDetails.seo.metaTitle,
       description: BlogDetails.seo.metaDescription,
@@ -155,7 +157,7 @@ const SingleBlogDetailPage = async ({
             {/* Content Section */}
             <div className="md:p-6 py-6 px-3 md:w-2/3">
               <span className="bg-secondary/10 text-secondary text-xs font-semibold px-3 py-1 rounded-full">
-                {BlogDetails.category}
+                {BlogDetails.category.name}
               </span>
               <h2 className="md:text-3xl text-2xl font-bold text-primary mt-3 capitalize">
                 {BlogDetails.title}
@@ -182,7 +184,7 @@ const SingleBlogDetailPage = async ({
       <div className="grid md:grid-cols-3 grid-cols-1 con min-h-screen mt-24 items-start">
         <main
           dangerouslySetInnerHTML={{ __html: BlogDetails.content }}
-          className="col-span-2  min-h-screen md:pr-10 blog"
+          className="col-span-2  min-h-screen md:pr-10 blog md:px-0 px-3"
         ></main>
         <aside className="col-span-1">
           <div className="border-accent border rounded-xl min-h-40 p-5">

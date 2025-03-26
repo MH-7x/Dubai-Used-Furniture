@@ -1,4 +1,5 @@
 "use client";
+import { Category } from "@/app/blogs/[slug]/page";
 import { RiArrowRightLine, RiCalendar2Fill } from "@remixicon/react";
 import Image from "next/image";
 import Link from "next/link";
@@ -12,28 +13,14 @@ interface Main {
 }
 
 interface Datum {
-  author: Author;
-  seo: SEO;
   _id: string;
   title: string;
   caption: string;
-  category: string;
+  category: Category;
   FeaturedImage: string;
-  content: string;
   slug: string;
   createdAt: Date;
   updatedAt: Date;
-  __v: number;
-}
-
-interface Author {
-  name: string;
-  avatarUrl: string;
-}
-
-interface SEO {
-  metaTitle: string;
-  metaDescription: string;
 }
 
 interface Pagination {
@@ -69,7 +56,7 @@ const BlogsList = () => {
       </div>
     );
   }
-  if (!blogs || blogs.length === 0) {
+  if (!loading && blogs.length === 0) {
     return (
       <div className="flex justify-center items-center h-96">
         <p>No blogs found</p>
@@ -87,7 +74,7 @@ const BlogsList = () => {
         furniture in the UAE. Get expert tips, market insights, and the best
         deals on second-hand furniture!
       </p>
-      <ul className="grid grid-cols-1 xl:grid-cols-3 gap-y-10 gap-x-6 items-start md:p-8 py-8 px-0">
+      <ul className="grid grid-cols-1 xl:grid-cols-3 gap-y-10 gap-x-6 items-start md:p-8 py-8 px-0 mt-10">
         {blogs.map((blog) => (
           <li
             key={blog._id}
@@ -96,7 +83,7 @@ const BlogsList = () => {
             <div className="order-1 sm:ml-6 xl:ml-0">
               <h3 className="mb-1 text-slate-900 font-semibold capitalize">
                 <span className="mb-1 block text-sm leading-6 text-secondary">
-                  Headless UI
+                  {blog.category.name}
                 </span>
                 <Link href={`/blogs/${blog.slug}`}>{blog.title}</Link>
               </h3>

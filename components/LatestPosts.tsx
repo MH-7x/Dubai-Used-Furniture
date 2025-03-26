@@ -51,7 +51,7 @@ const LatestPosts = () => {
             fill
             alt={post.title}
             className="absolute object-cover object-center"
-          />{" "}
+          />
         </div>
         <h4 className="w-[78%] text-text text-base/5">{post.title}</h4>
       </div>
