@@ -12,20 +12,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  async redirects() {
-    return [
-      {
-        source: "/",
-        destination: "/en/",
-        permanent: true, // 301 redirect
-      },
-      {
-        source: "/robots.txt",
-        destination: "/robots.txt",
-        permanent: true, // Ensures direct access without unnecessary redirects
-      },
-    ];
-  },
   async rewrites() {
     return [
       { source: "/sitemap.xml", destination: "/sitemap-index" },
