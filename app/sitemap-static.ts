@@ -38,7 +38,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const localizedPages: MetadataRoute.Sitemap = pages.flatMap(
     (path): MetadataRoute.Sitemap[number][] => {
       const changeFrequency = changeFrequencyMap[path];
-
       return [
         {
           url: `${App.appUrl}/en${path}`,
