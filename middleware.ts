@@ -26,19 +26,11 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(url, 301);
   }
 
-  // Redirect non-www to www (if preferred)
-  if (!nextUrl.hostname.startsWith("www.")) {
-    url.hostname = `www.${nextUrl.hostname}`;
-    return NextResponse.redirect(url, 301);
-  }
-
-  // Ensure root ("/") redirects to the default locale ("/en/")
   if (pathname === "/") {
     url.pathname = `/${defaultLocale}/`;
     return NextResponse.redirect(url, 301);
   }
 
-  // Ensure robots.txt is directly accessible (no redirect issues)
   if (pathname === "/robots.txt") {
     return NextResponse.next();
   }
