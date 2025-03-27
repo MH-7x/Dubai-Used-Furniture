@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: /en
+Allow: /ar
+Disallow: /private
+Disallow: /api
+Sitemap: https://dubaiusedfurniture.ae/sitemap.xml
