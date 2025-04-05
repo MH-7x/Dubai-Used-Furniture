@@ -351,6 +351,45 @@
             }
         ]
     },
+    "GalleryPageMetadata": {
+        "title": "Our Used Furniture Gallery in Dubai | DUF",
+        "desc": "Explore our stunning collection of used furniture in Dubai! From elegant sofas to stylish dining sets, find the perfect pieces for your home. Contact us today!",
+        "path": "/en/gallery",
+        "arPath": "/ar/gallery",
+        "enPath": "/en/gallery",
+        "images": [
+            {
+                "path": "seating/gallay-5.jpg",
+                "alt": "Used Furniture gallery"
+            }
+        ]
+    },
+    "SitemapPageMetadata": {
+        "title": "Sitemap | Explore Our Website Easy",
+        "desc": "Explore our website effortlessly with our comprehensive sitemap. Quickly navigate to pages and find what you need with ease.",
+        "path": "/en/sitemap",
+        "arPath": "/ar/sitemap",
+        "enPath": "/en/sitemap",
+        "images": [
+            {
+                "path": "images/sitemap.webp",
+                "alt": "Sitemap image of Dubai Used Furniture"
+            }
+        ]
+    },
+    "FaqsPageMetadata": {
+        "title": "FAQS | Dubai Used Furniture",
+        "desc": "Answers to your frequently asked questions about buying and selling used furniture in Dubai. Learn more about Dubai Used Furniture.",
+        "path": "/en/faqs",
+        "arPath": "/ar/faqs",
+        "enPath": "/en/faqs",
+        "images": [
+            {
+                "path": "images/faqs.jpg",
+                "alt": "Faqs image"
+            }
+        ]
+    },
     "utils": {
         "address": "Building No.4 Moatab Bin Auf St, Bu Shaghara Sharjah"
     },
@@ -4021,5 +4060,185 @@
             "alt": "Contact For Used Furniture in Abu Dhabi",
             "src": "/seating/contact-seating.png"
         }
+    },
+    "GalleryPage": {
+        "title": {
+            "main": "Used Furniture Gallery, ",
+            "auth": "Explore Our Collection"
+        },
+        "desc": "Looking for high-quality used furniture in the UAE? At Dubai Used Furniture, we offer a wide range of affordable second-hand furniture to meet your needs. Whether you're furnishing your home, office, or commercial space, our collection includes well-maintained and budget-friendly furniture options.",
+        "btnsEnable": false,
+        "sections": [
+            {
+                "heading": "Our Furniture Categories",
+                "subheading": "Explore our latest stock of pre-owned furniture, available in excellent condition:"
+            },
+            {
+                "heading": "1. Used Home Furniture",
+                "description": "Upgrade your home with our stylish and durable second-hand furniture. Our selection includes:",
+                "items": [
+                    {
+                        "src": "/home/used-bedroom-furniture.jpg",
+                        "alt": "Used Bedroom Furniture"
+                    },
+                    {
+                        "src": "/home/used-dinning-room-furniture.jpg",
+                        "alt": "Used Dining Room Furniture"
+                    },
+                    {
+                        "src": "/home/used-living-room-furniture.jpg",
+                        "alt": "Used Living Room Furniture"
+                    },
+                    {
+                        "src": "/home/used-outdoor-furniture.jpg",
+                        "alt": "Used Outdoor Furniture"
+                    },
+                    {
+                        "src": "/beds/used-sleeping-beds.jpg",
+                        "alt": "Used Sleeping Beds"
+                    },
+                    {
+                        "src": "/beds/used-king-side-bed.webp",
+                        "alt": "Used King Size Bed"
+                    }
+                ]
+            },
+            {
+                "heading": "2. Office Furniture",
+                "description": "Setting up a new office or upgrading your workspace? We provide affordable office furniture, including:",
+                "items": [
+                    {
+                        "src": "/office/second-hand-office-furniture.jpeg",
+                        "alt": "Second Hand Office Furniture"
+                    },
+                    {
+                        "src": "/office/used-office-cabinets.png",
+                        "alt": "Used Office Cabinets"
+                    },
+                    {
+                        "src": "/office/used-office-chairs.webp",
+                        "alt": "Used Office Chairs"
+                    },
+                    {
+                        "src": "/office/used-office-desks.jpg",
+                        "alt": "Used Office Desks"
+                    },
+                    {
+                        "src": "/office/used-office-tables.jpg",
+                        "alt": "Used Office Tables"
+                    },
+                    {
+                        "src": "/office/gallery-7.png",
+                        "alt": "Used Office Work Desk"
+                    }
+                ]
+            },
+            {
+                "heading": "3. Outdoor & Garden Furniture",
+                "description": "Enhance your outdoor space with affordable garden furniture:",
+                "items": [
+                    {
+                        "src": "/tables/used-coffee-tables.jpg",
+                        "alt": "Used Coffee Tables"
+                    },
+                    {
+                        "src": "/tables/used-dinning-tables.webp",
+                        "alt": "Used Dining Tables"
+                    },
+                    {
+                        "src": "/tables/used-tables-furniture.webp",
+                        "alt": "Used Table Furniture"
+                    },
+                    {
+                        "src": "/sharjah/gallery-7.jpeg",
+                        "alt": "Used Home Appliances"
+                    },
+                    {
+                        "src": "/seating/used-outdoor-furniture.jpg",
+                        "alt": "Used Outdoor Furniture"
+                    },
+                    {
+                        "src": "/seating/used-seating-furniture.jpg",
+                        "alt": "Used Seating Furniture Collection"
+                    }
+                ]
+            },
+            {
+                "heading": "4. Hotel & Restaurant Furniture",
+                "description": "If you own a café, restaurant, or hotel, we offer:",
+                "items": [
+                    {
+                        "src": "/hotel/gallery-8.jpg",
+                        "alt": "Used Hotel Seating Furniture"
+                    },
+                    {
+                        "src": "/hotel/gallery-1.jpg",
+                        "alt": "Used Counter Desks for Hotels"
+                    },
+                    {
+                        "src": "/hotel/gallery-2.jpg",
+                        "alt": "Central Table and Elegant Chairs"
+                    },
+                    {
+                        "src": "/hotel/gallery-7.jpg",
+                        "alt": "Used Sofas for Hotels"
+                    },
+                    {
+                        "src": "/hotel/gallery-6.jpg",
+                        "alt": "Used Single Sofa"
+                    },
+                    {
+                        "src": "/hotel/gallery-5.webp",
+                        "alt": "Used Hotel Furniture"
+                    }
+                ]
+            }
+        ]
+    },
+    "faqsPage": {
+        "title": "Frequently asked questions, Dubai Used Furniture",
+        "desc": "Dubai Used Furniture offers a trusted platform for buying and selling pre-owned furniture in Dubai, UAE, focusing on quality and customer satisfaction.",
+        "faqs": [
+            {
+                "question": "What Types of Used Furniture Does Dubai Used Furniture Buy and Sell in Dubai?",
+                "answer": "We offer a wide selection of used furniture, including living room sets (sofas, armchairs, coffee tables, entertainment units), bedroom furniture (beds, mattresses, wardrobes, dressers, nightstands), dining room sets (tables, chairs, sideboards), and office furniture (desks, chairs, filing cabinets), as well as outdoor furniture. Our inventory includes gently used, well-maintained, and occasionally refurbished items in various materials and styles."
+            },
+            {
+                "question": "How Does Dubai Used Furniture Determine the Price of Used Furniture When Buying and Selling?",
+                "answer": "We use a fair and transparent process considering brand, condition, age, original price, market demand, material, and style. For selling, we may offer on-site inspections or request photos for an initial quote. Our selling prices consider the purchase price, refurbishment costs, market value, and a reasonable profit margin."
+            },
+            {
+                "question": "What is the Process for Selling My Used Furniture to Dubai Used Furniture in Dubai?",
+                "answer": "Contact us via call (+971 54 5019655), email (dubaiusedfurniture.ae@gmail.com), or website form with details and photos of your furniture. We'll provide an initial quote. If acceptable, we may schedule an on-site inspection for a final offer. Upon agreement, we'll arrange for pickup and offer immediate payment via cash or bank transfer."
+            },
+            {
+                "question": "What Should I Look for When Buying Used Furniture from Dubai Used Furniture to Ensure Its Quality?",
+                "answer": "Check for structural integrity (loose joints, wobbling), upholstery condition (tears, stains), wooden furniture for damage (scratches, dents, water damage), and functionality of drawers and hardware. Inquire about age and use. We also perform quality checks and minor repairs."
+            },
+            {
+                "question": "Does Dubai Used Furniture Offer Delivery Services for Purchased Used Furniture in Dubai? If so, what are the costs and areas covered?",
+                "answer": "Yes, we offer delivery services within Dubai. Costs vary based on size, weight, and distance. We'll provide a quote upon selection and address. Assembly services may be available for an extra fee."
+            },
+            {
+                "question": "What Payment Methods Does Dubai Used Furniture Accept for Buying and Selling Used Furniture in Dubai?",
+                "answer": "For purchases, we accept cash, credit/debit cards (Visa, Mastercard), online bank transfers, and potentially mobile payments. For selling, we typically pay in cash or via bank transfer."
+            },
+            {
+                "question": "Can I Negotiate the Price of Used Furniture Listed on Dubai Used Furniture's Website or in your store in Dubai?",
+                "answer": "Our prices are competitive, but we encourage inquiries and will consider reasonable offers on a case-by-case basis, depending on the item and market conditions."
+            },
+            {
+                "question": "What is Dubai Used Furniture's Policy on Returns or Exchanges for Purchased Used Furniture in Dubai?",
+                "answer": "Generally, we don't offer returns or exchanges due to the nature of used furniture, unless there's a significant undisclosed defect. Claims must be made within a specific timeframe. Contact us with details and evidence for assessment."
+            },
+            {
+                "question": "How Often Does Dubai Used Furniture Update Its Inventory of Used Furniture Available for Sale in Dubai?",
+                "answer": "We update our inventory weekly, sometimes more frequently. Check our website, social media, or subscribe to our newsletter for the latest arrivals. Popular items sell quickly, so check back often."
+            },
+            {
+                "question": "Where is Dubai Used Furniture Located in Dubai, and What Are Your Operating Hours for Visiting or Inquiring About Used Furniture?",
+                "answer": "Building No.4 Moatab Bin Auf St, Bu Shaghara Sharjah. wE operate 27/7 hours. Check our website or contact us for the most current information. Reach us by phone at +971 54 5019655, +971 52 131453, email at dubaiusedfurniture.ae@gmail.com, or via the contact form on our website"
+            }
+        ]
     }
 }

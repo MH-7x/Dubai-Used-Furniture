@@ -95,7 +95,11 @@ export default function Home() {
       dateModified: new Date().toISOString(),
     },
     website: {
-      sameAs: [],
+      sameAs: [
+        "https://www.facebook.com/profile.php?id=61574525996520",
+        "https://www.pinterest.com/dubai_used_furniture/",
+        "https://www.instagram.com/dubai_used_furniture/",
+      ],
     },
   });
 
@@ -104,7 +108,7 @@ export default function Home() {
       <Script
         id="json-ld"
         type="application/ld+json"
-        strategy="afterInteractive"
+        strategy="beforeInteractive"
         dangerouslySetInnerHTML={{ __html: JSON_LD }}
       />
       <main className="md:mt-24 mt-[70px]">

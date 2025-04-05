@@ -29,6 +29,9 @@ const changeFrequencyMap: Record<
   "/used-table-furniture": "monthly",
   "/used-sleeping-furniture": "monthly",
   "/used-storage-furniture": "monthly",
+  "/sitemap": "yearly",
+  "/gallery": "monthly",
+  "/faqs": "monthly",
 };
 
 // Define all pages

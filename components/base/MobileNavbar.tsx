@@ -52,10 +52,10 @@ const MobileNavbar = () => {
             +971 54 5019655
           </Link>
           <Link
-            href={"tel:+971503626685"}
+            href={"tel:+971521314535"}
             className="ml-2 hover:text-secondary"
           >
-            +0971 52 1314535
+            +971 52 1314535
           </Link>
         </div>
         <LanguageSwitcher locale={locale} />

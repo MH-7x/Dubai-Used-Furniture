@@ -30,23 +30,55 @@ interface Pagination {
   totalPages: number;
 }
 
+// Simple in-memory cache
+const blogCache = new Map<string, { data: Datum[]; timestamp: number }>();
+const CACHE_DURATION = 5 * 60 * 1000;
+
 const BlogsList = () => {
   const [blogs, setBlogs] = useState<Datum[] | []>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    try {
+    const fetchBlogs = async () => {
       setLoading(true);
-      fetch("https://blogs.dubaiusedfurniture.ae/api/blog?limit=3")
-        .then((res) => res.json())
-        .then((data: Main) => {
+      setError(null);
+      const cacheKey = "latestBlogs";
+      const cachedData = blogCache.get(cacheKey);
+
+      if (cachedData && Date.now() - cachedData.timestamp < CACHE_DURATION) {
+        setBlogs(cachedData.data);
+        setLoading(false);
+        return;
+      }
+
+      try {
+        const response = await fetch(
+          "https://blogs.dubaiusedfurniture.ae/api/blog?limit=3"
+        );
+
+        if (!response.ok) {
+          const message = `An error occurred: ${response.status}`;
+          throw new Error(message);
+        }
+
+        const data: Main = await response.json();
+
+        if (data.success) {
           setBlogs(data.data);
-        });
-    } catch (error) {
-      console.error("Error fetching data", error);
-    } finally {
-      setLoading(false);
-    }
+          blogCache.set(cacheKey, { data: data.data, timestamp: Date.now() });
+        } else {
+          setError(data.message || "Failed to fetch blogs");
+        }
+      } catch (error: any) {
+        console.error("Error fetching data", error);
+        setError("Failed to fetch blogs. Please try again later.");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchBlogs();
   }, []);
 
   if (loading) {
@@ -56,7 +88,16 @@ const BlogsList = () => {
       </div>
     );
   }
-  if (!loading && blogs.length === 0) {
+
+  if (error) {
+    return (
+      <div className="flex justify-center items-center h-96">
+        <p className="text-red-500">{error}</p>
+      </div>
+    );
+  }
+
+  if (!loading && blogs.length === 0 && !error) {
     return (
       <div className="flex justify-center items-center h-96">
         <p>No blogs found</p>
@@ -91,14 +132,14 @@ const BlogsList = () => {
                 <p>{blog.caption}</p>
               </div>
               <div className="mt-6 flex items-center justify-between">
-                <a
-                  className="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-secondary/50 text-primary hover:bg-secondary  focus:ring-slate-500 "
+                <Link
+                  className="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-secondary/50 text-primary hover:bg-secondary  focus:ring-slate-500 "
                   href={`/blogs/${blog.slug}`}
                 >
                   Read More
                   <span className="sr-only">{blog.title}</span>
                   <RiArrowRightLine size={15} className="ml-2" />
-                </a>
+                </Link>
                 <div className="text-sm flex items-center gap-x-2 text-gray-400">
                   <RiCalendar2Fill size={18} />
                   <time
@@ -110,7 +151,7 @@ const BlogsList = () => {
                 </div>
               </div>
             </div>
-            <div className="mb-6 shadow-md rounded-lg h-64 relative bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full">
+            <div className="mb-6 shadow-md rounded-lg h-64 overflow-hidden relative bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full">
               <Image
                 src={blog.FeaturedImage}
                 alt={blog.title}

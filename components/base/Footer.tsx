@@ -13,7 +13,6 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import logo from "../../public/logo-svg.svg";
 import { Link } from "@/i18n/routing";
-
 const links = [
   "/used-home-furniture-dubai",
   "/used-office-furniture-dubai",
@@ -38,10 +37,10 @@ const list = [
 const companyLinks = [
   "/about-us",
   "/contact-us",
-  "#",
-  "#",
-  "#",
-  "#",
+  "/faqs",
+  "/gallery",
+  "/blogs",
+  "/sitemap",
   "https://hamdanmoversuae.com/en/",
 ];
 const Footer = () => {
@@ -153,12 +152,21 @@ const Footer = () => {
                     className="mb-2.5  text-text hover:text-black flex justify-start"
                     key={i}
                   >
-                    <Link
-                      href={companyLinks[i] || "#"}
-                      className="hover:underline hover:underline-offset-2"
-                    >
-                      {company}
-                    </Link>
+                    {company === "Blogs" ? (
+                      <a
+                        href={"/blogs"}
+                        className="hover:underline hover:underline-offset-2"
+                      >
+                        {company}
+                      </a>
+                    ) : (
+                      <Link
+                        href={companyLinks[i] || "#"}
+                        className="hover:underline hover:underline-offset-2"
+                      >
+                        {company}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>

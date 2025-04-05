@@ -82,7 +82,17 @@ const List = [
   {
     title: "Blogs",
     desc: "Read our latest blogs on furniture, moving tips, and more.",
-    link: "#",
+    link: "/blogs",
+  },
+  {
+    title: "Gallery",
+    desc: "Explore our gallery showcasing our products and services.",
+    link: "/gallery",
+  },
+  {
+    title: "Sitemap",
+    desc: "Explore our website pages below.",
+    link: "/sitemap",
   },
 ];
 
