@@ -70,7 +70,7 @@ const BlogsList = () => {
         } else {
           setError(data.message || "Failed to fetch blogs");
         }
-      } catch (error: any) {
+      } catch (error) {
         console.error("Error fetching data", error);
         setError("Failed to fetch blogs. Please try again later.");
       } finally {

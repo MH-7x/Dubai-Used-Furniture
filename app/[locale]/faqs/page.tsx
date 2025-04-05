@@ -14,7 +14,7 @@ export async function generateMetadata({
   });
 }
 
-const page = () => {
+const FAQPage = () => {
   const t = useTranslations("faqsPage");
   const JSONLD = {
     "@context": "https://schema.org",
@@ -70,4 +70,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default FAQPage;
