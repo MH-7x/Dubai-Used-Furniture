@@ -11,6 +11,8 @@ import Footer from "@/components/base/Footer";
 import BlogsList from "@/components/BlogsList";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import GTM from "@/components/GTM";
+import Script from "next/script";
+
 const almarai = Almarai({
   weight: ["300", "400", "700"],
   display: "swap",
@@ -35,6 +37,7 @@ export const metadata: Metadata = {
     notranslate: true,
   },
 };
+
 export default async function RootLayout({
   children,
   params,
@@ -58,11 +61,24 @@ export default async function RootLayout({
     >
       <head>
         <GTM />
+
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16744321482"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16744321482');
+          `}
+        </Script>
       </head>
       <body className={`${almarai.className} antialiased`}>
         <noscript>
           <iframe
-            src={`https://www.googletagmanager.com/ns.html?id=GTM-55PRPLF2`}
+            src="https://www.googletagmanager.com/ns.html?id=GTM-55PRPLF2"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
