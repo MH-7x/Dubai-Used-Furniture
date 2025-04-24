@@ -3,12 +3,13 @@
 import Image from "next/image";
 import logo from "../../public/logo-svg.svg";
 import { RiCellphoneFill, RiMapPinFill, RiPhoneFill } from "@remixicon/react";
-import { Link } from "@/i18n/routing";
+import { Link as NextIntlLink } from "@/i18n/routing";
 import { useLocale, useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 import { Button } from "../ui/button";
 import SearchLayout from "../SearchLayout";
 import LanguageSwitcher from "../LanguageSwitcher";
+import Link from "next/link";
 const DesktopNavbar = () => {
   const locale = useLocale();
   const u = useTranslations("utils");
@@ -173,28 +174,28 @@ const DesktopNavbar = () => {
                 ]}
               />
               <li>
-                <Link
+                <NextIntlLink
                   className="hover:bg-accent px-2.5 py-2 text-[15px]"
                   href="/about-us"
                 >
                   {l("aboutUs")}
-                </Link>
+                </NextIntlLink>
               </li>
               <li>
-                <Link
+                <NextIntlLink
                   className="hover:bg-accent px-2.5 py-2 text-[15px]"
                   href="/contact-us"
                 >
                   {l("contactUs")}
-                </Link>
+                </NextIntlLink>
               </li>
               <li>
-                <a
+                <Link
                   className="hover:bg-accent px-2.5 py-2 text-[15px]"
                   href="/blogs"
                 >
                   {l("blogs")}
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="flex items-center gap-x-3">
@@ -223,9 +224,12 @@ function NavItem({
 }) {
   return (
     <li className="relative group">
-      <Link className="hover:bg-accent px-2.5 py-2 text-[15px]" href="#">
+      <NextIntlLink
+        className="hover:bg-accent px-2.5 py-2 text-[15px]"
+        href="#"
+      >
         {title}
-      </Link>
+      </NextIntlLink>
       <ul
         className={`absolute ${
           locale === "ar" ? "right-0" : "left-0"
@@ -236,7 +240,7 @@ function NavItem({
             key={index}
             className="px-4 py-2.5 hover:bg-gray-50 text-sm border-b"
           >
-            <Link href={item.link}>{item.title}</Link>
+            <NextIntlLink href={item.link}>{item.title}</NextIntlLink>
           </li>
         ))}
       </ul>

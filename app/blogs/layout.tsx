@@ -2,7 +2,6 @@ import React from "react";
 import { Almarai } from "next/font/google";
 import "../globals.css";
 import BlogNavbar from "@/components/base/BlogNavBar";
-import Footer from "@/components/base/Footer";
 import NormalFooter from "@/components/NormalFooter";
 const almarai = Almarai({
   weight: ["300", "400", "700"],
