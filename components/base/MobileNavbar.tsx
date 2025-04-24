@@ -221,10 +221,10 @@ const Sidebar = () => {
           </Link>
         </li>
         <li className="border-b border-accent/50 mb-2 pl-4 py-2">
-          <Link onClick={closeSidebar} href={"#"}>
+          <a onClick={closeSidebar} href={"/blogs"}>
             {" "}
             {l("blogs")}
-          </Link>
+          </a>
         </li>
       </ul>
     </div>

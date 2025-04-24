@@ -22,6 +22,7 @@ export interface Blog {
   content: string;
   createdAt: Date;
   updatedAt: Date;
+  slug: string;
 }
 
 interface Author {

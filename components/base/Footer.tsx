@@ -152,7 +152,7 @@ const Footer = () => {
                     className="mb-2.5  text-text hover:text-black flex justify-start"
                     key={i}
                   >
-                    {company === "Blogs" ? (
+                    {companyLinks[i] === "/blogs" ? (
                       <a
                         href={"/blogs"}
                         className="hover:underline hover:underline-offset-2"

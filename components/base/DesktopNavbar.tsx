@@ -189,12 +189,12 @@ const DesktopNavbar = () => {
                 </Link>
               </li>
               <li>
-                <Link
+                <a
                   className="hover:bg-accent px-2.5 py-2 text-[15px]"
-                  href="#"
+                  href="/blogs"
                 >
                   {l("blogs")}
-                </Link>
+                </a>
               </li>
             </ul>
             <div className="flex items-center gap-x-3">

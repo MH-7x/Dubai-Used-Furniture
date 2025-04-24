@@ -1,6 +1,7 @@
 "use client";
 import { Blog } from "@/app/blogs/[slug]/page";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useEffect } from "react";
 
 const LatestPosts = () => {
@@ -41,20 +42,19 @@ const LatestPosts = () => {
   return (
     Posts.length > 0 &&
     Posts.map((post, i) => (
-      <div
-        key={i}
-        className="mt-5 bg-accent/50 rounded-lg w-full p-2 flex items-center gap-x-3"
-      >
-        <div className="h-16 w-16 rounded-full relative bg-gray-200 overflow-hidden">
-          <Image
-            src={post.FeaturedImage}
-            fill
-            alt={post.title}
-            className="absolute object-cover object-center"
-          />
+      <Link href={post.slug} key={i} title={post.title}>
+        <div className="mt-5 bg-accent/50 rounded-lg w-full p-2 flex items-center gap-x-3">
+          <div className="h-16 w-16 rounded-full relative bg-gray-200 overflow-hidden">
+            <Image
+              src={post.FeaturedImage}
+              fill
+              alt={post.title}
+              className="absolute object-cover object-center"
+            />
+          </div>
+          <h4 className="w-[78%] text-text text-base/5">{post.title}</h4>
         </div>
-        <h4 className="w-[78%] text-text text-base/5">{post.title}</h4>
-      </div>
+      </Link>
     ))
   );
 };

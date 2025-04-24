@@ -34,16 +34,29 @@ export default function Sitemap() {
           </li>
           {List.map((item, index) => (
             <li key={item.title + index}>
-              <Link
-                href={item.link}
-                className={`block p-3 rounded-lg text-lg font-medium transition-all hover:bg-blue-500 hover:text-white
+              {item.link === "/blogs" ? (
+                <a
+                  href={"/blogs"}
+                  className={`block p-3 rounded-lg text-lg font-medium transition-all hover:bg-blue-500 hover:text-white
                  text-gray-700`}
-              >
-                {item.title}
-                <span className="text-gray-500 text-sm block mt-1">
-                  {item.desc}
-                </span>
-              </Link>
+                >
+                  {item.title}
+                  <span className="text-gray-500 text-sm block mt-1">
+                    {item.desc}
+                  </span>
+                </a>
+              ) : (
+                <Link
+                  href={item.link}
+                  className={`block p-3 rounded-lg text-lg font-medium transition-all hover:bg-blue-500 hover:text-white
+                 text-gray-700`}
+                >
+                  {item.title}
+                  <span className="text-gray-500 text-sm block mt-1">
+                    {item.desc}
+                  </span>
+                </Link>
+              )}
             </li>
           ))}
         </ul>
