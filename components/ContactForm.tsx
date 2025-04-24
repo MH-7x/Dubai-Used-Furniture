@@ -76,7 +76,7 @@ function ContactForm() {
               name="name"
               required
               placeholder="John Doe"
-              className="input"
+              className="input rounded-lg"
             />
           </div>
 
@@ -89,7 +89,7 @@ function ContactForm() {
               required
               name="email"
               placeholder="johndoe@example.com"
-              className="input"
+              className="input rounded-lg"
             />
           </div>
         </div>
@@ -103,7 +103,7 @@ function ContactForm() {
               name="phone"
               required
               placeholder="+971 50 000 0000"
-              className="input"
+              className="input rounded-lg"
             />
           </div>
 
@@ -115,7 +115,7 @@ function ContactForm() {
               name="service"
               required
               defaultValue={""}
-              className="input"
+              className="input rounded-lg"
               id=""
             >
               <option value="" disabled>
@@ -134,12 +134,12 @@ function ContactForm() {
             required
             name="message"
             className="input h-32"
-            placeholder="Message"
+            placeholder="Message rounded-lg"
           ></textarea>
         </div>
 
         <button
-          className="mt-5 w-full bg-secondary text-primary flex items-center justify-center gap-x-3 py-4"
+          className="mt-5 w-full bg-secondary  rounded-lg text-primary flex items-center justify-center gap-x-3 py-4"
           disabled={Loading}
           type="submit"
         >

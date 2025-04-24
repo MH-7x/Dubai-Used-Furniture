@@ -35,11 +35,11 @@ const FooterCTA = ({
           </p>
         )}
         <div className="mt-5 flex items-center md:gap-x-5 gap-x-2">
-          <Button size={"lg"} whatsappBtn>
+          <Button whatsappBtn>
             <RiWhatsappFill /> {b("whatsapp")}
           </Button>
           <Link href={"/about-us"} title="Know more about us">
-            <Button size={"lg"} variant={"accent"}>
+            <Button variant={"accent"}>
               <RiUserShared2Line /> {b("about")}
             </Button>
           </Link>
