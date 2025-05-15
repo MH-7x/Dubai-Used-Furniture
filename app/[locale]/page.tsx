@@ -163,6 +163,7 @@ export default function Home() {
           src="/images/footerCTA.png"
           alt="Let Contact With Dubai Used Furniture"
         />
+        <a className="hidden opacity-0" href="http://www.qualityinternetdirectory.com/science_and_technology/information_technology/">qualityinternetdirectory</a>
       </main>
     </>
   );
