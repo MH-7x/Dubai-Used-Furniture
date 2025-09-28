@@ -1,161 +1,203 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>HTML Extractor</title>
-    <style>
-      textarea {
-        width: 80%;
-        height: 200px;
-        margin-bottom: 10px;
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML Extractor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background: #f4f6f8;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #222;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 20px 30px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+    }
+
+    textarea {
+      width: 100%;
+      height: 200px;
+      margin-bottom: 15px;
+      font-family: monospace;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      resize: vertical;
+    }
+
+    button {
+      margin: 5px 5px 15px 0;
+      padding: 10px 16px;
+      border: none;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    #result {
+      white-space: pre-wrap;
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 8px;
+      font-family: monospace;
+      background-color: #f9f9f9;
+      margin-top: 10px;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+
+    .tag {
+      background-color: #e0e0e0;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: bold;
+      color: #444;
+    }
+
+    .meta-description,
+    .link,
+    .title,
+    .p,
+    .li {
+      margin-top: 8px;
+    }
+
+    .link a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .link a:hover {
+      text-decoration: underline;
+    }
+
+    #headingCounts {
+      font-weight: bold;
+      margin: 15px 0;
+    }
+
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .btn-group {
+        flex-direction: column;
       }
-      #result {
-        white-space: pre-wrap;
-        border: 1px solid #ccc;
-        padding: 10px;
-        width: 80%;
-        margin-top: 20px;
-        font-family: monospace;
-        background-color: #f9f9f9;
-      }
-      .tag {
-        background-color: #e0e0e0;
-        padding: 2px 5px;
-        border-radius: 3px;
-        margin: 0 3px;
-      }
-      .h1,
-      .h2,
-      .h3,
-      .h4,
-      .h5,
-      .h6 {
-        font-weight: bold;
-        margin-top: 10px;
-      }
-      .meta-description,
-      .link,
-      .title,
-      .p,
-      .ol,
-      .ul,
-      .li {
-        margin-top: 5px;
-      }
-      .link a {
-        color: blue;
-        text-decoration: underline;
-      }
-      #headingCounts {
-        margin-top: 20px;
-        font-weight: bold;
-      }
-    </style>
-  </head>
-  <body>
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
     <h1>HTML Extractor</h1>
-    <textarea id="htmlInput" placeholder="Paste your HTML code here"></textarea
-    ><br />
-    <button onclick="processHtml()">Extract</button>
+    <textarea id="htmlInput" placeholder="Paste your HTML code here"></textarea>
+
+    <div class="btn-group">
+      <button onclick="processHtml()">Extract</button>
+      <button onclick="copyExtractedText()">Copy Extracted Text</button>
+      <button onclick="clearAll()">Clear</button>
+    </div>
+
     <div id="headingCounts"></div>
     <div id="result"></div>
-    <div id="headings">h2 Headings :</div>
-    <script>
-      function processHtml() {
-        const html = document.getElementById("htmlInput").value;
-        const { extractedText, headingCounts } = extractRelevantTags(html);
-        document.getElementById("result").innerHTML = extractedText;
-        displayHeadingCounts(headingCounts);
-      }
+  </div>
 
-      function extractRelevantTags(html) {
-        const tempDiv = document.createElement("div");
-        tempDiv.innerHTML = html;
+  <script>
+    function processHtml() {
+      const html = document.getElementById("htmlInput").value;
+      const { extractedText, headingCounts } = extractRelevantTags(html);
+      document.getElementById("result").innerHTML = extractedText;
+      displayHeadingCounts(headingCounts);
+    }
 
-        const walker = document.createTreeWalker(
-          tempDiv,
-          NodeFilter.SHOW_ALL,
-          null,
-          false
-        );
-        let node;
-        let extractedText = "";
-        const headingCounts = { h1: 0, h2: 0, h3: 0, h4: 0, h5: 0, h6: 0 };
+    function extractRelevantTags(html) {
+      const tempDiv = document.createElement("div");
+      tempDiv.innerHTML = html;
 
-        while ((node = walker.nextNode())) {
-          if (node.nodeType === Node.ELEMENT_NODE) {
-            const tagName = node.tagName.toLowerCase();
-            switch (tagName) {
-              case "title":
-                extractedText += `<div class="title"><span class="tag">TITLE</span> ${node.textContent}</div>`;
-                break;
-              case "meta":
-                if (node.getAttribute("name") === "description") {
-                  extractedText += `<div class="meta-description"><span class="tag">META DESCRIPTION</span> ${node.getAttribute(
-                    "content"
-                  )}</div>`;
-                }
-                break;
-              case "a":
-                extractedText += `<div class="link"><span class="tag">LINK</span> <a href="${node.getAttribute(
-                  "href"
-                )}">${node.textContent}</a></div>`;
-                break;
-              case "h1":
-              case "h2":
-              case "h3":
-              case "h4":
-              case "h5":
-              case "h6":
-                headingCounts[tagName]++;
-                extractedText += `<div class="${tagName}"><span class="tag">${tagName.toUpperCase()}</span> ${
-                  node.textContent
-                }</div>`;
-                break;
-              case "p":
-                extractedText += `<div class="p"><span class="tag">P</span> ${node.textContent}</div>`;
-                break;
-              case "ol":
-              case "ul":
-                extractedText += '<div class="list">';
-                break;
-              case "li":
-                extractedText += `<div class="li"><span class="tag">LI</span> - ${node.textContent}</div>`;
-                break;
-              case "script":
-                walker.nextNode();
-                break;
-              default:
-                break;
-            }
-          }
-          if (
-            node.nodeType === Node.ELEMENT_NODE &&
-            (node.tagName.toLowerCase() === "ol" ||
-              node.tagName.toLowerCase() === "ul") &&
-            walker.currentNode.tagName.toLowerCase() !== "li"
-          ) {
-            extractedText += "</div>";
+      const walker = document.createTreeWalker(tempDiv, NodeFilter.SHOW_ALL, null, false);
+      let node;
+      let extractedText = "";
+      const headingCounts = { h1: 0, h2: 0, h3: 0, h4: 0, h5: 0, h6: 0 };
+
+      while ((node = walker.nextNode())) {
+        if (node.nodeType === Node.ELEMENT_NODE) {
+          const tagName = node.tagName.toLowerCase();
+          switch (tagName) {
+            case "title":
+              extractedText += `<div class="title"><span class="tag">TITLE</span> ${node.textContent}</div>`;
+              break;
+            case "meta":
+              if (node.getAttribute("name") === "description") {
+                extractedText += `<div class="meta-description"><span class="tag">META DESCRIPTION</span> ${node.getAttribute("content")}</div>`;
+              }
+              break;
+            case "a":
+              extractedText += `<div class="link"><span class="tag">LINK</span> <a href="${node.getAttribute("href")}" target="_blank">${node.textContent}</a></div>`;
+              break;
+            case "h1":
+            case "h2":
+            case "h3":
+            case "h4":
+            case "h5":
+            case "h6":
+              headingCounts[tagName]++;
+              extractedText += `<div class="${tagName}"><span class="tag">${tagName.toUpperCase()}</span> ${node.textContent}</div>`;
+              break;
+            case "p":
+              extractedText += `<div class="p"><span class="tag">P</span> ${node.textContent}</div>`;
+              break;
+            case "li":
+              extractedText += `<div class="li"><span class="tag">LI</span> - ${node.textContent}</div>`;
+              break;
           }
         }
-
-        return { extractedText: extractedText.trim(), headingCounts };
       }
 
-      function displayHeadingCounts(counts) {
-        let countText = "Heading Counts: ";
-        for (const tag in counts) {
-          countText += `${tag.toUpperCase()}: ${counts[tag]}, `;
-        }
-        document.getElementById("headingCounts").textContent = countText.slice(
-          0,
-          -2
-        ); // Remove trailing comma and space
+      return { extractedText: extractedText.trim(), headingCounts };
+    }
+
+    function displayHeadingCounts(counts) {
+      let countText = "Heading Counts: ";
+      for (const tag in counts) {
+        countText += `${tag.toUpperCase()}: ${counts[tag]}, `;
       }
-      const h2s = document.getElementsByTagName("h2");
-      for (let i = 0; i < h2s.length; i++) {
-        document.getElementById("headings").innerHTML +=
-          h2s[i].textContent + "<br>";
-      }
-    </script>
-  </body>
+      document.getElementById("headingCounts").textContent = countText.slice(0, -2);
+    }
+
+    function copyExtractedText() {
+      const resultText = document.getElementById("result").innerText;
+      navigator.clipboard.writeText(resultText).then(() => {
+        alert("Extracted text copied to clipboard!");
+      });
+    }
+
+    function clearAll() {
+      document.getElementById("htmlInput").value = "";
+      document.getElementById("result").innerHTML = "";
+      document.getElementById("headingCounts").textContent = "";
+    }
+  </script>
+</body>
 </html>

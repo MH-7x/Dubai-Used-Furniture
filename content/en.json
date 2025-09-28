@@ -981,7 +981,8 @@
                 "Abu Dhabi",
                 "Umm Al Quwain",
                 "Fujairah",
-                "Al Ain"
+                "Al Ain",
+                "Used Furniture Sharjah"
             ]
         },
         "company": {
@@ -2356,7 +2357,7 @@
                     "desc": "Reach out via phone, email, or visit our showroom to let us know what you have to sell."
                 },
                 {
-                    "src": "/appliance/Cost-Savings.svg",
+                    "src": "/images/evaculation.svg",
                     "alt": "Icon representing Valuation ",
                     "title": "Valuation",
                     "desc": "We will assess your furniture based on its condition, style, and current market value."

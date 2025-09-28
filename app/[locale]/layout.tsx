@@ -12,6 +12,7 @@ import BlogsList from "@/components/BlogsList";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import GTM from "@/components/GTM";
 import Script from "next/script";
+import BackLinks from "@/components/BackLinks";
 
 const almarai = Almarai({
   weight: ["300", "400", "700"],
@@ -88,6 +89,7 @@ export default async function RootLayout({
           <LazyMotion features={domAnimation}>
             <Navbar />
             {children}
+            <BackLinks />
             <BlogsList />
             <Footer />
           </LazyMotion>

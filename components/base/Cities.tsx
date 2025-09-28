@@ -49,9 +49,11 @@ const Cities = () => {
                 {b("details")}
               </button>
             </Link>
-            <button className="md:px-5 px-2 md:text-base text-sm py-2 text-secondary bg-white">
-              {b("call")} : +971 50 000 000
-            </button>
+            <Link href={"tel:+971545019655"}>
+              <button className="md:px-5 px-2 md:text-base text-sm py-2 text-secondary bg-white">
+                {b("call")} : +971 54 5019655
+              </button>
+            </Link>
           </div>
           <Image
             src={city.src}

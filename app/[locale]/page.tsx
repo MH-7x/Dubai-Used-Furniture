@@ -10,11 +10,13 @@ import Contact from "@/components/Contact";
 import CallToAction from "@/components/CTA";
 import HeroSection from "@/components/HeroSection";
 import SerChooseUs from "@/components/SerChooseUs";
+
 import { App } from "@/constants/application";
 import { GenerateJSON_LD } from "@/lib/GenerateJSON_LD";
 import MetadataTemplate from "@/lib/MetaDataTemplate";
 import type { Metadata } from "next";
 import { useLocale, useTranslations } from "next-intl";
+
 import Script from "next/script";
 
 export async function generateMetadata({

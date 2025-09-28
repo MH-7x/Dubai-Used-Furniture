@@ -32,6 +32,7 @@ const list = [
   "#",
   "/used-furniture-fujairah",
   "/used-furniture-al-ain",
+  "https://rukunalaroobausedfurniture.ae",
 ];
 
 const companyLinks = [

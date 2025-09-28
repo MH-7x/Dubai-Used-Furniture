@@ -134,7 +134,7 @@ function ContactForm() {
             required
             name="message"
             className="input h-32"
-            placeholder="Message rounded-lg"
+            placeholder="tell us about your requirement"
           ></textarea>
         </div>
 
