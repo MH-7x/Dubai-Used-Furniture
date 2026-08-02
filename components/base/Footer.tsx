@@ -9,7 +9,7 @@ import {
   RiStore2Fill,
   RiTwitterFill,
 } from "@remixicon/react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import logo from "../../public/logo-svg.svg";
 import { Link } from "@/i18n/routing";
@@ -47,6 +47,7 @@ const companyLinks = [
 const Footer = () => {
   const t = useTranslations("footer");
   const b = useTranslations("buttons");
+  const locale = useLocale();
   return (
     <>
       <footer className="bg-zinc-50  text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left mt-32 md:px-10 px-3">
@@ -170,6 +171,13 @@ const Footer = () => {
                     )}
                   </li>
                 ))}
+                <li className="mb-2.5  text-text hover:text-black flex justify-start">
+                  <a href="https://buyingusedfurnitureuae.com/">
+                    {locale === "en"
+                      ? "Used Furniture Company"
+                      : "شركة شراء اثاث مستعمل"}
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -206,7 +214,9 @@ const Footer = () => {
         </div>
 
         <div className="md:p-6 flex items-center justify-between md:flex-row flex-col">
-          <span>{t("subLine")}</span>
+          <a href={"https://buyingusedfurnitureuae.com/شراء-اثاث-مستعمل-دبي"}>
+            {t("subLine")}
+          </a>
           <div className="flex items-center gap-x-3 text-text ">
             <Link className="hover:underline" href={"#"}>
               {t("pr")}
@@ -219,7 +229,13 @@ const Footer = () => {
         <div className="bg-black/5 md:p-6 py-3 px-0 text-center text-text">
           <span>© {new Date().getFullYear()} Copyright:</span>
           <span className="text-black"> Dubai Used Furniture </span>
-          develop by <a href="https://github.com/MH-7x">Mashal Huraira</a>
+          develop by{" "}
+          <a
+            rel="noopener noreferrer nofollow"
+            href="https://mashalhuraira.vercel.app"
+          >
+            Mashal Huraira
+          </a>
         </div>
       </footer>
     </>

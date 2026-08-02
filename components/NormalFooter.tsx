@@ -204,7 +204,9 @@ const NormalFooter = () => {
 
       {/* Legal Section */}
       <div className="md:p-6 flex items-center justify-between md:flex-row flex-col">
-        <span>We respect your privacy & terms of service</span>
+        <a href="https://buyingusedfurnitureuae.com/شراء-اثاث-مستعمل-دبي">
+          leading used furniture company in dubai
+        </a>
         <div className="flex gap-x-3">
           <Link href="#" className="hover:underline">
             Privacy Policy
@@ -218,7 +220,7 @@ const NormalFooter = () => {
       <div className="bg-black/5 md:p-6 py-3 px-0 text-center text-text">
         <span>© {new Date().getFullYear()} Dubai Used Furniture.</span>{" "}
         Developed by{" "}
-        <a href="https://github.com/MH-7x" className="underline">
+        <a href="https://mashalhuraira.vercel.app" className="underline">
           Mashal Huraira
         </a>
       </div>

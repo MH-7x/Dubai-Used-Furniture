@@ -4,7 +4,7 @@ import { App } from "@/constants/application";
 // Ensure App.appUrl is correctly defined
 if (!App?.appUrl) {
   throw new Error(
-    "App.appUrl is not defined. Please check your configuration."
+    "App.appUrl is not defined. Please check your configuration.",
   );
 }
 
@@ -65,7 +65,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
           },
         },
       ];
-    }
+    },
   );
 
   return localizedPages;

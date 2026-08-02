@@ -27,6 +27,15 @@ const Cities = () => {
       <p className="text-text text-lg text-center mt-5 max-w-5xl mx-auto">
         {t("intro")}
       </p>
+      <a
+        href="https://buyingusedfurnitureuae.com"
+        className="text-text text-lg text-center mt-5 max-w-5xl mx-auto"
+      >
+        {" "}
+        {locale === "en"
+          ? "best buying used furniture company in uae"
+          : "أفضل شركة شراء اثاث مستعمل"}{" "}
+      </a>
 
       {t.raw("cities").map((city: any, index: number) => (
         <div
@@ -37,6 +46,12 @@ const Cities = () => {
             {city.heading}
           </h3>
           <p className="text-text md:text-lg text-base/5 mt-3">{city.text}</p>
+          <p className="text-text md:text-lg text-base/5 mt-1 italic">
+            {locale === "ar" ? "تواصل مع" : "contact the "}{" "}
+            <a href={city.link} target="_blank">
+              {city.linkText}
+            </a>
+          </p>
           <div className="mt-5 flex md:gap-x-5 gap-x-2">
             <Link
               title={`more detail about ${city.heading}`}

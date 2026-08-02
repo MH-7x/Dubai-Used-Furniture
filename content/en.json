@@ -849,37 +849,54 @@
             {
                 "heading": "Used Furniture Buyers and Sellers in Dubai",
                 "text": "We are buyers and sellers of second-hand furniture in Dubai, offering competitive rates for your used items. Whether you have sofas, beds, dining sets, office furniture, or antique pieces, we provide fair valuations and quick pickups for your furnishings. Explore the used furniture market in Dubai, find great deals on used furniture for sale, and connect with trusted buyers and sellers for a seamless experience.",
+                "link" : "https://buyingusedfurnitureuae.com/شراء-اثاث-مستعمل-دبي",
+                "linkText" : "best buying used furniture company in dubai",
                 "src": "/images/dubai.svg"
             },
             {
                 "heading": "Used Furniture Buyers and Sellers in Sharjah",
                 "text": "Discover quality used furniture in Sharjah with Dubai Used Furniture—your trusted partner in the Sharjah used furniture market. Whether you're searching for used furniture for sale in Sharjah or looking to sell used furniture Sharjah, we connect you with reputable used furniture buyers, top-rated used furniture shops, and stores in Sharjah. Join us today to experience a seamless buying and selling process.",
-                "src": "/images/sharjah.svg"
+                "src": "/images/sharjah.svg",
+                "link" : "https://buyingusedfurnitureuae.com/شراء-اثاث-مستعمل-الشارقة",
+                "linkText" : "best buying used furniture company in sharjah"
+                
             },
             {
                 "heading": "Buy and Sell Used Furniture Abu Dhabi",
                 "text": "Discover quality used furniture in Abu Dhabi at Dubai Used Furniture. Shop our extensive collection of used furniture for sale in Abu Dhabi and explore the vibrant used furniture market. Whether you want to buy used furniture, connect with used furniture buyers, or choose from a range of second-hand furniture, we have you covered with stylish and affordable pieces.",
-                "src": "/images/abu-dhabi.svg"
+                "src": "/images/abu-dhabi.svg",
+                "link" : "https://buyingusedfurnitureuae.com/شراء-اثاث-مستعمل-ابوظبي",
+                "linkText" : "best buying used furniture company in abu dhabi"
             },
             {
                 "heading": "Sell and Buy Used Furniture Ajman",
                 "text": "Discover quality used furniture in Ajman with Dubai Used Furniture. Shop our extensive selection of used furniture for sale in Ajman, connect with trusted used furniture buyers, and explore the vibrant Ajman used furniture market. Find the best used furniture stores in Ajman to enhance your space with affordable, stylish pieces.",
-                "src": "/images/ajman.svg"
+                "src": "/images/ajman.svg",
+                "link" : "https://buyingusedfurnitureuae.com/شراء-اثاث-مستعمل-عجمان",
+                "linkText" : "best buying used furniture company in ajman"
             },
             {
                 "heading": "Used Furniture Buyer and Sellers in Fujairah",
                 "text": "Discover quality used furniture in Fujairah with our trusted network of buyers and sellers. Explore a diverse selection of used furniture for sale in Fujairah at competitive prices, and if you’re looking to buy used furniture, we offer fair valuations and seamless transactions. Upgrade your space today with premium second-hand options in Fujairah's thriving furniture market.",
-                "src": "/images/Fujairah.svg"
+                "src": "/images/Fujairah.svg",
+                "link" : "https://buyingusedfurnitureuae.com/",
+                "linkText" : "best buying used furniture company in uae"
             },
             {
                 "heading": "Umm Al Quwain Used Furniture Buyers & Sellers",
                 "text": "Experience a seamless way to buy and sell used furniture in Umm Al Quwain. Our platform offers a curated collection of quality pieces, making it easy to find used furniture for sale that fits your style and budget. Whether you're looking to upgrade your home or clear out your space, we connect you with trusted buyers and competitive offers.",
-                "src": "/images/Umm-Al-Quwain.svg"
+                "src": "/images/Umm-Al-Quwain.svg",
+                 "link" : "https://buyingusedfurnitureuae.com/شراء-الأجهزة-المنزلية",
+                "linkText" : "best buying used furniture company in uae"
+                
             },
             {
                 "heading": "Al Ain Used Furniture Marketplace",
                 "text": "Discover a premier destination for used furniture in Al Ain where buyers and sellers connect effortlessly. Whether you’re looking to furnish your home with quality second-hand pieces or are an electronic buyer, our platform offers competitive prices and trusted transactions. Explore a diverse range of pre-owned items, enjoy fair valuations, and experience a hassle-free marketplace that caters to all your used furniture needs in Al Ain.",
-                "src": "/images/Ras-Al-Khaimah.svg"
+                "src": "/images/Ras-Al-Khaimah.svg",
+                  "link" : "https://buyingusedfurnitureuae.com/شراء-اثاث-مستعمل-العين",
+                "linkText" : "best buying used furniture company in al ain"
+
             }
         ]
     },
